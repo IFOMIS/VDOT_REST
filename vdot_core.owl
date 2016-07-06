@@ -14,6 +14,7 @@
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core.owl">
         <owl:versionIRI rdf:resource="http://www.ifomis.org/hdot/hdot_core.owl/0.0.1"/>
         <owl:imports rdf:resource="http://www.ifomis.org/hdot/hdot_core.owl"/>
+        <owl:versionInfo>initial version</owl:versionInfo>
         <dc:creator>Ulf Schwarz</dc:creator>
     </owl:Ontology>
 </rdf:RDF>
