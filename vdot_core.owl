@@ -12,11 +12,565 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core.owl">
-        <owl:versionIRI rdf:resource="http://www.ifomis.org/hdot/hdot_core.owl/0.0.1"/>
+        <owl:versionIRI rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl/0.0.1"/>
         <owl:imports rdf:resource="http://www.ifomis.org/hdot/hdot_core.owl"/>
         <owl:versionInfo>initial version</owl:versionInfo>
         <dc:creator>Ulf Schwarz</dc:creator>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C114666 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C114666">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C93210"/>
+        <obo:IAO_0000115>Inflammation of the bladder resulting in bloody urine</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114666</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0085692</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>hämorrhagische Zystitis (HC)</oboInOwl:hasSynonym>
+        <rdfs:label>hemorrhagic cystitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C123276 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C123276">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3439"/>
+        <obo:IAO_0000115>An infection caused by the BK virus. It usually causes an asymptomatic infection, except in immunocompromised individuals where it may cause nephropathy or hemorrhagic cystitis.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123276</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C1096691</oboInOwl:hasSynonym>
+        <rdfs:label>bk virus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14196 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14196">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14217"/>
+        <obo:IAO_0000115>A genus of the family herpesviridae, subfamily betaherpesvirinae, infecting the salivary glands, liver, spleen, lungs, eyes, and other organs, in which they produce characteristically enlarged cells with intranuclear inclusions.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14196</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>FDA_UNII_Code	7COI029E6K
+UMLS_CUI C0010825
+NCBI_Taxon_ID 10358</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 5
+
+HHV-5
+
+CMV, CYTOMEGALOVIRUS
+
+Cytomegalovirus (CMV)
+
+CMV</oboInOwl:hasSynonym>
+        <rdfs:label>cytomegalovirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14200 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14200">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#NCBITaxon_10239"/>
+        <obo:IAO_0000115>A virus that has DNA as its genetic material and does not use an RNA intermediate during replication.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14200</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0012923</oboInOwl:hasSynonym>
+        <rdfs:label>dna virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14204 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14204">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14217"/>
+        <obo:IAO_0000115>A species of Herpetoviridae that is responsible for infectious mononucleosis (glandular fever). Discovered in 1964, this virus has been associated with Burkitt&apos;s lymphoma in South African children and with nasopharyngeal carcinoma in Asian populations.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14204</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>FDA_UNII_Code	2A26YW7PNX</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 4
+
+Lymphocryptovirus
+
+Epstein Barr Virus
+
+HHV-4
+
+Virus-Epstein-Barr
+
+EBV</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0014644
+NCBI_Taxon_ID 10376</oboInOwl:hasSynonym>
+        <rdfs:label>epstein-barr virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14217 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14217">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14348"/>
+        <obo:IAO_0000115>A heterogeneous family of morphologically similar viruses, all of which contain double-stranded DNA and which infect man and a wide variety of other vertebrates. Infections produce type A inclusion bodies; in many instances, infection may remain latent for many years, even in the presence of specific circulating antibodies. Virions are enveloped, ether-sensitive, and vary up to 200 nm in diameter; the nucleocapsids are 100 nm in diameter and of icosahedral symmetry, with 162 capsomeres. The family includes herpes simplex virus, cytomegalovirus, EB virus (all of which infect humans) and many others.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14217</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0019369</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Virus-Herpes
+
+Herpesviridae
+
+Herpes Virus
+
+NCBI_Taxon_ID	10292</oboInOwl:hasSynonym>
+        <rdfs:label>herpesvirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14253 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14253">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14348"/>
+        <obo:IAO_0000115>A non-taxonomic group of animal viruses associated with or causing papillomas or polyomas.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14253</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0319132</oboInOwl:hasSynonym>
+        <rdfs:label>papovavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14260 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14260">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14253"/>
+        <obo:IAO_0000115>A genus of double-stranded DNA viruses. The viral particles are not enveloped and are icosahedral in structure.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14260</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>NCBI_Taxon_ID 10624
+UMLS_CUI C0032556</oboInOwl:hasSynonym>
+        <rdfs:label>polyomavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C14348 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C14348">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14200"/>
+        <obo:IAO_0000115>A virus that has double stranded DNA as its genetic material.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14348</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C1512048</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>dsDNA Virus</oboInOwl:hasSynonym>
+        <rdfs:label>double stranded dna virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C26726 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C26726">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C93210"/>
+        <obo:IAO_0000115>A disorder resulting from the presence and activity of a microbial, viral, fungal, or parasitic agent. It can be transmitted by direct or indirect contact.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26726</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Infectious Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0009450</oboInOwl:hasSynonym>
+        <rdfs:label>infectious disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C27233 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C27233">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C35686"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27233</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C1336809</oboInOwl:hasSynonym>
+        <rdfs:label>transplant-related disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C27351 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C27351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A group of non-neoplastic and neoplastic disorders resulting from the deregulation and/or deficiency of immune system functions. It includes autoimmune disorders (e.g., lupus erythematosus, dermatomyositis, rheumatoid arthritis), congenital and acquired immunodeficiency syndromes including the acquired immune deficiency syndrome (AIDS), and neoplasms (e.g., lymphomas and malignancies secondary to transplantation).</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27351</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Immunodeficiency and Immunosuppression Disorders</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C1334156</oboInOwl:hasSynonym>
+        <rdfs:label>immune system and related disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C3063 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C3063">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C27233"/>
+        <obo:IAO_0000115>A reaction, which may be fatal, in an immunocompromised subject (host) who has received an antigenically incompatible tissue transplant (graft) from an immunocompetent donor. The reaction is secondary to the activation of the transplanted cells against those host tissues that express an antigen not expressed by the donor, and is seen most commonly following bone marrow transplantation; acute disease is seen after 5-40 days, and chronic disease occurs weeks to months after transplantation.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C306</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Runt Disease
+
+Graft vs Host Disease
+
+Graft Vs. Host Disease
+
+graft-versus-host disease
+
+GVHD
+
+Graft-Versus-Host-Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0018133</oboInOwl:hasSynonym>
+        <rdfs:label>graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C3439 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C3439">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C26726"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3439</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0042769</oboInOwl:hasSynonym>
+        <rdfs:label>viral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C35686 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C35686">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C27351"/>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that develops in a patient with immunodeficiency. Representative examples include AIDS-related disorders and disorders that develop following organ transplantation.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35686</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Immunodepression-Related Disorder
+
+Immunosuppression-Related Disorder
+
+Immunosuppression disorders</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C1334159</oboInOwl:hasSynonym>
+        <rdfs:label>immunodeficiency-related disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C38759 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C38759">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3439"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38759</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EBV Infection</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0149678</oboInOwl:hasSynonym>
+        <rdfs:label>epstein-barr virus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C4727 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4727">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C27233"/>
+        <obo:IAO_0000115>Post-transplant lymphoproliferative disorder (PTLD) is a polyclonal (benign) or clonal (malignant) proliferation of lymphoid cells that develops as a consequence of immunosuppression in a recipient of a solid organ or bone marrow allograft. PTLDs comprise a spectrum ranging from early, Epstein-Barr virus (EBV)-driven polyclonal lymphoid proliferations to EBV-positive or EBV- negative lymphomas of predominantly B-cell or less often T-cell type. (WHO, 2001)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4727</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ICD-O-3_Code 9971/1</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>PTLD</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0432487</oboInOwl:hasSynonym>
+        <rdfs:label>post-transplant lymphoproliferative disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C4980 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4980">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3063"/>
+        <obo:IAO_0000115>A syndrome of immunologically mediated tissue damage that may occur following an allogeneic transplant, usually affecting the skin, liver, and GI tract. The onset is usually within one hundred days of transplantation or immunologic manipulation.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4980</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0856825</oboInOwl:hasSynonym>
+        <rdfs:label>acute graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C4981 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4981">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3063"/>
+        <obo:IAO_0000115>A syndrome of immunologically mediated tissue damage that may occur following an allogeneic transplant, and may affect multiple organs with manifestations similar to autoimmune diseases. The onset is usually within three years of transplantation or immunologic manipulation.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4981</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Chronic GVHD
+
+Graft versus host disease, chronic
+
+GVHD, chronic</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0867389</oboInOwl:hasSynonym>
+        <rdfs:label>chronic graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C53529 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C53529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53529</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Non-neoplastic disorder, NOS
+
+Non-neoplastic condition, NOS
+
+Non-Neoplastic Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C1709246</oboInOwl:hasSynonym>
+        <rdfs:label>non-neoplastic disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C53649 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C53649">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3439"/>
+        <obo:IAO_0000115>A herpesvirus infection caused by Cytomegalovirus. Healthy individuals generally do not produce symptoms. However, the infection may be life-threatening in affected immunocompromised patients. The virus may cause retinitis, esophagitis, gastritis, and colitis. Morphologically, it is characterized by the presence of intranuclear inclusion bodies.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53649</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>HCMV Infection
+
+CMV Infection</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0010823</oboInOwl:hasSynonym>
+        <rdfs:label>cytomegaloviral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C89820 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C89820">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C14260"/>
+        <obo:IAO_0000115>A double stranded DNA virus in the polyomavirus family. It is widespread but usually causes an asymptomatic infection, except in immunocompromised individuals.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89820</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>NCBI_Taxon_ID 10629
+UMLS_CUI C0005670</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Papovavirus BKV
+
+Polyomavirus Type BK
+
+Polyomavirus BK
+
+BKV
+
+BK POLYOMAVIRUS</oboInOwl:hasSynonym>
+        <rdfs:label>bk virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C93210 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C93210">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C53529"/>
+        <obo:IAO_0000115>An infectious or non infectious disorder characterized by signs and symptoms derived from focal or extensive tissue infiltration by acute (e.g., polymorphonuclear) or chronic (e.g., lymphocytic-plasmacytic) inflammatory cells. Representative examples of infectious disorders include viral infections, bacterial infections, and parasitic infections. Representative examples of non-infectious inflammatory disorders include inflammatory bowel disease and inflammatory polyps.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93210</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C1290884</oboInOwl:hasSynonym>
+        <rdfs:label>inflammatory disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33694</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>biopolymers, Biopolymere</oboInOwl:hasSynonym>
+        <rdfs:label>biomacromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33695</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>genetically encoded biopolymers, information macromolecule, information macromolecules, information biopolymers, genetically encoded biomacromolecules</oboInOwl:hasSynonym>
+        <rdfs:label>information biomacromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_36080 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_36080">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_36080</obo:IAO_0000412>
+        <rdfs:label>protein</rdfs:label>
+        <rdfs:seeAlso>CHEBI:13677, CHEBI:14911</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_50860</obo:IAO_0000412>
+        <rdfs:label>organic molecular entity</rdfs:label>
+        <rdfs:seeAlso>CHEBI:33244, CHEBI:25700</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#NCBITaxon_10239 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#NCBITaxon_10239">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0100026"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0042776</oboInOwl:hasSynonym>
+        <rdfs:label>virus</rdfs:label>
+        <rdfs:seeAlso>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#OBI_0100026 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0100026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OBI_0100026</obo:IAO_0000412>
+        <rdfs:label>organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62852 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62852">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70340"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62852</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>White blood cell
+
+Leucocyte</oboInOwl:hasSynonym>
+        <rdfs:label>leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62854 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62854">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62852"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62854</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Granular leucocyte
+
+Granulocyte</oboInOwl:hasSynonym>
+        <rdfs:label>granular leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62855 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62855">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62852"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62855</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Agranular leukocyte
+
+Mononuclear leukocyte</oboInOwl:hasSynonym>
+        <rdfs:label>nongranular leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62855"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62863</obo:IAO_0000412>
+        <rdfs:label>lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62864 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62855"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62864</obo:IAO_0000412>
+        <rdfs:label>monocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma67513 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma67513">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_017"/>
+        <obo:IAO_0000115>Cell which has as its direct part a maximally connected part of protoplasm. Examples: hepatocyte, erythroblast, skeletal muscle cell, megakaryocyte.</obo:IAO_0000115>
+        <obo:IAO_0000119>FMA</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma67513</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Kernhaltige Zelle</oboInOwl:hasSynonym>
+        <rdfs:label>nucleated cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma70336 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma70336">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma72300"/>
+        <obo:IAO_0000412>ttp://purl.org/sig/ont/fma/fma70336</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Haemal cell</oboInOwl:hasSynonym>
+        <rdfs:label>hemal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma70340 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma70340">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma70340</obo:IAO_0000412>
+        <rdfs:label>differentiated hemal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma72300 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma72300">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma67513"/>
+        <obo:IAO_0000115>Nucleated cell which has one or more diploid sets (46 pairs) of chromosomes.</obo:IAO_0000115>
+        <obo:IAO_0000119>FMA</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72300</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Diploid cell</oboInOwl:hasSynonym>
+        <rdfs:label>somatic cell</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
