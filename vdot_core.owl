@@ -24,6 +24,78 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:label>participates in at some time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000174 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000174">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000175"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>has proper continuant part at some time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000175 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000175">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>proper part of continuant at some time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000176 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>part of continuant at some time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000178 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>has continuant part at some time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -183,6 +255,18 @@ UMLS_CUI C0032556</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C17610 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+        <obo:IAO_0000115>A small volume of blood removed for testing or storage.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17610</obo:IAO_0000412>
+        <rdfs:label>blood sample</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C26726 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C26726">
@@ -218,6 +302,26 @@ UMLS_CUI C0032556</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Immunodeficiency and Immunosuppression Disorders</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C1334156</oboInOwl:hasSynonym>
         <rdfs:label>immune system and related disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C28133 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C28133">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <obo:IAO_0000115>The determination of the number of red blood cells, white blood cells, and platelets in a blood sample.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28133</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>CBC
+
+FBC
+
+Full Blood Count
+
+Complete Blood Count</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0005771</oboInOwl:hasSynonym>
+        <rdfs:label>blood cell count</rdfs:label>
     </owl:Class>
     
 
@@ -298,6 +402,22 @@ Immunosuppression disorders</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>PTLD</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0432487</oboInOwl:hasSynonym>
         <rdfs:label>post-transplant lymphoproliferative disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C49286 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C49286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <obo:IAO_0000115>A laboratory test to measure hematopoietic components and investigate hematologic disorders in a blood sample.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49286</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Blood Test
+
+Hematology Procedure</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>UMLS_CUI C0200627</oboInOwl:hasSynonym>
+        <rdfs:label>hematology test</rdfs:label>
     </owl:Class>
     
 
@@ -583,6 +703,9 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000080">
+        <rdfs:label>quality of at all times</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000081">
         <rdfs:label>role of at all times</rdfs:label>
     </rdf:Description>
