@@ -189,6 +189,17 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>number of
+
+extra or missing physical or functional parts
+
+cardinality
+
+has or lacks parts of type
+
+number
+
+mereological qualit</oboInOwl:hasSynonym>
     </rdf:Description>
     
 
@@ -853,6 +864,9 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000081">
         <rdfs:label>role of at all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000111">
+        <rdfs:label>has proper continuant part at all times</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
