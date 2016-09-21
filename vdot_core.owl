@@ -226,6 +226,12 @@ mereological qualit</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_037"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -385,6 +391,12 @@ UMLS_CUI C0032556</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A small volume of blood removed for testing or storage.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17610</obo:IAO_0000412>
@@ -635,6 +647,19 @@ CMV Infection</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C80244 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C80244">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0075"/>
+        <obo:IAO_0000115>A fictitious name used when the person performs a particular social role.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80244</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>UMLS_CUI C0033824</oboInOwl:hasSynonym>
+        <rdfs:label>pseudonym</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C89820 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C89820">
@@ -818,6 +843,12 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001555"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -865,8 +896,18 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000081">
         <rdfs:label>role of at all times</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
+        <rdfs:label>has role</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000111">
         <rdfs:label>has proper continuant part at all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000008">
+        <oboInOwl:hasSynonym>m</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000009">
+        <oboInOwl:hasSynonym>w
+f</oboInOwl:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
 
