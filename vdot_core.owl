@@ -700,7 +700,7 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33694</obo:IAO_0000412>
         <oboInOwl:hasSynonym>biopolymers, Biopolymere</oboInOwl:hasSynonym>
         <rdfs:label>biomacromolecule</rdfs:label>
@@ -726,17 +726,6 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_36080</obo:IAO_0000412>
         <rdfs:label>protein</rdfs:label>
         <rdfs:seeAlso>CHEBI:13677, CHEBI:14911</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_50860">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_50860</obo:IAO_0000412>
-        <rdfs:label>organic molecular entity</rdfs:label>
-        <rdfs:seeAlso>CHEBI:33244, CHEBI:25700</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -879,6 +868,33 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72300</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Diploid cell</oboInOwl:hasSynonym>
         <rdfs:label>somatic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33582</obo:IAO_0000412>
+        <rdfs:label>carbon group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>A main group molecular entity that contains one or more atoms of a p-block element.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33675</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>p-block compounds
+
+p-block molecular entities
+
+p-block molecular entitiy</oboInOwl:hasSynonym>
+        <rdfs:label>p-block molecular entity</rdfs:label>
     </owl:Class>
     
 
