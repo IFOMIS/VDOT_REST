@@ -697,39 +697,6 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33694</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>biopolymers, Biopolymere</oboInOwl:hasSynonym>
-        <rdfs:label>biomacromolecule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33694"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33695</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>genetically encoded biopolymers, information macromolecule, information macromolecules, information biopolymers, genetically encoded biomacromolecules</oboInOwl:hasSynonym>
-        <rdfs:label>information biomacromolecule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_36080 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_36080">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI_33695"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_36080</obo:IAO_0000412>
-        <rdfs:label>protein</rdfs:label>
-        <rdfs:seeAlso>CHEBI:13677, CHEBI:14911</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#NCBITaxon_10239 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#NCBITaxon_10239">
