@@ -12,10 +12,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core.owl">
-     
         <owl:imports rdf:resource="http://www.ifomis.org/hdot/hdot_core.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/hdot/hdot_pm.owl"/>
-       
         <dc:creator>Ulf Schwarz</dc:creator>
         <dc:publisher>Institute for Formal Ontology and Medical Information Science (IFOMIS)</dc:publisher>
     </owl:Ontology>
@@ -152,6 +150,58 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62582 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>The occurrence in an individual of two or more cell populations of different chromosomal constitutions, derived from different individuals. This contrasts with mosaicism in which the different cell populations are derived from a single individual.</obo:IAO_0000115>
+        <obo:IAO_0000118>Chimärismus@de</obo:IAO_0000118>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>UMLS_CUI C0333678</oboInOwl:hasSynonym>
+        <rdfs:label>chimerism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_62852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70340"/>
+        <obo:IAO_0000118>Leukozyten@de</obo:IAO_0000118>
+        <oboInOwl:hasSynonym>White blood cell
+
+Leucocyte</oboInOwl:hasSynonym>
+        <rdfs:label>leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_62854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62854">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62852"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62854</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Granular leucocyte
+
+Granulocyte</oboInOwl:hasSynonym>
+        <rdfs:label>granular leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_62855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62852"/>
+        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62855</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Agranular leukocyte
+
+Mononuclear leukocyte</oboInOwl:hasSynonym>
+        <rdfs:label>nongranular leukocyte</rdfs:label>
+    </owl:Class>
     
 
 
@@ -721,49 +771,10 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62852 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62852">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70340"/>
-        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62852</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>White blood cell
-
-Leucocyte</oboInOwl:hasSynonym>
-        <rdfs:label>leukocyte</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62854 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62854">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62852"/>
-        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62854</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Granular leucocyte
-
-Granulocyte</oboInOwl:hasSynonym>
-        <rdfs:label>granular leukocyte</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62855 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62855">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62852"/>
-        <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62855</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Agranular leukocyte
-
-Mononuclear leukocyte</oboInOwl:hasSynonym>
-        <rdfs:label>nongranular leukocyte</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62855"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62863</obo:IAO_0000412>
         <rdfs:label>lymphocyte</rdfs:label>
     </owl:Class>
@@ -773,7 +784,7 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62864 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62855"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62864</obo:IAO_0000412>
         <rdfs:label>monocyte</rdfs:label>
     </owl:Class>
@@ -839,6 +850,22 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Laboreingang@de</obo:IAO_0000118>
+        <rdfs:label>laboratory receipt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582">
@@ -897,5 +924,5 @@ f</oboInOwl:hasSynonym>
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
