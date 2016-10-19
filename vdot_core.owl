@@ -78,6 +78,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000107 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000107">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label>disposition of at all times</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000155">
@@ -240,6 +250,7 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118>Anzahl@de</obo:IAO_0000118>
         <oboInOwl:hasSynonym>number of
 
 extra or missing physical or functional parts
@@ -901,6 +912,12 @@ p-block molecular entitiy</oboInOwl:hasSynonym>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
+        <rdfs:label>realized by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000055">
+        <rdfs:label>realizes</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000080">
         <rdfs:label>quality of at all times</rdfs:label>
     </rdf:Description>
