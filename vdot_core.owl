@@ -250,18 +250,13 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Anzahl@de</obo:IAO_0000118>
-        <oboInOwl:hasSynonym>number of
-
-extra or missing physical or functional parts
-
-cardinality
-
-has or lacks parts of type
-
-number
-
-mereological qualit</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>cardinality</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>extra or missing physical or functional parts</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>has or lacks parts of type</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>mereological quality</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>number</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>number of</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Anzahl</rdfs:label>
     </rdf:Description>
     
 
@@ -332,19 +327,15 @@ mereological qualit</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A genus of the family herpesviridae, subfamily betaherpesvirinae, infecting the salivary glands, liver, spleen, lungs, eyes, and other organs, in which they produce characteristically enlarged cells with intranuclear inclusions.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14196</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>FDA_UNII_Code	7COI029E6K
-UMLS_CUI C0010825
-NCBI_Taxon_ID 10358</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 5
-
-HHV-5
-
-CMV, CYTOMEGALOVIRUS
-
-Cytomegalovirus (CMV)
-
-CMV</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">CMV</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">CYTOMEGALOVIRUS</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Cytomegalovirus (CMV)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">HHV-5</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 5</oboInOwl:hasSynonym>
         <rdfs:label>cytomegalovirus</rdfs:label>
+        <rdfs:seeAlso>FDA_UNII_Code	7COI029E6K</rdfs:seeAlso>
+        <rdfs:seeAlso>NCBI_Taxon_ID 10358</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI C0010825</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -356,8 +347,9 @@ CMV</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A virus that has DNA as its genetic material and does not use an RNA intermediate during replication.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14200</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>UMLS_CUI C0012923</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">DNA Virus</rdfs:label>
         <rdfs:label>dna virus</rdfs:label>
+        <rdfs:seeAlso>UMLS_CUI C0012923</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -369,21 +361,16 @@ CMV</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A species of Herpetoviridae that is responsible for infectious mononucleosis (glandular fever). Discovered in 1964, this virus has been associated with Burkitt&apos;s lymphoma in South African children and with nasopharyngeal carcinoma in Asian populations.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14204</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EBV</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Epstein Barr Virus</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>FDA_UNII_Code	2A26YW7PNX</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 4
-
-Lymphocryptovirus
-
-Epstein Barr Virus
-
-HHV-4
-
-Virus-Epstein-Barr
-
-EBV</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>UMLS_CUI C0014644
-NCBI_Taxon_ID 10376</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HHV-4</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HUMAN HERPESVIRUS 4</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Lymphocryptovirus</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Virus-Epstein-Barr</oboInOwl:hasSynonym>
         <rdfs:label>epstein-barr virus</rdfs:label>
+        <rdfs:seeAlso>NCBI_Taxon_ID 10376</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI C0014644</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -395,15 +382,13 @@ NCBI_Taxon_ID 10376</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A heterogeneous family of morphologically similar viruses, all of which contain double-stranded DNA and which infect man and a wide variety of other vertebrates. Infections produce type A inclusion bodies; in many instances, infection may remain latent for many years, even in the presence of specific circulating antibodies. Virions are enveloped, ether-sensitive, and vary up to 200 nm in diameter; the nucleocapsids are 100 nm in diameter and of icosahedral symmetry, with 162 capsomeres. The family includes herpes simplex virus, cytomegalovirus, EB virus (all of which infect humans) and many others.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14217</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Herpes Virus</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Herpesviridae</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0019369</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>Virus-Herpes
-
-Herpesviridae
-
-Herpes Virus
-
-NCBI_Taxon_ID	10292</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Virus-Herpes</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Herpesvirus</rdfs:label>
         <rdfs:label>herpesvirus</rdfs:label>
+        <rdfs:seeAlso>NCBI_Taxon_ID	10292</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -428,9 +413,9 @@ NCBI_Taxon_ID	10292</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A genus of double-stranded DNA viruses. The viral particles are not enveloped and are icosahedral in structure.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14260</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>NCBI_Taxon_ID 10624
-UMLS_CUI C0032556</oboInOwl:hasSynonym>
         <rdfs:label>polyomavirus</rdfs:label>
+        <rdfs:seeAlso>NCBI_Taxon_ID 10624</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI C0032556</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -444,6 +429,7 @@ UMLS_CUI C0032556</oboInOwl:hasSynonym>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14348</obo:IAO_0000412>
         <oboInOwl:hasSynonym>UMLS_CUI C1512048</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>dsDNA Virus</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Doppelsträngiger DNA Virus</rdfs:label>
         <rdfs:label>double stranded dna virus</rdfs:label>
     </owl:Class>
     
@@ -717,7 +703,8 @@ CMV Infection</oboInOwl:hasSynonym>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80244</obo:IAO_0000412>
         <oboInOwl:hasSynonym>UMLS_CUI C0033824</oboInOwl:hasSynonym>
-        <rdfs:label>pseudonym</rdfs:label>
+        <rdfs:label xml:lang="de">Pseudonym</rdfs:label>
+        <rdfs:label xml:lang="en">pseudonym</rdfs:label>
     </owl:Class>
     
 
@@ -729,17 +716,13 @@ CMV Infection</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A double stranded DNA virus in the polyomavirus family. It is widespread but usually causes an asymptomatic infection, except in immunocompromised individuals.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89820</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>BK POLYOMAVIRUS</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>BKV</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>NCBI_Taxon_ID 10629
 UMLS_CUI C0005670</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>Papovavirus BKV
-
-Polyomavirus Type BK
-
-Polyomavirus BK
-
-BKV
-
-BK POLYOMAVIRUS</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Papovavirus BKV</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Polyomavirus BK</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Polyomavirus Type BK</oboInOwl:hasSynonym>
         <rdfs:label>bk virus</rdfs:label>
     </owl:Class>
     
@@ -764,6 +747,7 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0100026"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ncbitaxon.owl</obo:IAO_0000412>
         <oboInOwl:hasSynonym>UMLS_CUI C0042776</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Virus</rdfs:label>
         <rdfs:label>virus</rdfs:label>
         <rdfs:seeAlso>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283</rdfs:seeAlso>
     </owl:Class>
@@ -777,6 +761,7 @@ BK POLYOMAVIRUS</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/OBI_0100026</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Organismus</rdfs:label>
         <rdfs:label>organism</rdfs:label>
     </owl:Class>
     
