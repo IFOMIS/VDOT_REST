@@ -268,10 +268,10 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62582">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>The occurrence in an individual of two or more cell populations of different chromosomal constitutions, derived from different individuals. This contrasts with mosaicism in which the different cell populations are derived from a single individual.</obo:IAO_0000115>
-        <obo:IAO_0000118>Chimärismus@de</obo:IAO_0000118>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <oboInOwl:hasSynonym>UMLS_CUI C0333678</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Chimärismus</rdfs:label>
         <rdfs:label>chimerism</rdfs:label>
+        <rdfs:seeAlso>UMLS_CUI C0333678</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -280,10 +280,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70340"/>
-        <obo:IAO_0000118>Leukozyten@de</obo:IAO_0000118>
-        <oboInOwl:hasSynonym>White blood cell
-
-Leucocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>White blood cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Leukozyt</rdfs:label>
         <rdfs:label>leukocyte</rdfs:label>
     </owl:Class>
     
@@ -298,6 +296,7 @@ Leucocyte</oboInOwl:hasSynonym>
 
 Granulocyte</oboInOwl:hasSynonym>
         <rdfs:label>granular leukocyte</rdfs:label>
+        <rdfs:label xml:lang="de">granulärer Leukozyt</rdfs:label>
     </owl:Class>
     
 
@@ -307,9 +306,9 @@ Granulocyte</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62855">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62852"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62855</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Agranular leukocyte
-
-Mononuclear leukocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Agranular leukocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Mononuclear leukocyte</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">agranulärer Leukozyt</rdfs:label>
         <rdfs:label>nongranular leukocyte</rdfs:label>
     </owl:Class>
     
@@ -337,6 +336,7 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C25662"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Probe</rdfs:label>
     </rdf:Description>
     
 
@@ -572,6 +572,7 @@ Mononuclear leukocyte</oboInOwl:hasSynonym>
         <obo:IAO_0000115>The selection and obtaining of small representative quantities of biological material for the purpose of analysis; also, in biomedical statistics, sampling is the selection and implementation of statistical observations in order to estimate properties of an underlying population; also, in environmental science, the collection of representative specimens analyzed to characterize site conditions.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25662</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Probennahme</rdfs:label>
         <rdfs:label>sampling</rdfs:label>
     </owl:Class>
     
@@ -872,6 +873,7 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62863</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Lymphozyt</rdfs:label>
         <rdfs:label>lymphocyte</rdfs:label>
     </owl:Class>
     
@@ -882,6 +884,7 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62864</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Monozyt</rdfs:label>
         <rdfs:label>monocyte</rdfs:label>
     </owl:Class>
     
@@ -917,7 +920,11 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412>ttp://purl.org/sig/ont/fma/fma70336</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="de">Blutzelle</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Haemal cell</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>hematocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>hemocyte</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Hämozyten</rdfs:label>
         <rdfs:label>hemal cell</rdfs:label>
     </owl:Class>
     
@@ -942,6 +949,7 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72300</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Diploid cell</oboInOwl:hasSynonym>
         <rdfs:label>somatic cell</rdfs:label>
+        <rdfs:label xml:lang="de">somatische Zelle</rdfs:label>
     </owl:Class>
     
 
@@ -956,7 +964,7 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>Laboreingang@de</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Laboreingang</rdfs:label>
         <rdfs:label>laboratory receipt</rdfs:label>
     </owl:Class>
     
