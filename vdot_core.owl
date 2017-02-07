@@ -344,6 +344,14 @@ Granulocyte</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000018 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000018">
+        <rdfs:label xml:lang="de">Krankenhaus</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001555 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001555">
@@ -360,6 +368,41 @@ Granulocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>number</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>number of</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Anzahl</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/HDOT_CORE_0042 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_0042">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Institutionsidentifikationsnummer</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/HDOT_CORE_017 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_017">
+        <rdfs:label xml:lang="de">Zelle</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/HDOT_CORE_044 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_044">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -693,6 +736,19 @@ Immunosuppression disorders</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C37984 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C37984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>A facility equipped and competent to conduct scientific experiments, observations, tests, investigations, and/or to manufacture chemicals or medical products.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37984</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Labor</rdfs:label>
+        <rdfs:label xml:lang="en">laboratory</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C38759 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C38759">
@@ -973,6 +1029,42 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115>A directive information entity that represents a mathematical relationship which relates changes in a given response to changes in one or more factors. A statistical model is a formalization of relationships between variables in the form of mathematical equations.</obo:IAO_0000115>
+        <obo:IAO_0000118>statistical model</obo:IAO_0000118>
+        <obo:IAO_0000119>http://www.itl.nist.gov/div898/handbook/pri/section7/pri7.htm; http://en.wikipedia.org/wiki/Statistical_model</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/OBCS_0000035</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Modell</rdfs:label>
+        <rdfs:label xml:lang="en">model</rdfs:label>
+        <rdfs:seeAlso>OBCS: Ontology of Biological and Clinical Statistics</rdfs:seeAlso>
+        <rdfs:seeAlso>http://identifiers.org/mamo/MAMO_0000037</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000002"/>
+        <rdfs:label xml:lang="de">Prädiktives Modell</rdfs:label>
+        <rdfs:label>predictive model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+        <rdfs:label xml:lang="de">Institutionsname</rdfs:label>
+        <rdfs:label xml:lang="en">institution name</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582">
@@ -990,11 +1082,9 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A main group molecular entity that contains one or more atoms of a p-block element.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33675</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>p-block compounds
-
-p-block molecular entities
-
-p-block molecular entitiy</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>p-block compounds</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>p-block molecular entities</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>p-block molecular entitiy</oboInOwl:hasSynonym>
         <rdfs:label>p-block molecular entity</rdfs:label>
     </owl:Class>
     
@@ -1022,6 +1112,15 @@ p-block molecular entitiy</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000111">
         <rdfs:label>has proper continuant part at all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
+        <rdfs:label xml:lang="de">Kohlenstoffhydrat</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+        <rdfs:label xml:lang="de">Peptide</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
+        <rdfs:label xml:lang="de">Lipide</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000008">
         <oboInOwl:hasSynonym>m</oboInOwl:hasSynonym>
