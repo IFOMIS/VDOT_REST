@@ -35,7 +35,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <obo:IAO_0000118>Authorenrolle</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Authorenrolle</rdfs:label>
         <rdfs:label>author role</rdfs:label>
     </owl:Class>
     
@@ -58,7 +58,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000178"/>
-        <rdfs:label>data file</rdfs:label>
+        <rdfs:label xml:lang="de">Datei</rdfs:label>
+        <rdfs:label xml:lang="en">data file</rdfs:label>
     </owl:Class>
     
 
@@ -67,7 +68,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
-        <rdfs:label>data file size</rdfs:label>
+        <rdfs:label xml:lang="de">Dateigröße</rdfs:label>
+        <rdfs:label xml:lang="en">data file size</rdfs:label>
     </owl:Class>
     
 
@@ -76,7 +78,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000118>Datenbereitstellung@de</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Datenbereitstellung</obo:IAO_0000118>
         <rdfs:label>data upload</rdfs:label>
     </owl:Class>
     
@@ -86,8 +88,18 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <obo:IAO_0000118>Datenbereitsteller@de</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Datenbereitsteller</rdfs:label>
         <rdfs:label>data uploader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:label xml:lang="de">Dateninhaber</rdfs:label>
+        <rdfs:label xml:lang="en">data owner</rdfs:label>
     </owl:Class>
     
 
@@ -114,7 +126,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00008">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
-        <obo:IAO_0000118>Dateiname@de</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Dateiname</rdfs:label>
         <rdfs:label>file name</rdfs:label>
     </owl:Class>
     
