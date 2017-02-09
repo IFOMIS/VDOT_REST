@@ -87,9 +87,9 @@
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00004 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <rdfs:label xml:lang="de">Datenbereitsteller</rdfs:label>
-        <rdfs:label>data uploader</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000442"/>
+        <rdfs:label xml:lang="de">Datenbereitstellerrolle</rdfs:label>
+        <rdfs:label>data uploader role</rdfs:label>
     </owl:Class>
     
 
@@ -98,8 +98,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
-        <rdfs:label xml:lang="de">Dateninhaber</rdfs:label>
-        <rdfs:label xml:lang="en">data owner</rdfs:label>
+        <rdfs:label xml:lang="de">Dateninhaberrolle</rdfs:label>
+        <rdfs:label xml:lang="en">data owner role</rdfs:label>
     </owl:Class>
     
 
@@ -136,8 +136,48 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00009">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
-        <obo:IAO_0000118>Datenbereitstellungsdatum@de</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Datenbereitstellungsdatum</rdfs:label>
         <rdfs:label>data upload date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000161"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="de">personaler Dateninhaber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00011">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000161"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="de">personaler Datenbereitsteller</rdfs:label>
     </owl:Class>
     
 
