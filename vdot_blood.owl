@@ -16,6 +16,10 @@
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl"/>
         <hdot:creator>Ulf Schwarz</hdot:creator>
         <dc:title>vdot_blood</dc:title>
+        <dc:license>CC-BY
+&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;&lt;img alt=&quot;Creative Commons Lizenzvertrag&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by/2.0/de/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Dieses Werk ist lizenziert unter einer &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;Creative Commons Namensnennung 2.0 Deutschland Lizenz&lt;/a&gt;.</dc:license>
+        <rdfs:comment>This vdot module is an extension of vdot_core for thr representation of blood cells and blood panels.</rdfs:comment>
+        <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
     
 
