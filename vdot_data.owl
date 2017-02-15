@@ -101,8 +101,20 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000178"/>
-        <rdfs:label xml:lang="de">Dateispeicherort</rdfs:label>
-        <rdfs:label xml:lang="en">data file storage</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">hochgeladene Datei</rdfs:label>
+        <rdfs:label xml:lang="en">uploaded data file</rdfs:label>
     </owl:Class>
     
 
@@ -226,6 +238,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">personaler Datenbereitsteller</rdfs:label>
     </owl:Class>
     
@@ -272,6 +290,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">author</rdfs:label>
         <rdfs:label xml:lang="de">personaler Author</rdfs:label>
     </owl:Class>
@@ -282,7 +306,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:label xml:lang="de">Datenerfassung</rdfs:label>
+        <rdfs:label xml:lang="de">Datenzusammenstellung</rdfs:label>
         <rdfs:label xml:lang="en">data collection</rdfs:label>
     </owl:Class>
     
@@ -321,6 +345,7 @@
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#http://purl.obolibrary.org/obo/IAO_0000302">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_034"/>
         <obo:IAO_0000118>Name des Authors</obo:IAO_0000118>
+        <rdfs:comment xml:lang="de">Autorenname</rdfs:comment>
         <rdfs:label>author name</rdfs:label>
     </owl:Class>
 </rdf:RDF>
