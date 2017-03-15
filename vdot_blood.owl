@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_blood#"
-     xml:base="http://www.ifomis.org/vdot/vdot_blood"
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_blood.owl#"
+     xml:base="http://www.ifomis.org/vdot/vdot_blood.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,7 +12,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_blood">
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl">
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl"/>
         <hdot:creator>Ulf Schwarz</hdot:creator>
         <dc:title>vdot_blood</dc:title>
@@ -43,20 +43,20 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#CHEBI_35134 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35134">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI:33837CHEBI_33837"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35134</obo:IAO_0000412>
         <rdfs:label>metalloprotein</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#CHEBI_35136 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35136 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35136">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35134"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35136">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35136</obo:IAO_0000412>
         <rdfs:comment>database_id COMe:PRX000004</rdfs:comment>
         <rdfs:label>iron protein</rdfs:label>
@@ -64,10 +64,10 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#CHEBI_35143 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35143">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_5386"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_5386"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35143</obo:IAO_0000412>
         <oboInOwl:hasSynonym>hb</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>vertebrate haemoglobin
@@ -81,10 +81,10 @@ haemoglobin</oboInOwl:hasSynonym>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#CHEBI_5386 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_5386 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#CHEBI_5386">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35136"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_5386">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35136"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_5386</obo:IAO_0000412>
         <oboInOwl:hasSynonym>pentacoordinate globin</oboInOwl:hasSynonym>
         <rdfs:comment>database id 
@@ -97,10 +97,10 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma62848 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma62848 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma62848">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35143"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62848">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62848</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Haemoglobin A</oboInOwl:hasSynonym>
         <rdfs:label>hemoglobin A</rdfs:label>
@@ -108,9 +108,9 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma62860 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma62860 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma62860">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62860</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Heterophile leucocyte</oboInOwl:hasSynonym>
@@ -124,9 +124,9 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma62861 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma62861 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma62861">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62861</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Eosinophil leukocyte</oboInOwl:hasSynonym>
@@ -135,9 +135,9 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma62862 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma62862 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma62862">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62862</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Basophil granulocyte</oboInOwl:hasSynonym>
@@ -147,20 +147,20 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma72159 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma72159 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma72159">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35143"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma72159">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72159</obo:IAO_0000412>
         <rdfs:label>hemoglobin F</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#fma72160 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#fma72160 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#fma72160">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood#CHEBI_35143"/>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma72160">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72160</obo:IAO_0000412>
         <oboInOwl:hasSynonym>haemoglobin A2</oboInOwl:hasSynonym>
         <rdfs:label>hemoglobin A2</rdfs:label>
@@ -168,9 +168,9 @@ COMe:PRX000257</rdfs:comment>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_blood#CHEBI:33837CHEBI_33837 -->
+    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood#CHEBI:33837CHEBI_33837">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
