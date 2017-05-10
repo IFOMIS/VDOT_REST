@@ -632,7 +632,8 @@ Granulocyte</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A small volume of blood removed for testing or storage.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17610</obo:IAO_0000412>
-        <rdfs:label>blood sample</rdfs:label>
+        <rdfs:label xml:lang="de">Blutprobe</rdfs:label>
+        <rdfs:label xml:lang="en">blood sample</rdfs:label>
     </owl:Class>
     
 
