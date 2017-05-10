@@ -337,7 +337,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00017">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
-        <rdfs:label xml:lang="es">Probennahmedatum</rdfs:label>
+        <rdfs:label xml:lang="de">Probennahmedatum</rdfs:label>
     </owl:Class>
     
 
