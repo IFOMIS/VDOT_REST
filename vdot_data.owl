@@ -342,6 +342,16 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00018">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:comment xml:lang="en">laboratory entry date</rdfs:comment>
+        <rdfs:label xml:lang="de">Laboreingangsdatum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000001">
