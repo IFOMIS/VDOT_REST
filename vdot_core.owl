@@ -347,6 +347,12 @@ Granulocyte</oboInOwl:hasSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000671">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_028"/>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C25662"/>
             </owl:Restriction>
