@@ -12,7 +12,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core_unit">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo5.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/master/uo-without-pato-references.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl"/>
         <rdfs:label>vdot_core with units</rdfs:label>
         <dc:creator>Ulf Schwarz</dc:creator>
