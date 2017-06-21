@@ -15,6 +15,8 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo5.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl"/>
         <rdfs:label>vdot_core with units</rdfs:label>
+        <dc:creator>Ulf Schwarz</dc:creator>
+        <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
     
 
