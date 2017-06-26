@@ -11,7 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core_unit">
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/master/uo-without-pato-references.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl"/>
         <rdfs:label>vdot_core with units</rdfs:label>
@@ -32,9 +32,9 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_core_unit#0000001 -->
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001 -->
 
-    <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_core_unit#0000001">
+    <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PATO_0002016"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <rdfs:label xml:lang="de">gemessen in</rdfs:label>
@@ -59,7 +59,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002016">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit#0000001"/>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
