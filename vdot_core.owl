@@ -632,7 +632,14 @@ Granulocyte</oboInOwl:hasSynonym>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
-                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A small volume of blood removed for testing or storage.</obo:IAO_0000115>
