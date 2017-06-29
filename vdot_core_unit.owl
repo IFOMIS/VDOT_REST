@@ -35,7 +35,14 @@
     <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001 -->
 
     <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PATO_0002016"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000145"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002016"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <rdfs:label xml:lang="de">gemessen in</rdfs:label>
         <rdfs:label xml:lang="en">is measured in</rdfs:label>
@@ -54,6 +61,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001555 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001555">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0002016 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002016">
@@ -64,6 +84,26 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000180"/>
+        <oboInOwl:hasSynonym>g/dl</oboInOwl:hasSynonym>
+        <rdfs:label>g per dl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000179"/>
+        <oboInOwl:hasSynonym>mmol/l</oboInOwl:hasSynonym>
+        <rdfs:label>mmol per l</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
