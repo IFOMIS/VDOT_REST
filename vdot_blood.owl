@@ -202,6 +202,10 @@ COMe:PRX000257</rdfs:comment>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33694">
         <oboInOwl:hasSynonym>biological macromolecule</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0001">
+        <oboInOwl:hasSynonym xml:lang="de">Blut</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">blood</oboInOwl:hasSynonym>
+    </rdf:Description>
 </rdf:RDF>
 
 
