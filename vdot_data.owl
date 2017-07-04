@@ -403,7 +403,20 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label xml:lang="de">Klinische Chemie</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0000651"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Klinische Chemie Datensatz</rdfs:label>
     </owl:Class>
     
 
