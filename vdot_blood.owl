@@ -74,8 +74,8 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001555"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002016"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
