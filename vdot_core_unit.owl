@@ -104,6 +104,20 @@
         <oboInOwl:hasSynonym>mmol/l</oboInOwl:hasSynonym>
         <rdfs:label>mmol per l</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
+        <oboInOwl:hasSynonym>%</oboInOwl:hasSynonym>
+    </rdf:Description>
 </rdf:RDF>
 
 
