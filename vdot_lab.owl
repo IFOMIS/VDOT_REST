@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_lab.owl#"
+     xml:base="http://www.ifomis.org/vdot/vdot_lab.owl"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl">
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12537 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <oboInOwl:hasSynonym>CD4+ T Lymphocytes</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T4 Cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">CD4-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12542 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12542">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16276 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16276">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16981"/>
+        <obo:IAO_0000115>An enzyme that catalyses the cleavage of inorganic phosphate non-specifically from a wide variety of phosphate esters and having a high (greater than 8) pH optimum.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16276</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ALKP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>ALP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>AP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Alk Phos</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>AlkPhos</oboInOwl:hasSynonym>
+        <rdfs:label>alkaline phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16554 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>Molecules that catalyze a chemical reaction. They are usually proteins, although catalytic RNA and DNA molecules have been identified.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16554</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Enzym</rdfs:label>
+        <rdfs:label xml:lang="en">enzyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16561 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16561">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16701"/>
+        <obo:IAO_0000115>Encoded by Esterase Genes, Esterases catalyze hydrolysis of ester bonds to produce alcohol and acid reaction products.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Ester Hydrolase</oboInOwl:hasSynonym>
+        <rdfs:label>EC 3.1</rdfs:label>
+        <rdfs:label>esterase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16701 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16701">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115>Enzymes (EC class 3) cleaving substrates with addition of H2O at the point of cleavage; e.g., esterases, phosphatases, nucleases, peptidases. SYN hydrolyzing enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16701</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 3</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Hydrolases</oboInOwl:hasSynonym>
+        <rdfs:label>hydrolase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16981 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16981">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16561"/>
+        <obo:IAO_0000115>A class of enzymes that catalyze the removal of phosphate groups from their substrates.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16981</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 3.1.3.-</oboInOwl:hasSynonym>
+        <rdfs:label>phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C17210 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C17210">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115>Transferases are enzymes transferring a group, for example, the methyl group or a glycosyl group, from one compound (generally regarded as donor) to another compound (generally regarded as acceptor). The classification is based on the scheme &quot;donor: acceptor group transferase&quot;. (EC 2 class)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>EC 2</oboInOwl:hasSynonym>
+        <rdfs:label>transferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C214 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C214">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0059"/>
+        <obo:IAO_0000115>A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands. Albumin is the main protein in blood plasma. Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C214</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>alb</oboInOwl:hasSynonym>
+        <rdfs:label>albumin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
+        <obo:IAO_0000115>Transaminases are a sub-subclass of mostly pyridoxal phosphate-dependent transferase enzymes that catalyze the transfer of an amino group from a donor (generally an amino acid) to an acceptor (generally a 2-keto acid). Mediating conversion of major intermediate metabolites and reversible transamination, Transaminases are often involved in cellular nitrogen metabolism, amino acid metabolism, gluconeogenesis and in the urea and tricarboxylic acid cycles.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21489</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Aminotransferase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>EC 2.6.1</oboInOwl:hasSynonym>
+        <rdfs:label>transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25202 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25202">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <obo:IAO_0000115>Activity measured as a test of liver function, 46/47-kDa homodimeric human Aspartate Aminotransferases (Class-I Pyridoxal-Phosphate-Dependent Aminotransferase Family) are pyridoxal phosphate-dependent enzymes involved in amino acid metabolism and in the urea and tricarboxylic acid cycles. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25202</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>AST</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGOT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGOT (AST)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>serum glutamic-oxaloacetic transaminase</oboInOwl:hasSynonym>
+        <rdfs:label>aspartate transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25293 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25293">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <obo:IAO_0000115>Activity measured as a test of liver function, human Glutamic-Pyruvate Transaminases (Alanine Aminotransferase Family) are pyridoxal phosphate-dependent enzymes involved in cellular nitrogen metabolism, amino acid metabolism, and liver gluconeogenesis. Glutamic Pyruvic Transaminases mediate conversion of major intermediate metabolites, catalyzing reversible transamination between alanine and alpha-ketoglutarate to form pyruvate and glutamate. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25293</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ALT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGPT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGPT (ALT)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>serum glutamate pyruvate transaminase</oboInOwl:hasSynonym>
+        <rdfs:label>alanine transferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C60651 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C60651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>C-reactive protein (224 aa, ; 25 kDa) is encoded by the human CRP gene. This protein is cleaved during biological activation and is associated with host defense mechanisms and inflammatory responses.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C60651</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>CRP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Pentraxin 1</oboInOwl:hasSynonym>
+        <rdfs:label>C-reactive protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <oboInOwl:hasSynonym>Cys C</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>CysC</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Neuroendocrine Basic Polypeptide</oboInOwl:hasSynonym>
+        <rdfs:label>cystatin-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62845 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_81105"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/FMA_62845</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ERY</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Erythrozyten</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Erythrozyt</rdfs:label>
+        <rdfs:label>erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62869 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62869">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
+        <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62870 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <rdfs:label>T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma70572 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870"/>
+        <oboInOwl:hasSynonym>Helper T-lymphocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>T-Helferzellen</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">T-Lymphozyten</oboInOwl:hasSynonym>
+        <rdfs:label>T-helper lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma84382 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572"/>
+        <rdfs:label xml:lang="de">T-helper cell type 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
+        <oboInOwl:hasSynonym>EOS</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
+        <oboInOwl:hasSynonym>BASO</oboInOwl:hasSynonym>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
