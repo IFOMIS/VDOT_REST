@@ -1181,9 +1181,6 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
         <rdfs:label xml:lang="de">Kohlenstoffhydrat</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
-        <rdfs:label xml:lang="de">Peptide</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
         <rdfs:label xml:lang="de">Lipide</rdfs:label>
     </rdf:Description>
