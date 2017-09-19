@@ -15,6 +15,7 @@
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>
         <rdfs:comment>This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:title>vdot_all</dc:title>
         <dc:license>CC-BY
