@@ -28,6 +28,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <obo:IAO_0000115 xml:lang="de">A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">S-Kreatinin</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">S-Kreatinin refers here to serum-creatinine.</rdfs:comment>
+        <rdfs:label xml:lang="de">Kreatinin</rdfs:label>
+        <rdfs:label>creatinine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
+        <oboInOwl:hasSynonym xml:lang="de">Lymph</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12537 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
@@ -110,6 +132,18 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16725 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>A protein whose activities affect or play a role in immune system functions.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
+        <rdfs:label>immunoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16981 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16981">
@@ -131,6 +165,18 @@
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <oboInOwl:hasSynonym>EC 2</oboInOwl:hasSynonym>
         <rdfs:label>transferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072</obo:IAO_0000412>
+        <rdfs:label>enzyme inhibitor protein</rdfs:label>
     </owl:Class>
     
 
@@ -158,6 +204,23 @@
         <oboInOwl:hasSynonym>Aminotransferase</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>EC 2.6.1</oboInOwl:hasSynonym>
         <rdfs:label>transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25184 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25184">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115 xml:lang="de">A family of homotetrameric cytoplasmic enzymes involved in the conversion of L-lactate and NAD to pyruvate and NADH in the final step of anaerobic glycolysis. In vertebrates, genes for three different subunits (LDH-A, LDH-B and LDH-C) exist.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">NCIT</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">EC 1.1.1.27</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">L-(+)-Lactate Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">L-Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">LDH</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">NAD-Lactate Dehydrogenase</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">lactic acid dehydrogenase</rdfs:label>
     </owl:Class>
     
 
@@ -194,10 +257,107 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C37937 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C37937">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C73539"/>
+        <obo:IAO_0000115>An endogenous amino acid derivative produced by vertebrate animals and occurring primarily in muscle cells. Creatine is important for energy storage; it is phosphorylated to creatine phosphate, which serves as a phosphate donor in the conversion of ADP to ATP and supplies energy necessary for muscle contraction. Dietary supplementation with creatine may improve muscle wasting associated with cancer and other chronic diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C37937</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="de">Krea</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Kreatin</oboInOwl:hasSynonym>
+        <rdfs:label>creatine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C37959 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C37959">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
+        <obo:IAO_0000115>GGT participates in the transfer of amino acids across the cellular membrane and in glutathione metabolism. High concentrations are found in the liver, bile ducts, and the kidney. A test that measures the amount of GGT in the blood is used to detect diseases of the liver, bile ducts, and kidney; and to differentiate liver or bile duct (hepatobiliary) disorders from bone disease. [def-source: NCI][attr: from http://health.allrefer.com]</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/NCIT_C37959</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 2.3.2.2</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GGT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Gamma-GT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Gamma-Glutamyltransferase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>g-GT</oboInOwl:hasSynonym>
+        <rdfs:label>gamma-glutamyl transpeptidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C565 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C565">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>IgA is the immunoglobulin subclass that is associated with antibody-mediated mucosal immunity. It is secreted as dimers into the mucosa and is the most effective isotype at fixing complement by the alternative pathway, even though it lacks the ability to fix complement by the classical pathway. There are two subtypes in the human - IgA1 and IgA2.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C565</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgA</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Immunoglobulin A</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C567 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C567">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>An immunoglobulin isotype (subclass). This isotype has the unique ability to bind with high affinity to IgE receptors (FceRI) on mast cells and basophils and induce degranulation and cytokine production by these cells when they are crosslinked by antigen. In addition to a central role in atopy and allergic responses, it has been speculated that IgE-mediated mast cell degranulation, by its release of mediators that increase vascular permeability, has an important role in the initiation of immune response in general.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C567</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgE</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C568 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C568">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>An immunoglobulin isotype (subclass) that characterizes secondary immune responses. This isotype is further broken down into several smaller subclasses (IgG1, IgG2a, IgG2b, IgG3 in the mouse; IgG1-4 in the human), and each subclass is differentially synthesized and secreted into the serum upon differential immune stimuli.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgG</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C569 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C569">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>The major immunoglobulin secreted during a primary immune response. IgM binds with low affinity but high avidity (multiple binding sites) because it not only occurs as monomers but also as pentamers and hexamers.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C572 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
+        <obo:IAO_0000115>Any of the structurally related glycoproteins that function as antibodies. They are divided into five classes (IGA, IGD, IGE, IGG, IGM) on the basis of structure and biological activity.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C572</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Ig</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C60651 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C60651">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <obo:IAO_0000115>C-reactive protein (224 aa, ; 25 kDa) is encoded by the human CRP gene. This protein is cleaved during biological activation and is associated with host defense mechanisms and inflammatory responses.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C60651</obo:IAO_0000412>
@@ -208,14 +368,39 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C73539 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C73539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+        <obo:IAO_0000115>Any derivatives of amino acids that containing amino (-NH2) and carboxyl (-COOH) groups.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C73539</obo:IAO_0000412>
+        <rdfs:label>amino acid derivative</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
         <oboInOwl:hasSynonym>Cys C</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>CysC</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neuroendocrine Basic Polypeptide</oboInOwl:hasSynonym>
         <rdfs:label>cystatin-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C90505 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C90505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <obo:IAO_0000115>A kidney function test that measures the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C90505</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>GFR</oboInOwl:hasSynonym>
+        <rdfs:label>glomerular filtration rate</rdfs:label>
     </owl:Class>
     
 
@@ -254,6 +439,17 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma63147 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma63147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/FMA_63147</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="de">NK cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">natural killer cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma70572 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
@@ -275,6 +471,29 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C90505"/>
+        <obo:IAO_0000115>GFR – calculated according to CKD-EPI-formular.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:label>GFR (CKD-EPI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C90505"/>
+        <obo:IAO_0000115>GFR with Cystatin C measurement. 
+Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten Jahren zunehmend an Akzeptanz gewonnen hat. Mittels Cystatin C kann man die GFR mit oder ohne begleitendem Serumkreatinin messen</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:label>GFR Cys (CKD-EPI)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -283,11 +502,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
+        <oboInOwl:hasSynonym>Hb</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
         <oboInOwl:hasSynonym>EOS</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
         <oboInOwl:hasSynonym>BASO</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
+        <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
 
