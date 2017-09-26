@@ -91,6 +91,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000179">
         <oboInOwl:hasSynonym>U/l</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>u/l</oboInOwl:hasSynonym>
         <rdfs:label>U per l</rdfs:label>
     </rdf:Description>
     
@@ -132,6 +133,59 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000180"/>
         <oboInOwl:hasSynonym>mg/l</oboInOwl:hasSynonym>
         <rdfs:label>mg per l</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <oboInOwl:hasSynonym>1/nl</oboInOwl:hasSynonym>
+        <rdfs:label>cells per nanoliter</rdfs:label>
+        <rdfs:label>n/nl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000006 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
+        <oboInOwl:hasSynonym>n/nl</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>u/nl</oboInOwl:hasSynonym>
+        <rdfs:label>unit per nanoliter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000007 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000180"/>
+        <oboInOwl:hasSynonym>mg/dl</oboInOwl:hasSynonym>
+        <rdfs:label>mg per dl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000008 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000270"/>
+        <oboInOwl:hasSynonym>ml/min</oboInOwl:hasSynonym>
+        <rdfs:label>milliliter per minute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000009 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
+        <oboInOwl:hasSynonym>iu/ml</oboInOwl:hasSynonym>
+        <rdfs:label>international unit per milliliter</rdfs:label>
+        <rdfs:label>iu per milliliter</rdfs:label>
     </owl:Class>
     
 
