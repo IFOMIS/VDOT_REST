@@ -87,6 +87,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000179 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000179">
+        <oboInOwl:hasSynonym>U/l</oboInOwl:hasSynonym>
+        <rdfs:label>U per l</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000001">
@@ -103,6 +112,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000179"/>
         <oboInOwl:hasSynonym>mmol/l</oboInOwl:hasSynonym>
         <rdfs:label>mmol per l</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000180"/>
+        <oboInOwl:hasSynonym>g/l</oboInOwl:hasSynonym>
+        <rdfs:label>g per l</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000180"/>
+        <oboInOwl:hasSynonym>mg/l</oboInOwl:hasSynonym>
+        <rdfs:label>mg per l</rdfs:label>
     </owl:Class>
     
 
