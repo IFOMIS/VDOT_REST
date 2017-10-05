@@ -635,8 +635,8 @@ Granulocyte</oboInOwl:hasSynonym>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_017"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
