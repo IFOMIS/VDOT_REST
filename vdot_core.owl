@@ -307,9 +307,8 @@ release date 28/02/2017</owl:versionInfo>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62854">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62852"/>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62854</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Granular leucocyte
-
-Granulocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Granular leucocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Granulocyte</oboInOwl:hasSynonym>
         <rdfs:label>granular leukocyte</rdfs:label>
         <rdfs:label xml:lang="de">granulärer Leukozyt</rdfs:label>
     </owl:Class>
@@ -1196,8 +1195,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000009">
         <rdfs:label xml:lang="de">weiblich</rdfs:label>
-        <oboInOwl:hasSynonym>w
-f</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>f</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>w</oboInOwl:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
 
