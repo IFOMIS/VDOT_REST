@@ -22,11 +22,139 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_00000013 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_00000013">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <rdfs:label>has dose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>Any member of the group of substituted penams containing two methyl substituents at position 2, a carboxylate substituent at position 3 and a carboxamido group at position 6.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_17334</obo:IAO_0000412>
+        <rdfs:label>penicillin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_00000013"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17334"/>
+        <obo:IAO_0000115>A penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-(4-hydroxyphenyl)acetamido group.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_2676</obo:IAO_0000412>
+        <rdfs:label>amoxicillin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 xml:lang="en">A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient&apos;s immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">KEGG:D00184</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4031</obo:IAO_0000412>
+        <rdfs:comment>e.g. in Sandimmun optoral®</rdfs:comment>
+        <rdfs:label xml:lang="de">Cyclosporin A</rdfs:label>
+        <rdfs:label>cyclosporin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4974">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>2-Amino-9H-purine in which the hydrogen at position 9 is substituted by a 4-acetoxy-3-(acetoxymethyl)but-1-yl group. A prodrug of the antiviral penciclovir, it is used for the treatment of acute herpes zoster (shingles), for the treatment or suppression of recurrent genital herpes in immunocompetent patients and for the treatment of recurrent mucocutaneous herpes simplex infections in HIV infected patients</obo:IAO_0000115>
+        <obo:IAO_0000118>KEGG:D00317</obo:IAO_0000118>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4974</obo:IAO_0000412>
+        <rdfs:label>famciclovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="de">An N-arylpiperazine that consists of piperazine carrying two 4-substituted phenyl groups at positions 1 and 4. A triazole antifungal drug.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_64355</obo:IAO_0000412>
+        <rdfs:comment>e.g. in Noxafil®</rdfs:comment>
+        <rdfs:label xml:lang="de">Posaconazol</rdfs:label>
+        <rdfs:label xml:lang="en">posaconazole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7915">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A member of the class of benzimidazoles that is 1H-benzimidazole substituted by a difluoromethoxy group at position 5 and a [(3,4-dimethoxypyridin-2-yl)methyl]sulfinyl group at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000118>KEGG:D05353</obo:IAO_0000118>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_7915</obo:IAO_0000412>
+        <rdfs:comment>e.g. in Pantozol®</rdfs:comment>
+        <rdfs:label xml:lang="de">Pantoprazol</rdfs:label>
+        <rdfs:label xml:lang="en">pantoprazole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115>A dipeptide that is the prodrug for ramiprilat, the active metabolite obtained by hydrolysis of the ethyl ester group. An angiotensin-converting enzyme (ACE) inhibitor, used to treat high blood pressure and congestive heart failure</obo:IAO_0000115>
+        <obo:IAO_0000118>KEGG:D00421</obo:IAO_0000118>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_8774</obo:IAO_0000412>
+        <rdfs:label>ramipril</rdfs:label>
+    </owl:Class>
     
 
 
@@ -73,6 +201,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <obo:IAO_0000118>MMF</obo:IAO_0000118>
         <rdfs:label xml:lang="en">mondays, wednesdays, fridays</rdfs:label>
         <rdfs:label xml:lang="de">montags, mittwochs, freitags</rdfs:label>
     </owl:Class>
@@ -83,6 +212,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <obo:IAO_0000118>MD</obo:IAO_0000118>
         <rdfs:label xml:lang="en">mondays, thursdays</rdfs:label>
         <rdfs:label xml:lang="de">montags, donnertags</rdfs:label>
     </owl:Class>
@@ -121,6 +251,27 @@
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <rdfs:label xml:lang="de">nachts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000010">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
+        <rdfs:label xml:lang="en">antiinfective therapy</rdfs:label>
+        <rdfs:label xml:lang="de">antiinfektiöse therapie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
+        <obo:IAO_0000118 xml:lang="de">immunsuppressiva verabreichung</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">immunosuppressive therapy</rdfs:label>
+        <rdfs:label xml:lang="de">immunsuppressive therapie</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
