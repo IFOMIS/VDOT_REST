@@ -202,8 +202,8 @@
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <obo:IAO_0000118>MMF</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">dienstags</rdfs:label>
         <rdfs:label xml:lang="en">mondays, wednesdays, fridays</rdfs:label>
-        <rdfs:label xml:lang="de">montags, mittwochs, freitags</rdfs:label>
     </owl:Class>
     
 
@@ -212,9 +212,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <obo:IAO_0000118>MD</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">mondays, thursdays</rdfs:label>
-        <rdfs:label xml:lang="de">montags, donnertags</rdfs:label>
+        <rdfs:label xml:lang="en">mondays</rdfs:label>
+        <rdfs:label xml:lang="de">montags</rdfs:label>
     </owl:Class>
     
 
@@ -272,6 +271,56 @@
         <obo:IAO_0000118 xml:lang="de">immunsuppressiva verabreichung</obo:IAO_0000118>
         <rdfs:label xml:lang="en">immunosuppressive therapy</rdfs:label>
         <rdfs:label xml:lang="de">immunsuppressive therapie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">mittwochs</rdfs:label>
+        <rdfs:label xml:lang="en">wednesdays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">donnertags</rdfs:label>
+        <rdfs:label xml:lang="en">thursday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">freitags</rdfs:label>
+        <rdfs:label xml:lang="en">fridays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">samstags</rdfs:label>
+        <rdfs:label xml:lang="en">saturdays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">sonntags</rdfs:label>
+        <rdfs:label xml:lang="en">sundays</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
