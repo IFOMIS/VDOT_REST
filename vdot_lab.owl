@@ -514,6 +514,21 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001555"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Laboreingangszeit in Tagen relativ zum Transplantationszeitpunkt</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
