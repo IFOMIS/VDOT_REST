@@ -179,9 +179,10 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a treatment that has as participants an extended organism and a drug product and that results in part of the drug product being located in the extended organism</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">DrOn</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>medication planing</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">see DRON_000000031</rdfs:comment>
-        <rdfs:label xml:lang="de">Medikamentengabe</rdfs:label>
-        <rdfs:label xml:lang="en">drug administration</rdfs:label>
+        <rdfs:label xml:lang="de">Medikationplanung</rdfs:label>
+        <rdfs:label xml:lang="en">drug administration planing</rdfs:label>
     </owl:Class>
     
 
@@ -321,6 +322,27 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <rdfs:label xml:lang="de">sonntags</rdfs:label>
         <rdfs:label xml:lang="en">sundays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym xml:lang="en">medication plan</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Medikamentenverordnung</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
