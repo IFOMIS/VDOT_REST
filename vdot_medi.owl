@@ -161,7 +161,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <rdfs:label>days after transplantation</rdfs:label>
     </owl:Class>
     
@@ -343,6 +343,51 @@
         </rdfs:subClassOf>
         <oboInOwl:hasSynonym xml:lang="en">medication plan</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Medikamentenverordnung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000019 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Laboreingangszeit in Tagen relativ zum Transplantationszeitpunkt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000020 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000020">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:comment xml:lang="en">is set to day 0 by default</rdfs:comment>
+        <rdfs:label xml:lang="de">Transplantationszeitpunkt</rdfs:label>
+        <rdfs:label xml:lang="en">transplantation time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000021 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="de">Befundungszeit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000022 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="en">weekly</rdfs:label>
+        <rdfs:label xml:lang="de">wöchentlich</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
