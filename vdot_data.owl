@@ -97,6 +97,85 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Blutbild-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">full blood count dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_62852"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">HLA-Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:label xml:lang="de">Fieberkurve-Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0000651"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Klinische Chemie Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:label xml:lang="de">Medikamentendatensatz</rdfs:label>
+        <rdfs:label xml:lang="en">medication data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00001">
@@ -374,75 +453,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>institutioneller Author</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_data.owl#000001 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Blutbild-Datensatz</rdfs:label>
-        <rdfs:label xml:lang="en">full blood count dataset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_data.owl#000002 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_62852"/>
-                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">HLA-Datensatz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_data.owl#000003 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label xml:lang="de">Fieberkurve-Datensatz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_data.owl#000004 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
-                            <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#OBI_0000651"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Klinische Chemie Datensatz</rdfs:label>
     </owl:Class>
     
 
