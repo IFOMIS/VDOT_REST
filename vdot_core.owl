@@ -1135,6 +1135,65 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0063"/>
+        <rdfs:label xml:lang="de">Alter bei Stammzellentransplantation</rdfs:label>
+        <rdfs:label xml:lang="en">age at stem cell transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019"/>
+        <rdfs:label xml:lang="de">GVHD-Grad 4</rdfs:label>
+        <rdfs:label>GVHD-Grade 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019"/>
+        <rdfs:label xml:lang="de">GVHD-Grad 3</rdfs:label>
+        <rdfs:label>GVHD-Grade 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000017">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019"/>
+        <rdfs:label xml:lang="de">GVHD-Grad 2</rdfs:label>
+        <rdfs:label>GVHD-Grade 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000018">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019"/>
+        <rdfs:label xml:lang="de">GVHD-Grad 1</rdfs:label>
+        <rdfs:label>GVHD-Grade 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label>GVHD-Grade</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582">
