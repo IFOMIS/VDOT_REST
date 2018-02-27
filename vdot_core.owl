@@ -267,17 +267,6 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000020 -->
-
-    <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000020">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PATO_0001555"/>
-        <rdfs:label xml:lang="en">has temporal magnitude</rdfs:label>
-        <rdfs:label xml:lang="de">hat zeitliche Größe</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
