@@ -13,6 +13,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl">
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+        <rdfs:comment>vdot_lab ist eine VDOT-Erweiterung für Laborwerte</rdfs:comment>
     </owl:Ontology>
     
 
