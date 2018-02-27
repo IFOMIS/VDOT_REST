@@ -170,6 +170,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:comment>Diese Art von Datenstz kann auch nur Informationen über verordnete Wirkstoffe enthalten.</rdfs:comment>
         <rdfs:label xml:lang="de">Medikamentendatensatz</rdfs:label>
         <rdfs:label xml:lang="en">medication data</rdfs:label>
     </owl:Class>
