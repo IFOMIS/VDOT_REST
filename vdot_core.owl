@@ -369,6 +369,19 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001555 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001555">
@@ -476,6 +489,12 @@ release date 28/02/2017</owl:versionInfo>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1135,6 +1154,16 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000013">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:label xml:lang="de">Todeszeitpunkt in Tagen ab Stammzelltranplantation</rdfs:label>
+        <rdfs:label>time of death in days after stem cell transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
@@ -1256,6 +1285,9 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">weiblich</rdfs:label>
         <oboInOwl:hasSynonym>f</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>w</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_043">
+        <rdfs:comment xml:lang="de">Todeszeitpunkt</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
