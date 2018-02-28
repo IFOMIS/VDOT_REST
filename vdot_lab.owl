@@ -393,6 +393,12 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C68707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A process in which blood or tissue samples are analyzed to determine their human leukocyte antigen (HLA) profiles so that transplant materials can be transfered into a patient with the same or similar profile.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
