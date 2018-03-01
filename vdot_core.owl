@@ -1241,7 +1241,7 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
-        <rdfs:label>GVHD-Grade</rdfs:label>
+        <rdfs:label>GVHD-Grad</rdfs:label>
     </owl:Class>
     
 
