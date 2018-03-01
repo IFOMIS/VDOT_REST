@@ -328,6 +328,19 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0044699 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044699">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000155"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
