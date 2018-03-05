@@ -117,6 +117,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>The red respiratory protein of erythrocytes, consisting of approximately 3.8% heme and 96.2% globin (64.5 KD), which as oxyhemoglobin (HbO2) transports oxygen from the lungs to the tissues where the oxygen is readily released and HbO2 becomes Hb.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35143</obo:IAO_0000412>
         <oboInOwl:hasSynonym>haemoglobin</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>hb</oboInOwl:hasSynonym>
