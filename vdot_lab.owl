@@ -436,11 +436,12 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C90505 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C90505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
         <obo:IAO_0000115>A kidney function test that measures the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C90505</obo:IAO_0000412>
         <oboInOwl:hasSynonym>GFR</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Glomerular Filtration Rate Test</rdfs:label>
         <rdfs:label>glomerular filtration rate</rdfs:label>
     </owl:Class>
     
@@ -531,6 +532,24 @@
 Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten Jahren zunehmend an Akzeptanz gewonnen hat. Mittels Cystatin C kann man die GFR mit oder ohne begleitendem Serumkreatinin messen</obo:IAO_0000115>
         <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
         <rdfs:label>GFR Cys (CKD-EPI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
+        <rdfs:label>machine blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
+        <rdfs:label>manual blood cell count</rdfs:label>
     </owl:Class>
     
 
