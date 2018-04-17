@@ -63,6 +63,19 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C28133 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C28133">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
