@@ -507,17 +507,6 @@ release date 28/02/2017</owl:versionInfo>
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_045"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_037"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_034"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -533,6 +522,19 @@ release date 28/02/2017</owl:versionInfo>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_037"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_034"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_045"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
