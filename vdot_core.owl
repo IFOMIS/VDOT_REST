@@ -1188,6 +1188,49 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000010"/>
+        <rdfs:label xml:lang="de">Spender-Rolle</rdfs:label>
+        <rdfs:label xml:lang="en">donor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000006 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000161"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_037"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Spender</rdfs:label>
+        <rdfs:label xml:lang="en">donor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012">
