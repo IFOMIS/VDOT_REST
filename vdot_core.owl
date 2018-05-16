@@ -961,6 +961,7 @@ Graft versus host disease, chronic
 
 GVHD, chronic</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0867389</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">chronische GvHD</oboInOwl:hasSynonym>
         <rdfs:label>chronic graft versus host disease</rdfs:label>
     </owl:Class>
     
@@ -1018,7 +1019,7 @@ CMV Infection</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A blood group system based on recognition of inherited differences in the H antigen as expressed on erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C76245</obo:IAO_0000412>
-        <rdfs:label>ABO blood group</rdfs:label>
+        <rdfs:label>AB0 blood group</rdfs:label>
     </owl:Class>
     
 
@@ -1357,6 +1358,15 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <rdfs:label xml:lang="de">Verwandtschaftsgrad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000009 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <rdfs:label xml:lang="en">graft loss</rdfs:label>
     </owl:Class>
     
 
