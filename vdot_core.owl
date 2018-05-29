@@ -536,6 +536,20 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0053 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0053">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym xml:lang="de">Bestrahlung</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/hdot/HDOT_PM_0058 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
@@ -1357,7 +1371,14 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Verwandtschaftsgrad</rdfs:label>
+        <rdfs:label xml:lang="en">degree of kinship</rdfs:label>
     </owl:Class>
     
 
@@ -1367,6 +1388,76 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
         <rdfs:label xml:lang="en">graft loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="de">GvHD Hautstadium</rdfs:label>
+        <rdfs:label xml:lang="en">stage of skin GvHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="de">GvHD Leberstadium</rdfs:label>
+        <rdfs:label xml:lang="en">stage of liver GvHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="de">GvHD Darmstadium</rdfs:label>
+        <rdfs:label xml:lang="en">stage of instestine GvHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">graft loss nach TX in Tagen</rdfs:label>
+        <rdfs:label xml:lang="en">time of graft loss in days after stem cell transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">PATO</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/PATO_0001739</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">radiation quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">PATO</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/PATO_0001744</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">radiation exposure</rdfs:label>
     </owl:Class>
     
 
@@ -1384,7 +1475,13 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000013 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000013">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Todeszeitpunkt in Tagen ab Stammzelltranplantation</rdfs:label>
         <rdfs:label>time of death in days after stem cell transplantation</rdfs:label>
     </owl:Class>
@@ -1518,9 +1615,6 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_043">
         <rdfs:comment xml:lang="de">Todeszeitpunkt</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0053">
-        <oboInOwl:hasSynonym xml:lang="de">Bestrahlung</oboInOwl:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
 
