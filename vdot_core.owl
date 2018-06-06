@@ -567,6 +567,12 @@ release date 28/02/2017</owl:versionInfo>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000174"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000007"/>
             </owl:Restriction>
@@ -611,6 +617,19 @@ release date 28/02/2017</owl:versionInfo>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123276</obo:IAO_0000412>
         <oboInOwl:hasSynonym>UMLS_CUI C1096691</oboInOwl:hasSynonym>
         <rdfs:label>bk virus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C138187 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C138187">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C15431"/>
+        <obo:IAO_0000115>A clinical treatment in which hematopoietic stem cells are transferred from a HLA half-matched donor to a recipient.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C138187</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>HLA-Haploidentical Hematopoietic Cell Transplantation</oboInOwl:hasSynonym>
+        <rdfs:label>haploidentical hematopoietic cell transplantation</rdfs:label>
     </owl:Class>
     
 
@@ -726,6 +745,39 @@ release date 28/02/2017</owl:versionInfo>
         <oboInOwl:hasSynonym>dsDNA Virus</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Doppelsträngiger DNA Virus</rdfs:label>
         <rdfs:label>double stranded dna virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C15431 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C15431">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/RID/RID1649"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A therapeutic procedure that involves the transplantation of hematopoietic stem cells, either with the patient as their own donor or from a donor to a patient. This can be used for treatment of malignant and non-malignant diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C15431</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>HCT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>stem cell transplantation</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hematopoietic cell transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C16039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C16039">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C15431"/>
+        <obo:IAO_0000115>Stem cell transfer or transplantation in which the patient is his own donor.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C16039</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>autologous stem cell transplantation</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">autologous hematopoietic stem cell transplantation</rdfs:label>
     </owl:Class>
     
 
@@ -918,6 +970,18 @@ Immunosuppression disorders</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C46089 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C46089">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C15431"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical treatment in which hematopoietic stem cells (HSCs) are transferred from one genetically dissimilar individual to another.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C46089</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">allogeneic hematopoietic stem cell transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C4727 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4727">
@@ -953,10 +1017,17 @@ Hematology Procedure</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4980">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3063"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A syndrome of immunologically mediated tissue damage that may occur following an allogeneic transplant, usually affecting the skin, liver, and GI tract. The onset is usually within one hundred days of transplantation or immunologic manipulation.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4980</obo:IAO_0000412>
         <oboInOwl:hasSynonym>UMLS_CUI C0856825</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>aGvHD</oboInOwl:hasSynonym>
         <rdfs:label>acute graft versus host disease</rdfs:label>
     </owl:Class>
     
@@ -1462,6 +1533,35 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C3063"/>
+        <oboInOwl:hasSynonym xml:lang="en">saGvHD</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">late acute graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="en">stage of chronic graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <oboInOwl:hasSynonym xml:lang="en">aGvHD Grad</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">stage of acute graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012">
@@ -1600,6 +1700,9 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
         <rdfs:label xml:lang="de">Lipide</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000105">
+        <rdfs:label xml:lang="de">Rezidiv</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000008">
         <oboInOwl:hasSynonym>m</oboInOwl:hasSynonym>
