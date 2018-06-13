@@ -1175,6 +1175,26 @@ CMV Infection</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C81239 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C81239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The circumstance or condition that results in the death of a living being.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C81239</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>COD</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Todesursache</rdfs:label>
+        <rdfs:label xml:lang="en">cause of death</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C89820 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C89820">
@@ -1458,6 +1478,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">graft loss</rdfs:label>
     </owl:Class>
     
@@ -1558,6 +1584,22 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
         <oboInOwl:hasSynonym xml:lang="en">aGvHD Grad</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">stage of acute graft versus host disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000019 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>date 4 nach TX</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">GvHD Auftreten nach TX in Tagen</rdfs:label>
     </owl:Class>
     
 
