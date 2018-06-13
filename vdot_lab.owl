@@ -29,16 +29,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
+        <rdfs:label>cholesterol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115 xml:lang="de">A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">S-Kreatinin</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="de">S-Kreatinin refers here to serum-creatinine.</rdfs:comment>
         <rdfs:label xml:lang="de">Kreatinin</rdfs:label>
         <rdfs:label>creatinine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
+        <rdfs:label>bilirubin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
+        <oboInOwl:hasSynonym>Chlorid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
+        <rdfs:label>chloride salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24471"/>
+        <rdfs:label>chlorine molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -60,6 +103,36 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24471">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <rdfs:label>halogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <rdfs:label>s-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
+        <rdfs:label>elemental calcium</rdfs:label>
+    </owl:Class>
     
 
 
