@@ -35,6 +35,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
+        <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
         <rdfs:label>cholesterol</rdfs:label>
     </owl:Class>
     
@@ -132,6 +133,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
         <rdfs:label>elemental calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label xml:lang="en">ferritin</rdfs:label>
     </owl:Class>
     
 
@@ -655,6 +665,16 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
         <rdfs:label>manual blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <oboInOwl:hasSynonym xml:lang="en">hbdh</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hydroxybutyrate dehydrogenase</rdfs:label>
     </owl:Class>
     
 
