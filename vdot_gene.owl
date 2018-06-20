@@ -149,6 +149,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004000">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697"/>
+        <obo:IAO_0000115>A non-coding RNA (ncRNA) is an RNA molecule that is not translated into a protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/w/index.php?title=Non-coding_RNA&amp;oldid=688555892#Non-coding RNA</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCRO_0004000</obo:IAO_0000412>
+        <rdfs:label>non-coding RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <obo:IAO_0000115>A non-coding RNA product initially transcribed from a DNA gene, or derived from such RNA by post-transcriptional processing to become capable of forming part of a RNA silencing complex and participating in gene silencing.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCRO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCRO_0004019</obo:IAO_0000412>
+        <rdfs:comment>Alan Ruttenberg 2016-02-01: Stance on identity: pri-miNRA, pre-miRNA, and mature miRNA are disjoint. It is a process of derivation that results first from pri-miRNA to pre-miRNA then to miRNA. The identity of an miRNA gene product is determined by the molecule from which it is transcribed or derived and by its own nucleotide sequence. We have to be careful in the definitions to not undermine this position.</rdfs:comment>
+        <rdfs:label>miRNA gene product</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000747 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
@@ -246,6 +271,114 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000115>A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000001</obo:IAO_0000412>
+        <rdfs:label>sequence region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115>Any extent of continuous biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000110</obo:IAO_0000412>
+        <rdfs:label>sequence feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <obo:IAO_0000115>A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&apos; and/or the 3&apos; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000233</obo:IAO_0000412>
+        <rdfs:label>mature transcript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <obo:IAO_0000115>Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000276</obo:IAO_0000412>
+        <rdfs:label>miRNA feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115>A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000370</obo:IAO_0000412>
+        <rdfs:label>small regulatory ncRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <obo:IAO_0000115>An RNA synthesized on a DNA or RNA template by an RNA polymerase. [database_cross_reference: SO:ma]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <rdfs:label>transcript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000704</obo:IAO_0000412>
+        <rdfs:label>gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>A region of a gene. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <rdfs:comment>A manufactured term used to allow the parts of a gene to have an is_a path to the root.</rdfs:comment>
+        <rdfs:label>gene member region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <obo:IAO_0000115>An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000655</obo:IAO_0000412>
+        <rdfs:label>ncRNA feature</rdfs:label>
+        <rdfs:label>noncoding RNA feature</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0003790 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003790">
@@ -265,6 +398,14 @@
         <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003815</obo:IAO_0000412>
         <rdfs:label>nucleic acid hybridization to array protocol</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
+        <rdfs:label>ribonucleic acid</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -796,9 +937,6 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
-        <rdfs:label>ribonucleic acid</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
         <oboInOwl:hasSynonym>Hb</oboInOwl:hasSynonym>
     </rdf:Description>
