@@ -13,7 +13,9 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl">
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+        <rdfs:comment>vdot_gene is an extension of vdot for genetic information</rdfs:comment>
         <rdfs:comment>vdot_gene ist eine VDOT-Erweiterung für genetische Parameter</rdfs:comment>
+        <dc:title>vdot_gene</dc:title>
     </owl:Ontology>
     
 
@@ -240,6 +242,28 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000009606"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2110009606</obo:IAO_0000412>
         <rdfs:label>RNA gene of homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003790 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003790</obo:IAO_0000412>
+        <rdfs:label>hybridization protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003815 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003815">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003790"/>
+        <obo:IAO_0000115>A protocol describing the hybridisation of the target nucleic acid sample to a fixed probe on the array.</obo:IAO_0000115>
+        <obo:IAO_0000119>EFO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003815</obo:IAO_0000412>
+        <rdfs:label>nucleic acid hybridization to array protocol</rdfs:label>
     </owl:Class>
     
 
@@ -772,6 +796,9 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
+        <rdfs:label>ribonucleic acid</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
         <oboInOwl:hasSynonym>Hb</oboInOwl:hasSynonym>
     </rdf:Description>
