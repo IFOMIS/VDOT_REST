@@ -188,90 +188,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_0000000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>In addition to the coding regions (exons), a gene includes transcription-control regions and sometimes introns. Although the majority of genes encode proteins, some encode tRNAs, rRNAs, and other types of RNA. A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule.</obo:IAO_0000115>
-        <obo:IAO_0000119>OGG</obo:IAO_0000119>
-        <obo:IAO_0000119>http://www.ncbi.nlm.nih.gov/books/NBK21640/</obo:IAO_0000119>
-        <rdfs:label>gene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2000002759 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000002759">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2000002759</obo:IAO_0000412>
-        <rdfs:label>gene of eukaryota</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2000009606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000009606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000002759"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2000009606</obo:IAO_0000412>
-        <rdfs:label>gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2000010239 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000010239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2000010239</obo:IAO_0000412>
-        <rdfs:label>gene of virus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2020009606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2020009606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2110009606"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2020009606</obo:IAO_0000412>
-        <rdfs:label>rRNA gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2060009606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2060009606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000009606"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2060009606</obo:IAO_0000412>
-        <rdfs:label>protein-coding gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2100009606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2100009606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2110009606"/>
-        <obo:IAO_0000115>A gene of Homo sapiens that has a ncRNA gene disposition</obo:IAO_0000115>
-        <obo:IAO_0000119>OGG</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2100009606</obo:IAO_0000412>
-        <rdfs:label>ncRNA gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_2110009606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2110009606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000009606"/>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/OGG_2110009606</obo:IAO_0000412>
-        <rdfs:label>RNA gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
@@ -442,6 +358,7 @@
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_0000001">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
         <rdfs:label xml:lang="de">Datum der Probeneinreichung</rdfs:label>
+        <rdfs:label xml:lang="en">sample submission</rdfs:label>
     </owl:Class>
     
 
