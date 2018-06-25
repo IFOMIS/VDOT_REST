@@ -224,18 +224,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
-        <obo:IAO_0000115>Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
-        <obo:IAO_0000119>SO</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000276</obo:IAO_0000412>
-        <rdfs:label>miRNA feature</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
