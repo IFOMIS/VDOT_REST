@@ -12,7 +12,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ncro/2015-12-10/ncro-combined.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_ncro_corr.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
         <rdfs:comment>vdot_gene is an extension of vdot for genetic information</rdfs:comment>
         <rdfs:comment>vdot_gene ist eine VDOT-Erweiterung für genetische Parameter</rdfs:comment>
