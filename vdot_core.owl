@@ -912,18 +912,12 @@ Complete Blood Count</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A reaction, which may be fatal, in an immunocompromised subject (host) who has received an antigenically incompatible tissue transplant (graft) from an immunocompetent donor. The reaction is secondary to the activation of the transplanted cells against those host tissues that express an antigen not expressed by the donor, and is seen most commonly following bone marrow transplantation; acute disease is seen after 5-40 days, and chronic disease occurs weeks to months after transplantation.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C306</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Runt Disease
-
-Graft vs Host Disease
-
-Graft Vs. Host Disease
-
-graft-versus-host disease
-
-GVHD
-
-Graft-Versus-Host-Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GVHD</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Graft vs Host Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Graft-Versus-Host-Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Runt Disease</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0018133</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>graft-versus-host disease</oboInOwl:hasSynonym>
         <rdfs:label>graft versus host disease</rdfs:label>
     </owl:Class>
     
@@ -947,11 +941,9 @@ Graft-Versus-Host-Disease</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that develops in a patient with immunodeficiency. Representative examples include AIDS-related disorders and disorders that develop following organ transplantation.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35686</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Immunodepression-Related Disorder
-
-Immunosuppression-Related Disorder
-
-Immunosuppression disorders</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Immunodepression-Related Disorder</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Immunosuppression disorders</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Immunosuppression-Related Disorder</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C1334159</oboInOwl:hasSynonym>
         <rdfs:label>immunodeficiency-related disorder</rdfs:label>
     </owl:Class>
@@ -1017,9 +1009,8 @@ Immunosuppression disorders</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A laboratory test to measure hematopoietic components and investigate hematologic disorders in a blood sample.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49286</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Blood Test
-
-Hematology Procedure</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Blood Test</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Hematology Procedure</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0200627</oboInOwl:hasSynonym>
         <rdfs:label>hematology test</rdfs:label>
     </owl:Class>
@@ -1053,11 +1044,8 @@ Hematology Procedure</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A syndrome of immunologically mediated tissue damage that may occur following an allogeneic transplant, and may affect multiple organs with manifestations similar to autoimmune diseases. The onset is usually within three years of transplantation or immunologic manipulation.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4981</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Chronic GVHD
-
-Graft versus host disease, chronic
-
-GVHD, chronic</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Chronic GVHD</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Graft versus host disease, chronic</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0867389</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">chronische GvHD</oboInOwl:hasSynonym>
         <rdfs:label>chronic graft versus host disease</rdfs:label>
@@ -1070,11 +1058,9 @@ GVHD, chronic</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C53529">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53529</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Non-neoplastic disorder, NOS
-
-Non-neoplastic condition, NOS
-
-Non-Neoplastic Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Non-Neoplastic Disease</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Non-neoplastic condition, NOS</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Non-neoplastic disorder, NOS</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C1709246</oboInOwl:hasSynonym>
         <rdfs:label>non-neoplastic disorder</rdfs:label>
     </owl:Class>
@@ -1088,9 +1074,8 @@ Non-Neoplastic Disease</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A herpesvirus infection caused by Cytomegalovirus. Healthy individuals generally do not produce symptoms. However, the infection may be life-threatening in affected immunocompromised patients. The virus may cause retinitis, esophagitis, gastritis, and colitis. Morphologically, it is characterized by the presence of intranuclear inclusion bodies.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53649</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>HCMV Infection
-
-CMV Infection</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>CMV Infection</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>HCMV Infection</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>UMLS_CUI C0010823</oboInOwl:hasSynonym>
         <rdfs:label>cytomegaloviral infection</rdfs:label>
     </owl:Class>
