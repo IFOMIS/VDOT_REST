@@ -150,31 +150,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCRO_0004000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004000">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115>A non-coding RNA (ncRNA) is an RNA molecule that is not translated into a protein.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://en.wikipedia.org/w/index.php?title=Non-coding_RNA&amp;oldid=688555892#Non-coding RNA</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCRO_0004000</obo:IAO_0000412>
-        <rdfs:label>non-coding RNA</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCRO_0004019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
-        <obo:IAO_0000115>A non-coding RNA product initially transcribed from a DNA gene, or derived from such RNA by post-transcriptional processing to become capable of forming part of a RNA silencing complex and participating in gene silencing.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCRO</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCRO_0004019</obo:IAO_0000412>
-        <rdfs:comment>Alan Ruttenberg 2016-02-01: Stance on identity: pri-miNRA, pre-miRNA, and mature miRNA are disjoint. It is a process of derivation that results first from pri-miRNA to pre-miRNA then to miRNA. The identity of an miRNA gene product is determined by the molecule from which it is transcribed or derived and by its own nucleotide sequence. We have to be careful in the definitions to not undermine this position.</rdfs:comment>
-        <rdfs:label>miRNA gene product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000747 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
@@ -303,14 +278,6 @@
         <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003815</obo:IAO_0000412>
         <rdfs:label>nucleic acid hybridization to array protocol</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697 -->
-
-    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
-        <rdfs:label>ribonucleic acid</rdfs:label>
-    </rdf:Description>
     
 
 
@@ -861,6 +828,9 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
+        <rdfs:label>ribonucleic acid</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
         <oboInOwl:hasSynonym>Hb</oboInOwl:hasSynonym>
     </rdf:Description>
