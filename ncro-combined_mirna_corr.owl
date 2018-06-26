@@ -11,8 +11,8 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="urn:absolute:vdot_ncro">
-        <owl:versionIRI rdf:resource="http://github/vdot/vdot_ncro_corr.owl"/>
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_ncro_corr.owl">
+        <owl:versionIRI rdf:resource="http://www.ifomis.org/vdot/vdot_ncro_corr.owl"/>
         <dc:contributor>Ulf Schwarz</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <dc:contributor>Harrison Strachan</dc:contributor>
@@ -20,11 +20,12 @@
         <rdfs:comment xml:lang="en">This is the release of December 12, 2015. It will always be available at http://purl.obolibrary.org/ncro/2015-12-10/ncro.owl. While current, this ontology is also available at http://purl.obolibrary.org/obo/ncro.owl
 	This file is a merge of NCRO and any imported ontologies or terms. You can access the ontology that existed before the merge, with imports intact, at http://purl.obolibrary.org/obo/ncro/YYYY-MM-DD/ncro.owl or, for the current version, http://purl.obolibrary.org/obo/ncro/prebuild/ncro.owl</rdfs:comment>
         <rdfs:comment xml:lang="en">d</rdfs:comment>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <dc:contributor>Asiyah Yu Lin</dc:contributor>
         <dc:contributor>Alan Ruttenberg</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <rdfs:label>NCRO adapted version for vdot</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
         <rdfs:comment xml:lang="en">This ontology is currently undergoing changes. ID deprecation policies will start in the next couple of months. In the mean time, identifiers may be deleted and not marked obsolete.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ncro/issues"/>
