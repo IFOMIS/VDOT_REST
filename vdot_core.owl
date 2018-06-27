@@ -801,6 +801,12 @@ release date 28/02/2017</owl:versionInfo>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1585,6 +1591,18 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         </rdfs:subClassOf>
         <oboInOwl:hasSynonym>date 4 nach TX</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">GvHD Auftreten nach TX in Tagen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000020 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115 xml:lang="en">The volume of packed RED BLOOD CELLS in a blood specimen. The volume is measured by centrifugation in a tube with graduated markings, or with automated blood cell counters. It is an indicator of erythrocyte status in disease. For example, ANEMIA shows a low value; POLYCYTHEMIA, a high value.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">EFO</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Hämatokrit</rdfs:label>
+        <rdfs:label>hematocrit</rdfs:label>
     </owl:Class>
     
 
