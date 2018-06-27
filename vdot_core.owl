@@ -813,6 +813,7 @@ release date 28/02/2017</owl:versionInfo>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
                             <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_017"/>
+                            <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0003"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
