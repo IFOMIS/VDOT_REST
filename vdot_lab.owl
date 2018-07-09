@@ -68,6 +68,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22985">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:label>calcium molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
@@ -117,6 +126,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:label xml:lang="de">potassium molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26217"/>
+        <obo:IAO_0000115 xml:lang="en">Any alkali metal salt having potassium(1+) as the cation.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Kaliumsalz</rdfs:label>
+        <rdfs:label xml:lang="en">potassium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">An oxopurine that is the final oxidation product of purine metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000115>CHEBI</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_27226</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Harnsäure</rdfs:label>
+        <rdfs:label xml:lang="en">uric acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
@@ -131,9 +174,30 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22985"/>
         <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Kalzium</rdfs:label>
         <rdfs:label>elemental calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22985"/>
+        <rdfs:label xml:lang="de">Kalziumsalz</rdfs:label>
+        <rdfs:label>calcium salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26217"/>
+        <rdfs:label xml:lang="de">Kalium</rdfs:label>
+        <rdfs:label xml:lang="en">elemental potassium</rdfs:label>
     </owl:Class>
     
 
@@ -164,6 +228,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>The most prevalent of nonprotein nitrogenous compounds circulating in the blood used as an indicator of liver and kidney function.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C1753</obo:IAO_0000412>
+        <rdfs:comment>blood urea nitrogen</rdfs:comment>
+        <rdfs:label>Harnstoff N</rdfs:label>
+        <rdfs:label>urea nitrogen</rdfs:label>
+    </owl:Class>
     
 
 
