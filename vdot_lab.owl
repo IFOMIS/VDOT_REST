@@ -68,6 +68,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <oboInOwl:hasSynonym xml:lang="en">Triacylglycerol</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Triglyzerid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Triglyzeride</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">triglyceride</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22985">
@@ -126,6 +138,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26020"/>
+        <obo:IAO_0000115 xml:lang="en">Any phosphate that contains no carbon atom.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">Phosphat (anorg.)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">inorganic phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:label>magnesium molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26079"/>
+        <obo:IAO_0000115 xml:lang="en">Salts and esters of phosphoric and oligophosphoric acids and their chalcogen analogues. In inorganic chemistry, the term is also used to describe anionic coordination entities with phosphorus as central atom.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36359"/>
+        <rdfs:label xml:lang="de">phosphoric acid derivative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <rdfs:label xml:lang="de">phosphorus molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26217">
@@ -160,6 +222,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33302">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <obo:IAO_0000115 xml:lang="de">A p-block molecular entity containing any pnictogen.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">pnictogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
@@ -167,6 +240,24 @@
         <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <rdfs:label>s-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25108"/>
+        <rdfs:label>elemental magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33975">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25108"/>
+        <rdfs:label>magnesium salt</rdfs:label>
     </owl:Class>
     
 
@@ -192,6 +283,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36360"/>
+        <rdfs:label xml:lang="de">phosphorus oxoacid derivative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26082"/>
+        <rdfs:label xml:lang="de">phosphorus oxoacids and derivatives</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37247">
@@ -207,6 +316,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <rdfs:label xml:lang="en">ferritin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115>A measure of the average volume or size of a single red blood cell. It is derived by dividing the total volume of packed red blood cells by the total red blood cell count.</obo:IAO_0000115>
+        <obo:IAO_0000119>CMO</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>MCV</oboInOwl:hasSynonym>
+        <rdfs:label>mean corpuscular volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115>The amount of hemoglobin in a given volume of packed red blood cells and is often calculated by dividing the hemoglobin concentration by the hematocrit.</obo:IAO_0000115>
+        <obo:IAO_0000119>CMO</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>MCHC</oboInOwl:hasSynonym>
+        <rdfs:label>mean corpuscular hemoglobin concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002003"/>
+        <obo:IAO_0000115>Measurement of the average size of the three dimensional space occupied by a blood platelet, a minute, irregularly shaped, disklike, non-nucleated cytoplasmic body found in blood that functions to promote blood clotting.</obo:IAO_0000115>
+        <obo:IAO_0000119>CMO</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>MPV</oboInOwl:hasSynonym>
+        <rdfs:label>mean platelet volume</rdfs:label>
     </owl:Class>
     
 
@@ -258,6 +403,112 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000008725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human HP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000119>PR</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>HP</oboInOwl:hasSynonym>
+        <rdfs:label>haptoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P00738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000008725"/>
+        <obo:IAO_0000115>A haptoglobin that is encoded in the genome of human.</obo:IAO_0000115>
+        <obo:IAO_0000119>PR</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>hHP</oboInOwl:hasSynonym>
+        <rdfs:label>human haptoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P00738-1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00738-1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P00738"/>
+        <obo:IAO_0000115>A haptoglobin (human) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P00738-1.</obo:IAO_0000115>
+        <obo:IAO_0000119>PR</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>hHP/iso:h1</oboInOwl:hasSynonym>
+        <rdfs:label>haptoglobin isoform h1 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P00738-2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00738-2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P00738"/>
+        <obo:IAO_0000115>A haptoglobin (human) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P00738-2.</obo:IAO_0000115>
+        <obo:IAO_0000119>PR</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>hHP/iso:h2</oboInOwl:hasSynonym>
+        <rdfs:label>haptoglobin isoform h2 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma0326116 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma0326116">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000006"/>
+        <rdfs:label>orthochromic normoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma66785 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma66785">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845"/>
+        <oboInOwl:hasSynonym xml:lang="en">Polychromatophilic erythrocyte</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Retikulozyt</rdfs:label>
+        <rdfs:label xml:lang="en">reticulocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma83504 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma83504">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma83516"/>
+        <rdfs:label>erythroblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma83506 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma83506">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000006"/>
+        <oboInOwl:hasSynonym>Eosinophilic normoblast</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Intermediate normoblast</oboInOwl:hasSynonym>
+        <rdfs:label>polychromatophilic erythroblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma83516 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma83516">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma83598"/>
+        <rdfs:label>erythropoietic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma83598 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma83598">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70336"/>
+        <rdfs:label>hematopoietic cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#C28133 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C28133">
@@ -305,6 +556,20 @@
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C13126 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C13126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62851"/>
+        <obo:IAO_0000115>A young platelet that contains residual mRNA and rRNA when released from the bone marrow into the peripheral circulation as a result of thrombopoiesis. Immature platelets normally make up a small percentage of the total circulating platelets (1.1-6.1%, with a mean of 3.4%.). An increased proportion of immature platelets in blood indicates increased thrombopoiesis. The relationship between the percent of immature platelets and the platelet count can be used to determine the rate of platelet turnover.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13126</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IP</oboInOwl:hasSynonym>
+        <rdfs:comment>IPF is immature platelet fraction.</rdfs:comment>
+        <rdfs:label>immature platelet</rdfs:label>
     </owl:Class>
     
 
@@ -763,6 +1028,7 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
+        <rdfs:comment xml:lang="de">microscopic count for example</rdfs:comment>
         <rdfs:label>manual blood cell count</rdfs:label>
     </owl:Class>
     
@@ -774,6 +1040,41 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
         <oboInOwl:hasSynonym xml:lang="en">hbdh</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">hydroxybutyrate dehydrogenase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000006 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma83504"/>
+        <obo:IAO_0000115 xml:lang="de">Als Normoblasten werden zwei Zellformen zusammengefasst, denen ein relativ kondenser, runder Kern und homogen graurosa wirkendes Zytoplasma gemein sind. Die noch teilungsfähige unreife Zelle mit graublaustichigem Zytoplasma wird heute als polychromatischer und die teilungsunfähige, stärker hämoglobinhaltige Form mit schon beginnender Rosafärbung des Zytoplasma als orthochromatischer Erythroblast bezeichnet. In dieser letzten Form kondensiert der Kern bis zu einem kleinen, schwarzen und strukturlosen Kügelchen, das schließlich ausgestoßen wird. Der nun kernlose junge Erythrozyt ist reich an Ribosomen, die sich durch Spezialfärbungen zu netzartigen Gebilden (Substantia reticulo-filamentosa) ausfällen lassen, dem Retikulozyt.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Erythropoese</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Normoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000007 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115 xml:lang="de">Der Parameter RET-He oder Retikulozyten-Hämoglobin-Äquivalent gibt den Hämoglobingehalt der Retikulozyten an.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">IFOMIS</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">RET-He</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">reticulocyte haemoglobin equivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000008 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115 xml:lang="de">RET-He liefert Informationen zu hypo- und hyperchromen Erythrozytenpopulationen und Fragmentozyten und errechnet automatisch den Retikulozytenproduktionsindex (RPI).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://www.sysmex.ch/produkte/diagnostik/haematologie/analysensysteme/xn-l-serie/xn-l-klinischer-nutzen.html</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">RPI</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Retikulozytenproduktionsindex (sysmex)</rdfs:label>
     </owl:Class>
     
 
