@@ -1797,11 +1797,29 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000058">
         <rdfs:label xml:lang="en">is concretized as</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000085">
+        <rdfs:label>has function at some time</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000087">
         <rdfs:label>has role</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000111">
         <rdfs:label>has proper continuant part at all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000113">
+        <rdfs:label>has material basis at all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000117">
+        <rdfs:label>has occurrent part</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000118">
+        <rdfs:label>has proper occurrent part</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000136">
+        <rdfs:label>proper temporal part of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000138">
+        <rdfs:label>proper part of occurrent</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
         <rdfs:label xml:lang="de">Kohlenstoffhydrat</rdfs:label>
