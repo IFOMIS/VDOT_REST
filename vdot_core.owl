@@ -480,6 +480,16 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.org/sig/ont/fma/fma0326142 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma0326142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63368"/>
+        <rdfs:label>somatic stem cell</rdfs:label>
+        <rdfs:label xml:lang="de">somatische Stammzelle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/sig/ont/fma/fma0326453 -->
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma0326453">
