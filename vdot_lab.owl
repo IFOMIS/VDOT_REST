@@ -403,6 +403,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000105 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000105">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000008725 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008725">
@@ -528,10 +541,36 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C4981 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C4981">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
         <oboInOwl:hasSynonym xml:lang="de">Lymph</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
