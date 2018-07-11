@@ -29,6 +29,19 @@
     
 
 
+    <!-- C127617 -->
+
+    <owl:Class rdf:about="C127617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115>A measurement of the hemoglobin external to erythrocytes in a biological specimen.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C127617</obo:IAO_0000412>
+        <rdfs:label>Anteil freies Hämoglobin</rdfs:label>
+        <rdfs:label>free hemoglobin measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
