@@ -198,6 +198,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000025">
+        <oboInOwl:hasSynonym>pg</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000104">
         <rdfs:label>fl</rdfs:label>
     </rdf:Description>
