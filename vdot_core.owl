@@ -480,6 +480,58 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.org/sig/ont/fma/fma0326453 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma0326453">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma86475"/>
+        <rdfs:label xml:lang="en">Bone marrow-derived hemopoietic stem cell</rdfs:label>
+        <rdfs:label xml:lang="de">blutbildende Stammzelle aus Knochenmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma84789 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma84789">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63368"/>
+        <oboInOwl:hasSynonym></oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">multipotente Stammzelle</oboInOwl:hasSynonym>
+        <rdfs:label>multipotent stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma86474 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma86474">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma84789"/>
+        <rdfs:label xml:lang="de">Knochenmarkstammzelle</rdfs:label>
+        <rdfs:label xml:lang="en">bone marrow stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma86475 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma86475">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma84789"/>
+        <oboInOwl:hasSynonym xml:lang="en">blood-forming stem cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">blutbildende Stammzelle</rdfs:label>
+        <rdfs:label xml:lang="en">hemopoietic stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sig/ont/fma/fma86711 -->
+
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma86711">
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma84789"/>
+        <rdfs:label xml:lang="de">Blutstammzelle</rdfs:label>
+        <rdfs:label xml:lang="en">Peripheral blood stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/hdot/HDOT_CORE_0042 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_0042">
