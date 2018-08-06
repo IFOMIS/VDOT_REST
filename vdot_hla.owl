@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_lab.owl#"
+     xml:base="http://www.ifomis.org/vdot/vdot_lab.owl"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl">
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+        <dc:title>vdot_hla</dc:title>
+        <rdfs:comment>vdot_hla ist eine VDOT-Erweiterung für MHC/HLA Parameter</rdfs:comment>
+        <rdfs:comment>vdot_hla is an extension of vdot for MHC/HLA information</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
+        <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
+        <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
+        <rdfs:label>cholesterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="de">A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">S-Kreatinin</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">S-Kreatinin refers here to serum-creatinine.</rdfs:comment>
+        <rdfs:label xml:lang="de">Kreatinin</rdfs:label>
+        <rdfs:label>creatinine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
+        <rdfs:label>bilirubin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
+        <oboInOwl:hasSynonym>Chlorid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
+        <rdfs:label>chloride salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24471"/>
+        <rdfs:label>chlorine molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001555"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24471">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <rdfs:label>halogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <rdfs:label>s-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
+        <rdfs:label>elemental calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label xml:lang="en">ferritin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000747 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000115>A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000001</obo:IAO_0000412>
+        <rdfs:label>sequence region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115>Any extent of continuous biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000110</obo:IAO_0000412>
+        <rdfs:label>sequence feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <obo:IAO_0000115>A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&apos; and/or the 3&apos; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000233</obo:IAO_0000412>
+        <rdfs:label>mature transcript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115>A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000370</obo:IAO_0000412>
+        <rdfs:label>small regulatory ncRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <obo:IAO_0000115>An RNA synthesized on a DNA or RNA template by an RNA polymerase. [database_cross_reference: SO:ma]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <rdfs:label>transcript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000704</obo:IAO_0000412>
+        <rdfs:label>gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>A region of a gene. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <rdfs:comment>A manufactured term used to allow the parts of a gene to have an is_a path to the root.</rdfs:comment>
+        <rdfs:label>gene member region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>protein_coding_gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SO_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <obo:IAO_0000115>An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product. [database_cross_reference: SO:ke]</obo:IAO_0000115>
+        <obo:IAO_0000119>SO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/SO_0000655</obo:IAO_0000412>
+        <rdfs:label>ncRNA feature</rdfs:label>
+        <rdfs:label>noncoding RNA feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003790 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003790</obo:IAO_0000412>
+        <rdfs:label>hybridization protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003815 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003815">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003790"/>
+        <obo:IAO_0000115>A protocol describing the hybridisation of the target nucleic acid sample to a fixed probe on the array.</obo:IAO_0000115>
+        <obo:IAO_0000119>EFO</obo:IAO_0000119>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/EFO_0003815</obo:IAO_0000412>
+        <rdfs:label>nucleic acid hybridization to array protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C28133 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C28133">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#fma62863 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
+        <oboInOwl:hasSynonym xml:lang="de">Lymph</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:label xml:lang="de">Datum der Probeneinreichung</rdfs:label>
+        <rdfs:label xml:lang="en">sample submission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+        <rdfs:label>sample title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>protein coding gene of homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, A-1 alpha chain|MHC class I antigen HLA-A heavy chain|antigen presenting molecule|leukocyte antigen class I-A</obo:IAO_0000115>
+        <rdfs:label>HLA-A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002"/>
+        <rdfs:label>HLA-A female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000004">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002"/>
+        <rdfs:label>HLA-A male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, B alpha chain|MHC Class I HLA heavy chain|MHC HLA-B cell surface glycoprotein|MHC HLA-B transmembrane glycoprotein|MHC class I antigen GN00104|MHC class I antigen HLA-B heavy chain|MHC class I antigen SHCHA|leukocyte antigen class I-B|lymphocyte antigen</obo:IAO_0000115>
+        <rdfs:label>HLA-B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000006 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000006">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005"/>
+        <rdfs:label>HLA-B female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000007 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000007">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005"/>
+        <rdfs:label>HLA-B male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, C alpha chain|HLA class I histocompatibility antigen, Cw-1 alpha chain|MHC class I antigen heavy chain HLA-C|human leukocyte antigen-C alpha chain|major histocompatibility antigen HLA-C</obo:IAO_0000115>
+        <rdfs:label>HLA-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000009 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000009">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008"/>
+        <rdfs:label>HLA-C female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000010">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008"/>
+        <rdfs:label>HLA-C male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001"/>
+        <rdfs:label>HLA-DRB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000012">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011"/>
+        <rdfs:label>HLA-DRB1 female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000013">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011"/>
+        <rdfs:label>HLA-DRB1 male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class II histocompatibility antigen, DQ beta 1 chain|MHC DQ beta|MHC class II DQ beta chain|MHC class II HLA-DQ beta glycoprotein|MHC class II antigen DQB1|MHC class II antigen HLA-DQ-beta-1|MHC class2 antigen|lymphocyte antigen</obo:IAO_0000115>
+        <rdfs:label>HLA-DQB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014"/>
+        <rdfs:label>HLA-DQB1 female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014"/>
+        <rdfs:label>HLA-DQB1 male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000017">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C68707"/>
+        <rdfs:label>PCR-SSP hla matching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12537 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <oboInOwl:hasSynonym>CD4+ T Lymphocytes</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T4 Cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">CD4-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12542 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12542">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16276 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16276">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16981"/>
+        <obo:IAO_0000115>An enzyme that catalyses the cleavage of inorganic phosphate non-specifically from a wide variety of phosphate esters and having a high (greater than 8) pH optimum.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16276</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ALKP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>ALP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>AP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Alk Phos</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>AlkPhos</oboInOwl:hasSynonym>
+        <rdfs:label>alkaline phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16554 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>Molecules that catalyze a chemical reaction. They are usually proteins, although catalytic RNA and DNA molecules have been identified.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16554</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Enzym</rdfs:label>
+        <rdfs:label xml:lang="en">enzyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16561 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16561">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16701"/>
+        <obo:IAO_0000115>Encoded by Esterase Genes, Esterases catalyze hydrolysis of ester bonds to produce alcohol and acid reaction products.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Ester Hydrolase</oboInOwl:hasSynonym>
+        <rdfs:label>EC 3.1</rdfs:label>
+        <rdfs:label>esterase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16701 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16701">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115>Enzymes (EC class 3) cleaving substrates with addition of H2O at the point of cleavage; e.g., esterases, phosphatases, nucleases, peptidases. SYN hydrolyzing enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16701</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 3</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Hydrolases</oboInOwl:hasSynonym>
+        <rdfs:label>hydrolase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16725 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>A protein whose activities affect or play a role in immune system functions.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
+        <rdfs:label>immunoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16981 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16981">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16561"/>
+        <obo:IAO_0000115>A class of enzymes that catalyze the removal of phosphate groups from their substrates.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16981</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 3.1.3.-</oboInOwl:hasSynonym>
+        <rdfs:label>phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C17210 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C17210">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115>Transferases are enzymes transferring a group, for example, the methyl group or a glycosyl group, from one compound (generally regarded as donor) to another compound (generally regarded as acceptor). The classification is based on the scheme &quot;donor: acceptor group transferase&quot;. (EC 2 class)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>EC 2</oboInOwl:hasSynonym>
+        <rdfs:label>transferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072</obo:IAO_0000412>
+        <rdfs:label>enzyme inhibitor protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C214 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C214">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0059"/>
+        <obo:IAO_0000115>A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands. Albumin is the main protein in blood plasma. Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C214</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>alb</oboInOwl:hasSynonym>
+        <rdfs:label>albumin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
+        <obo:IAO_0000115>Transaminases are a sub-subclass of mostly pyridoxal phosphate-dependent transferase enzymes that catalyze the transfer of an amino group from a donor (generally an amino acid) to an acceptor (generally a 2-keto acid). Mediating conversion of major intermediate metabolites and reversible transamination, Transaminases are often involved in cellular nitrogen metabolism, amino acid metabolism, gluconeogenesis and in the urea and tricarboxylic acid cycles.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21489</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Aminotransferase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>EC 2.6.1</oboInOwl:hasSynonym>
+        <rdfs:label>transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25184 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25184">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115 xml:lang="de">A family of homotetrameric cytoplasmic enzymes involved in the conversion of L-lactate and NAD to pyruvate and NADH in the final step of anaerobic glycolysis. In vertebrates, genes for three different subunits (LDH-A, LDH-B and LDH-C) exist.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">NCIT</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">EC 1.1.1.27</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">L-(+)-Lactate Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">L-Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">LDH</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">NAD-Lactate Dehydrogenase</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">lactic acid dehydrogenase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25202 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25202">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <obo:IAO_0000115>Activity measured as a test of liver function, 46/47-kDa homodimeric human Aspartate Aminotransferases (Class-I Pyridoxal-Phosphate-Dependent Aminotransferase Family) are pyridoxal phosphate-dependent enzymes involved in amino acid metabolism and in the urea and tricarboxylic acid cycles. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25202</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>AST</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGOT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGOT (AST)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>serum glutamic-oxaloacetic transaminase</oboInOwl:hasSynonym>
+        <rdfs:label>aspartate transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25293 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25293">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <obo:IAO_0000115>Activity measured as a test of liver function, human Glutamic-Pyruvate Transaminases (Alanine Aminotransferase Family) are pyridoxal phosphate-dependent enzymes involved in cellular nitrogen metabolism, amino acid metabolism, and liver gluconeogenesis. Glutamic Pyruvic Transaminases mediate conversion of major intermediate metabolites, catalyzing reversible transamination between alanine and alpha-ketoglutarate to form pyruvate and glutamate. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25293</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ALT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGPT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>SGPT (ALT)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>serum glutamate pyruvate transaminase</oboInOwl:hasSynonym>
+        <rdfs:label>alanine transferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C37937 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C37937">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C73539"/>
+        <obo:IAO_0000115>An endogenous amino acid derivative produced by vertebrate animals and occurring primarily in muscle cells. Creatine is important for energy storage; it is phosphorylated to creatine phosphate, which serves as a phosphate donor in the conversion of ADP to ATP and supplies energy necessary for muscle contraction. Dietary supplementation with creatine may improve muscle wasting associated with cancer and other chronic diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C37937</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="de">Krea</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Kreatin</oboInOwl:hasSynonym>
+        <rdfs:label>creatine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C37959 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C37959">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
+        <obo:IAO_0000115>GGT participates in the transfer of amino acids across the cellular membrane and in glutathione metabolism. High concentrations are found in the liver, bile ducts, and the kidney. A test that measures the amount of GGT in the blood is used to detect diseases of the liver, bile ducts, and kidney; and to differentiate liver or bile duct (hepatobiliary) disorders from bone disease. [def-source: NCI][attr: from http://health.allrefer.com]</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/NCIT_C37959</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>EC 2.3.2.2</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GGT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Gamma-GT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Gamma-Glutamyltransferase</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>g-GT</oboInOwl:hasSynonym>
+        <rdfs:label>gamma-glutamyl transpeptidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C565 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C565">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>IgA is the immunoglobulin subclass that is associated with antibody-mediated mucosal immunity. It is secreted as dimers into the mucosa and is the most effective isotype at fixing complement by the alternative pathway, even though it lacks the ability to fix complement by the classical pathway. There are two subtypes in the human - IgA1 and IgA2.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C565</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgA</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Immunoglobulin A</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C567 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C567">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>An immunoglobulin isotype (subclass). This isotype has the unique ability to bind with high affinity to IgE receptors (FceRI) on mast cells and basophils and induce degranulation and cytokine production by these cells when they are crosslinked by antigen. In addition to a central role in atopy and allergic responses, it has been speculated that IgE-mediated mast cell degranulation, by its release of mediators that increase vascular permeability, has an important role in the initiation of immune response in general.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C567</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgE</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C568 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C568">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>An immunoglobulin isotype (subclass) that characterizes secondary immune responses. This isotype is further broken down into several smaller subclasses (IgG1, IgG2a, IgG2b, IgG3 in the mouse; IgG1-4 in the human), and each subclass is differentially synthesized and secreted into the serum upon differential immune stimuli.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgG</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C569 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C569">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
+        <obo:IAO_0000115>The major immunoglobulin secreted during a primary immune response. IgM binds with low affinity but high avidity (multiple binding sites) because it not only occurs as monomers but also as pentamers and hexamers.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C572 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
+        <obo:IAO_0000115>Any of the structurally related glycoproteins that function as antibodies. They are divided into five classes (IGA, IGD, IGE, IGG, IGM) on the basis of structure and biological activity.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C572</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Ig</oboInOwl:hasSynonym>
+        <rdfs:label>immunoglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C60651 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C60651">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
+        <obo:IAO_0000115>C-reactive protein (224 aa, ; 25 kDa) is encoded by the human CRP gene. This protein is cleaved during biological activation and is associated with host defense mechanisms and inflammatory responses.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C60651</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>CRP</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Pentraxin 1</oboInOwl:hasSynonym>
+        <rdfs:label>C-reactive protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C68707 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C68707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A process in which blood or tissue samples are analyzed to determine their human leukocyte antigen (HLA) profiles so that transplant materials can be transfered into a patient with the same or similar profile.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>HLA Compatibility Testing</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Human Leukocyte Antigen Matching</oboInOwl:hasSynonym>
+        <rdfs:label>hla matching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C73539 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C73539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+        <obo:IAO_0000115>Any derivatives of amino acids that containing amino (-NH2) and carboxyl (-COOH) groups.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C73539</obo:IAO_0000412>
+        <rdfs:label>amino acid derivative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
+        <oboInOwl:hasSynonym>Cys C</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>CysC</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Neuroendocrine Basic Polypeptide</oboInOwl:hasSynonym>
+        <rdfs:label>cystatin-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C90505 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C90505">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <obo:IAO_0000115>A kidney function test that measures the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C90505</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>GFR</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Glomerular Filtration Rate Test</rdfs:label>
+        <rdfs:label>glomerular filtration rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62845 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_81105"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/FMA_62845</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ERY</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">Erythrozyten</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Erythrozyt</rdfs:label>
+        <rdfs:label>erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62869 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62869">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
+        <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62870 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <rdfs:label>T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma63147 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma63147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/FMA_63147</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="de">NK cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">natural killer cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma70572 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870"/>
+        <oboInOwl:hasSynonym>Helper T-lymphocyte</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>T-Helferzellen</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="de">T-Lymphozyten</oboInOwl:hasSynonym>
+        <rdfs:label>T-helper lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma84382 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572"/>
+        <rdfs:label xml:lang="de">T-helper cell type 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C90505"/>
+        <obo:IAO_0000115>GFR – calculated according to CKD-EPI-formular.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:label>GFR (CKD-EPI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C90505"/>
+        <obo:IAO_0000115>GFR with Cystatin C measurement. 
+Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten Jahren zunehmend an Akzeptanz gewonnen hat. Mittels Cystatin C kann man die GFR mit oder ohne begleitendem Serumkreatinin messen</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:label>GFR Cys (CKD-EPI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
+        <rdfs:label>machine blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C28133"/>
+        <rdfs:label>manual blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <oboInOwl:hasSynonym xml:lang="en">hbdh</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hydroxybutyrate dehydrogenase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/http://purl.obolibrary.org/obo/CHEBI_33697">
+        <rdfs:label>ribonucleic acid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35143">
+        <oboInOwl:hasSynonym>Hb</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
+        <oboInOwl:hasSynonym>EOS</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
+        <oboInOwl:hasSynonym>BASO</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
+        <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
