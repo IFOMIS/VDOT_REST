@@ -346,8 +346,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00018">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
-        <rdfs:comment xml:lang="en">laboratory entry date</rdfs:comment>
         <rdfs:label xml:lang="de">Laboreingangsdatum</rdfs:label>
+        <rdfs:label xml:lang="en">laboratory entry date</rdfs:label>
     </owl:Class>
     
 
@@ -420,7 +420,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">HLA-Datensatz</rdfs:label>
+        <rdfs:comment xml:lang="en">HLA-data set</rdfs:comment>
+        <rdfs:label>HLA-Datensatz</rdfs:label>
     </owl:Class>
     
 
@@ -429,7 +430,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label xml:lang="de">Fieberkurve-Datensatz</rdfs:label>
+        <rdfs:label>Fieberkurve-Datensatz</rdfs:label>
     </owl:Class>
     
 
@@ -451,7 +452,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Klinische Chemie Datensatz</rdfs:label>
+        <rdfs:comment xml:lang="en">clinical chemistry data set</rdfs:comment>
+        <rdfs:label>Klinische Chemie Datensatz</rdfs:label>
     </owl:Class>
     
 
@@ -471,7 +473,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label xml:lang="de">Befund-Datensatz</rdfs:label>
+        <rdfs:label>Befund-Datensatz</rdfs:label>
     </owl:Class>
     
 
