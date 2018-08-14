@@ -1183,8 +1183,8 @@ Complete Blood Count</oboInOwl:hasSynonym>
         <obo:IAO_0000115>A blood group indicating the presence on erythrocytes of only the A form of the H Antigen.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C76246</obo:IAO_0000412>
-        <rdfs:label>Blutgruppe A</rdfs:label>
-        <rdfs:label>blood group A</rdfs:label>
+        <rdfs:label xml:lang="de">Blutgruppe A</rdfs:label>
+        <rdfs:label xml:lang="en">blood group A</rdfs:label>
     </owl:Class>
     
 
