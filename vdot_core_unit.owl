@@ -226,8 +226,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000301">
         <rdfs:label>microgram/l</rdfs:label>
+        <oboInOwl:hasSynonym>µg/l</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000316">
+        <oboInOwl:hasSynonym>1/µl</oboInOwl:hasSynonym>
         <rdfs:label>n/microliter</rdfs:label>
         <oboInOwl:hasSynonym>1/microliter</oboInOwl:hasSynonym>
     </rdf:Description>
