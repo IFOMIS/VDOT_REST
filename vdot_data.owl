@@ -382,7 +382,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label>Bild-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="de">Bild-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">image data set</rdfs:label>
     </owl:Class>
     
 
@@ -420,8 +421,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">HLA-data set</rdfs:comment>
-        <rdfs:label>HLA-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="de">HLA-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">HLA-data set</rdfs:label>
     </owl:Class>
     
 
@@ -430,7 +431,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label>Fieberkurve-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="de">Fieberkurve-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">temperature curve data set</rdfs:label>
     </owl:Class>
     
 
@@ -452,8 +454,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">clinical chemistry data set</rdfs:comment>
-        <rdfs:label>Klinische Chemie Datensatz</rdfs:label>
+        <rdfs:label xml:lang="de">Klinische Chemie-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">clinical chemistry data set</rdfs:label>
     </owl:Class>
     
 
@@ -462,9 +464,9 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:comment>Diese Art von Datenstz kann auch nur Informationen über verordnete Wirkstoffe enthalten.</rdfs:comment>
-        <rdfs:label xml:lang="de">Medikamentendatensatz</rdfs:label>
-        <rdfs:label xml:lang="en">medication data</rdfs:label>
+        <rdfs:comment>Diese Art von Datensstz kann auch nur Informationen über verordnete Wirkstoffe enthalten.</rdfs:comment>
+        <rdfs:label xml:lang="de">Medikamente-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">medication data set</rdfs:label>
     </owl:Class>
     
 
@@ -473,7 +475,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label>Befund-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="de">Befund-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">clinical findings data set</rdfs:label>
     </owl:Class>
     
 
@@ -482,7 +485,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label>miRNA-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">miRNA data set</rdfs:label>
+        <rdfs:label xml:lang="de">miRNA-Datensatz</rdfs:label>
     </owl:Class>
     
 
