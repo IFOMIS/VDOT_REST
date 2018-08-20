@@ -665,6 +665,8 @@ release date 28/02/2017</owl:versionInfo>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="de">Als Patient bzw. Patientin (aus lateinisch patiens, deutsch ‚geduldig‘, ‚aushaltend‘, ‚ertragend‘, adjektivisches 1. Partizip von pati, deutsch ‚erdulden‘, ‚leiden‘ wird ein Mensch bezeichnet, der ärztliche Dienstleistungen oder Dienstleistungen anderer Personen, die eine Heilbehandlung durchführen, in Anspruch nimmt. Dabei kann es sich um die Vorbeugung, Feststellung oder medizinische Behandlung von Krankheiten oder Folgen eines Unfalls handeln.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Patient</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -1495,6 +1497,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Organ donor is a person who allows an organ of theirs to be removed, legally, either by consent while the donor is alive or after death with the assent of the next of kin.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Spender</rdfs:label>
         <rdfs:label xml:lang="en">donor</rdfs:label>
     </owl:Class>
