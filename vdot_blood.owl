@@ -39,6 +39,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_81105"/>
+        <obo:IAO_0000115 xml:lang="en">Platelets, also called thrombocytes (from Greek θρόμβος, &quot;clot&quot; and κύτος, &quot;cell&quot;), are a component of blood whose function (along with the coagulation factors) is to react to bleeding from blood vessel injury by clumping, thereby initiating a blood clot. Platelets have no cell nucleus: they are fragments of cytoplasm that are derived from the megakaryocytes[2] of the bone marrow, and then enter the circulation. Circulating unactivated platelets are biconvex discoid (lens-shaped) structures, 2–3 µm in greatest diameter. Platelets are found only in mammals, whereas in other animals (e.g. birds, amphibians) thrombocytes circulate as intact mononuclear cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Platelet</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">Thrombozyten</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">blood platelet</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">thrombocyte</oboInOwl:hasSynonym>
@@ -161,6 +163,8 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Neutrophile Granulozyten, auch kurz Neutrophile genannt, sind spezialisierte Immunzellen der Wirbeltiere. Beim Menschen sind sie mit einem Anteil von 50–65 % die häufigsten weißen Blutkörperchen (Leukozyten). Sie sind Teil der angeborenen Immunabwehr und dienen der Identifizierung und Zerstörung von Mikroorganismen. Der Name nimmt auf die gute Anfärbbarkeit mit neutralen Farbstoffen Bezug („neutral liebend“) und ist eine Abgrenzung zu Eosinophilen und Basophilen Granulozyten.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Neutrophiler_Granulozyt</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62860</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Heterophile leucocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neutrophil leucocyte</oboInOwl:hasSynonym>
@@ -180,6 +184,8 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Eosinophile Granulozyten – kurz auch Eosinophile oder &quot;EOS&quot; genannt – gehören zu den Leukozyten. Sie machen etwa 1–5 % der Leukozyten im Differentialblutbild aus und sind an der zellulären Immunabwehr beteiligt. Ihren Namen beziehen sie vom Farbstoff Eosin, mit dem sie angefärbt werden können.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Eosinophiler_Granulozyt</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62861</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Eosinophil leukocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">Eosinophile</oboInOwl:hasSynonym>
@@ -194,6 +200,8 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Basophile Granulozyten sind eine Population von Leukozyten (weißen Blutkörperchen) im Blut. Sie besitzen intrazelluläre Granula, die unter anderem Histamin, Serotonin und Heparin enthalten.[1] Im Differentialblutbild machen sie einen geringen Anteil von 0–1 % aus.[2] Wachstumsfaktoren für die Basophilen sind unter anderem Interleukin-3, Interleukin-5 und GM-CSF. Es gibt Hinweise für eine wechselseitige Kontrolle bei der Reifung zwischen Basophilen und Eosinophilen. Beispielsweise unterdrückt TGF-beta (ein transformierender Wachstumsfaktor) in Gegenwart von Interleukin-3 die Differenzierung von Eosinophilen und fördert die der Basophilen. Sie besitzen einen Rezeptor für Immunglobulin E (IgE), weshalb man annimmt, dass sie eine Rolle bei der Immunabwehr des Wirts gegen Parasiten spielen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Basophiler_Granulozyt</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62862</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Basophil granulocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Basophil leukocyte</oboInOwl:hasSynonym>
@@ -249,11 +257,27 @@ COMe:PRX000257</rdfs:comment>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33694">
         <oboInOwl:hasSynonym>biological macromolecule</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
+        <obo:IAO_0000115 xml:lang="de">Leukozyten (Einzahl der Leukozyt, von altgriechisch λευκός leukós, deutsch ‚weiß‘ sowie altgriechisch κύτος kýtos, deutsch ‚Höhlung, Gefäß, Hülle‘[1]) oder weiße Blutzellen (veraltet -körperchen) sind im Blut, im Knochenmark, in den lymphatischen Organen und anderen Körpergeweben der Wirbeltiere zu finden.[2] Im Gegensatz zu den Erythrozyten (roten Blutzellen) enthalten Leukozyten nicht den roten Farbstoff Hämoglobin.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Leukozyt</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_63368">
+        <obo:IAO_0000115 xml:lang="en">Stem cells are biological cells that can differentiate into other types of cells and can divide to produce more of the same type of stem cells. They are found in multicellular organisms.
+
+In mammals, there are two broad types of stem cells: embryonic stem cells, which are isolated from the inner cell mass of blastocysts, and adult stem cells, which are found in various tissues. In adult organisms, stem cells and progenitor cells act as a repair system for the body, replenishing adult tissues. In a developing embryo, stem cells can differentiate into all the specialized cells—ectoderm, endoderm and mesoderm (see induced pluripotent stem cells)—but also maintain the normal turnover of regenerative organs, such as blood, skin, or intestinal tissues.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Stem_cell</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0001">
         <oboInOwl:hasSynonym xml:lang="de">Blut</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">blood</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
+        <obo:IAO_0000115 xml:lang="de">Lymphozyten sind zelluläre Bestandteile des Blutes. Sie umfassen die B-Zellen, T-Zellen und die natürlichen Killerzellen und gehören zu den sogenannten „weißen Blutkörperchen“ (Leukozyten). Bei Erwachsenen stellen die Lymphozyten etwa 25 bis 40 Prozent[1] der Leukozyten im peripheren Blut, also außerhalb der blutbildenden Organe, dar.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Lymphozyt</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
+        <obo:IAO_0000115 xml:lang="de">Monozyten, auch Monocyten (von altgriechisch μόνος monos, deutsch ‚allein, einzig‘ und altgriechisch κύτος cýtos, deutsch ‚Höhlung, Gefäß, Hülle‘), sind im Blut zirkulierende Zellen des Immunsystems und die Vorläufer der u. a. in den Geweben lokalisierten Makrophagen sowie eines Teils der Dendritischen Zellen. Ihre Aufgabe ist die Zerstörung körperfremder Strukturen durch Phagozytose und die Aktivierung der erworbenen Immunabwehr mittels Antigenpräsentation. Der wichtigste Speicherort für Monozyten ist die Milz. Die Monozyten gehören sowohl zum spezifischen als auch zum unspezifischen Abwehrsystem.[1] Zirkulierende Monozyten haben eine Lebensdauer von 1 bis 3 Tagen, bevor sie ausdifferenzieren und in die Gewebe einwandern. Dort leben sie als Makrophagen für mehrere Wochen bis Monate weiter.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Monozyt</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">Monozyten</oboInOwl:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
