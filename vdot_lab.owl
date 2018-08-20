@@ -477,6 +477,8 @@
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma66785">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845"/>
+        <obo:IAO_0000115 xml:lang="en">Reticulocytes are immature red blood cells, typically composing about 1% of the red blood cells in the human body. In the process of erythropoiesis (red blood cell formation), reticulocytes develop and mature in the bone marrow and then circulate for about a day in the blood stream before developing into mature red blood cells. Like mature red blood cells, in mammals reticulocytes do not have a cell nucleus. They are called reticulocytes because of a reticular (mesh-like) network of ribosomal RNA that becomes visible under a microscope with certain stains such as new methylene blue and Romanowsky stain.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Reticulocyte</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">Polychromatophilic erythrocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Retikulozyt</rdfs:label>
         <rdfs:label xml:lang="en">reticulocyte</rdfs:label>
@@ -1007,6 +1009,9 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <obo:IAO_0000115 xml:lang="de">T-Lymphozyten oder kurz T-Zellen bilden eine Gruppe von weißen Blutzellen, die der Immunabwehr dient. T-Lymphozyten stellen gemeinsam mit den B-Lymphozyten die erworbene (adaptive) Immunantwort dar. Das T im Namen steht für den Thymus, in dem die Zellen ausreifen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/T-Lymphozyt</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">T-Lymphozyt</rdfs:label>
         <rdfs:label>T-lymphocyte</rdfs:label>
     </owl:Class>
     
@@ -1150,6 +1155,10 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
         <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
+        <obo:IAO_0000115 xml:lang="de">Alter eines Patienten am Tag der Stammzellentransplantation.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">IFOMIS</obo:IAO_0000119>
     </rdf:Description>
 </rdf:RDF>
 
