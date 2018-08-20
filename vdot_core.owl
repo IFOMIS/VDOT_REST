@@ -665,8 +665,9 @@ release date 28/02/2017</owl:versionInfo>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="de">Als Patient bzw. Patientin (aus lateinisch patiens, deutsch ‚geduldig‘, ‚aushaltend‘, ‚ertragend‘, adjektivisches 1. Partizip von pati, deutsch ‚erdulden‘, ‚leiden‘ wird ein Mensch bezeichnet, der ärztliche Dienstleistungen oder Dienstleistungen anderer Personen, die eine Heilbehandlung durchführen, in Anspruch nimmt. Dabei kann es sich um die Vorbeugung, Feststellung oder medizinische Behandlung von Krankheiten oder Folgen eines Unfalls handeln.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Patient</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A patient is any recipient of health care services. The patient is most often ill or injured and in need of treatment by a physician, advanced practice registered nurse, physiotherapist, physician assistant, psychologist, dentist, podiatrist, veterinarian, or other health care provider.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/patient</obo:IAO_0000119>
+        <rdfs:comment xml:lang="de">Als Patient bzw. Patientin (aus lateinisch patiens, deutsch ‚geduldig‘, ‚aushaltend‘, ‚ertragend‘, adjektivisches 1. Partizip von pati, deutsch ‚erdulden‘, ‚leiden‘ wird ein Mensch bezeichnet, der ärztliche Dienstleistungen oder Dienstleistungen anderer Personen, die eine Heilbehandlung durchführen, in Anspruch nimmt. Dabei kann es sich um die Vorbeugung, Feststellung oder medizinische Behandlung von Krankheiten oder Folgen eines Unfalls handeln.</rdfs:comment>
     </rdf:Description>
     
 
