@@ -72,6 +72,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">A triglyceride (TG, triacylglycerol, TAG, or triacylglyceride) is an ester derived from glycerol and three fatty acids (from tri- and glyceride). Triglycerides are the main constituents of body fat in humans and other animals, as well as vegetable fat. They are also present in the blood to enable the bidirectional transference of adipose fat and blood glucose from the liver, and are a major component of human skin oils.
+There are many different types of triglyceride, with the main division between saturated and unsaturated types.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Triglyceride</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">Triacylglycerol</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">Triglyzerid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">Triglyzeride</oboInOwl:hasSynonym>
@@ -93,6 +96,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
+        <obo:IAO_0000115 xml:lang="en">The chloride ion /ˈklɔːraɪd/ is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents. Chloride salts such as sodium chloride are often very soluble in water.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Chloride</obo:IAO_0000119>
         <oboInOwl:hasSynonym>Chlorid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
         <rdfs:label>chloride salt</rdfs:label>
@@ -315,6 +320,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">Ferritin is a universal intracellular protein that stores iron and releases it in a controlled fashion. The protein is produced by almost all living organisms, including algae, bacteria, higher plants, and animals. In humans, it acts as a buffer against iron deficiency and iron overload. Ferritin is found in most tissues as a cytosolic protein, but small amounts are secreted into the serum where it functions as an iron carrier. Plasma ferritin is also an indirect marker of the total amount of iron stored in the body, hence serum ferritin is used as a diagnostic test for iron-deficiency anemia.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Ferritin</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ferritin</rdfs:label>
     </owl:Class>
     
@@ -1113,7 +1120,10 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115 xml:lang="en">Bei der Hydroxybutyrat-Dehydrogenase (HBDH) handelt es sich um ein Enzym, bei verschiedenen Erkrankungen erhöht im Blutserum vorliegen kann. Das HBDH besteht aus den beiden Enzymen LDH1 und LDH2. Es kommt im Herzmuskel sowie in den Nieren und den Erythrozyten (rote Blutkörperchen) vor.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">http://www.gesundheits-lexikon.com/Labormedizin-Labordiagnostik/Herzdiagnostik/Hydroxybutyrat-Dehydrogenase-HBDH-.html</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">hbdh</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Hydroxybutyrat-Dehydrogenase</rdfs:label>
         <rdfs:label xml:lang="en">hydroxybutyrate dehydrogenase</rdfs:label>
     </owl:Class>
     
