@@ -164,7 +164,11 @@ COMe:PRX000257</rdfs:comment>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
         <obo:IAO_0000115 xml:lang="de">Neutrophile Granulozyten, auch kurz Neutrophile genannt, sind spezialisierte Immunzellen der Wirbeltiere. Beim Menschen sind sie mit einem Anteil von 50–65 % die häufigsten weißen Blutkörperchen (Leukozyten). Sie sind Teil der angeborenen Immunabwehr und dienen der Identifizierung und Zerstörung von Mikroorganismen. Der Name nimmt auf die gute Anfärbbarkeit mit neutralen Farbstoffen Bezug („neutral liebend“) und ist eine Abgrenzung zu Eosinophilen und Basophilen Granulozyten.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Neutrophils (also known as neutrocytes) are the most abundant type of granulocytes and the most abundant (40% to 70%) type of white blood cells in most mammals. They form an essential part of the innate immune system. Their functions vary in different animals.
+
+They are formed from stem cells in the bone marrow and differentiated into subpopulations of neutrophil-killers and neutrophil-cagers. They are short-lived and highly motile, or mobile, as they can enter parts of tissue where other cells/molecules cannot. Neutrophils may be subdivided into segmented neutrophils and banded neutrophils (or bands). They form part of the polymorphonuclear cells family (PMNs) together with basophils and eosinophils</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Neutrophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Neutrophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62860</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Heterophile leucocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neutrophil leucocyte</oboInOwl:hasSynonym>
@@ -185,7 +189,9 @@ COMe:PRX000257</rdfs:comment>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
         <obo:IAO_0000115 xml:lang="de">Eosinophile Granulozyten – kurz auch Eosinophile oder &quot;EOS&quot; genannt – gehören zu den Leukozyten. Sie machen etwa 1–5 % der Leukozyten im Differentialblutbild aus und sind an der zellulären Immunabwehr beteiligt. Ihren Namen beziehen sie vom Farbstoff Eosin, mit dem sie angefärbt werden können.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Eosinophils, sometimes called eosinophiles or, less commonly, acidophils, are a variety of white blood cells and one of the immune system components responsible for combating multicellular parasites and certain infections in vertebrates. Along with mast cells and basophils, they also control mechanisms associated with allergy and asthma. They are granulocytes that develop during hematopoiesis in the bone marrow before migrating into blood, after which they are terminally differentiated and do not multiply</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Eosinophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Eosinophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62861</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Eosinophil leukocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">Eosinophile</oboInOwl:hasSynonym>
@@ -200,8 +206,14 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
-        <obo:IAO_0000115 xml:lang="de">Basophile Granulozyten sind eine Population von Leukozyten (weißen Blutkörperchen) im Blut. Sie besitzen intrazelluläre Granula, die unter anderem Histamin, Serotonin und Heparin enthalten.[1] Im Differentialblutbild machen sie einen geringen Anteil von 0–1 % aus.[2] Wachstumsfaktoren für die Basophilen sind unter anderem Interleukin-3, Interleukin-5 und GM-CSF. Es gibt Hinweise für eine wechselseitige Kontrolle bei der Reifung zwischen Basophilen und Eosinophilen. Beispielsweise unterdrückt TGF-beta (ein transformierender Wachstumsfaktor) in Gegenwart von Interleukin-3 die Differenzierung von Eosinophilen und fördert die der Basophilen. Sie besitzen einen Rezeptor für Immunglobulin E (IgE), weshalb man annimmt, dass sie eine Rolle bei der Immunabwehr des Wirts gegen Parasiten spielen.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="de">Basophile Granulozyten sind eine Population von Leukozyten (weißen Blutkörperchen) im Blut. Sie besitzen intrazelluläre Granula, die unter anderem Histamin, Serotonin und Heparin enthalten. Im Differentialblutbild machen sie einen geringen Anteil von 0–1 % aus. Wachstumsfaktoren für die Basophilen sind unter anderem Interleukin-3, Interleukin-5 und GM-CSF. Es gibt Hinweise für eine wechselseitige Kontrolle bei der Reifung zwischen Basophilen und Eosinophilen. Beispielsweise unterdrückt TGF-beta (ein transformierender Wachstumsfaktor) in Gegenwart von Interleukin-3 die Differenzierung von Eosinophilen und fördert die der Basophilen. Sie besitzen einen Rezeptor für Immunglobulin E (IgE), weshalb man annimmt, dass sie eine Rolle bei der Immunabwehr des Wirts gegen Parasiten spielen.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Basophils are a type of white blood cells. Basophils are the least common of the granulocytes, representing about 0.5 to 1% of circulating white blood cells. However, they are the largest type of granulocyte. They are responsible for inflammatory reactions during immune response, as well as in the formation of acute and chronic allergic diseases, including anaphylaxis, asthma, atopic dermatitis and hay fever. They can perform phagocytosis (cell eating), produce histamine and serotonin that induce inflammation, and heparin that prevents blood clotting, although there are less than that found in Mast cell granules. It used to be thought that basophils that have migrated from blood into their resident tissues (connective tissue) are known as mast cells, but this is no longer thought to be the case.
+
+Basophils were discovered in 1879 by German physician Paul Ehrlich, who one year earlier had found a cell type present in tissues that he termed mastzellen (now mast cells). Ehrlich received the 1908 Nobel Prize in Physiology or Medicine for his discoveries.
+
+The name comes from the fact that these leukocytes are basophilic, i.e., they are susceptible to staining by basic dyes, as shown in the picture.</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Basophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Basophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62862</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Basophil granulocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Basophil leukocyte</oboInOwl:hasSynonym>
@@ -258,8 +270,8 @@ COMe:PRX000257</rdfs:comment>
         <oboInOwl:hasSynonym>biological macromolecule</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
-        <obo:IAO_0000115 xml:lang="de">Leukozyten (Einzahl der Leukozyt, von altgriechisch λευκός leukós, deutsch ‚weiß‘ sowie altgriechisch κύτος kýtos, deutsch ‚Höhlung, Gefäß, Hülle‘[1]) oder weiße Blutzellen (veraltet -körperchen) sind im Blut, im Knochenmark, in den lymphatischen Organen und anderen Körpergeweben der Wirbeltiere zu finden.[2] Im Gegensatz zu den Erythrozyten (roten Blutzellen) enthalten Leukozyten nicht den roten Farbstoff Hämoglobin.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Leukozyt</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">White blood cells (also called leukocytes or leucocytes and abbreviated as WBCs) are the cells of the immune system that are involved in protecting the body against both infectious disease and foreign invaders. All white blood cells are produced and derived from multipotent cells in the bone marrow known as hematopoietic stem cells. Leukocytes are found throughout the body, including the blood and lymphatic system.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/White_blood_cell</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_63368">
         <obo:IAO_0000115 xml:lang="en">Stem cells are biological cells that can differentiate into other types of cells and can divide to produce more of the same type of stem cells. They are found in multicellular organisms.
@@ -267,18 +279,37 @@ COMe:PRX000257</rdfs:comment>
 In mammals, there are two broad types of stem cells: embryonic stem cells, which are isolated from the inner cell mass of blastocysts, and adult stem cells, which are found in various tissues. In adult organisms, stem cells and progenitor cells act as a repair system for the body, replenishing adult tissues. In a developing embryo, stem cells can differentiate into all the specialized cells—ectoderm, endoderm and mesoderm (see induced pluripotent stem cells)—but also maintain the normal turnover of regenerative organs, such as blood, skin, or intestinal tissues.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Stem_cell</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/sig/ont/fma/fma0326142">
+        <obo:IAO_0000115 xml:lang="en">Adult stem cells, also called somatic (from Greek σωματικóς, &quot;of the body&quot;) stem cells, are stem cells which maintain and repair the tissue in which they are found. They can be found in children, as well as adults.
+
+Pluripotent adult stem cells are rare and generally small in number, but they can be found in umbilical cord blood and other tissues. Bone marrow is a rich source of adult stem cells, which have been used in treating several conditions including liver cirrhosis, chronic limb ischemia and endstage heart failure. The quantity of bone marrow stem cells declines with age and is greater in males than females during reproductive years. Much adult stem cell research to date has aimed to characterize their potency and self-renewal capabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Stem_cell</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0001">
         <oboInOwl:hasSynonym xml:lang="de">Blut</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">blood</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
         <obo:IAO_0000115 xml:lang="de">Lymphozyten sind zelluläre Bestandteile des Blutes. Sie umfassen die B-Zellen, T-Zellen und die natürlichen Killerzellen und gehören zu den sogenannten „weißen Blutkörperchen“ (Leukozyten). Bei Erwachsenen stellen die Lymphozyten etwa 25 bis 40 Prozent[1] der Leukozyten im peripheren Blut, also außerhalb der blutbildenden Organe, dar.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Lymphocyte</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A lymphocyte is one of the subtypes of white blood cell in a vertebrate&apos;s immune system. Lymphocytes include natural killer cells (which function in cell-mediated, cytotoxic innate immunity), T cells (for cell-mediated, cytotoxic adaptive immunity), and B cells (for humoral, antibody-driven adaptive immunity). They are the main type of cell found in lymph, which prompted the name &quot;lymphocyte&quot;.</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Lymphozyt</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Monocyte</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="de">Monozyten, auch Monocyten (von altgriechisch μόνος monos, deutsch ‚allein, einzig‘ und altgriechisch κύτος cýtos, deutsch ‚Höhlung, Gefäß, Hülle‘), sind im Blut zirkulierende Zellen des Immunsystems und die Vorläufer der u. a. in den Geweben lokalisierten Makrophagen sowie eines Teils der Dendritischen Zellen. Ihre Aufgabe ist die Zerstörung körperfremder Strukturen durch Phagozytose und die Aktivierung der erworbenen Immunabwehr mittels Antigenpräsentation. Der wichtigste Speicherort für Monozyten ist die Milz. Die Monozyten gehören sowohl zum spezifischen als auch zum unspezifischen Abwehrsystem.[1] Zirkulierende Monozyten haben eine Lebensdauer von 1 bis 3 Tagen, bevor sie ausdifferenzieren und in die Gewebe einwandern. Dort leben sie als Makrophagen für mehrere Wochen bis Monate weiter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Monocytes are a type of leukocyte, or white blood cell. They are the largest type of leukocyte and can differentiate into macrophages and myeloid lineage dendritic cells. As a part of the vertebrate innate immune system monocytes also influence the process of adaptive immunity. There are at least three subclasses of monocytes in human blood based on their phenotypic receptors.</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Monozyt</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">Monozyten</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma70336">
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Blood_cell</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A blood cell, also called a haematopoietic cell, hemocyte, or hematocyte, is a cell produced through hematopoiesis and found mainly in the blood. Major types of blood cells include;
+
+Red blood cells (erythrocytes)
+White blood cells (leukocytes)
+Platelets (thrombocytes)
+Together, these three kinds of blood cells add up to a total 45% of the blood tissue by volume, with the remaining 55% of the volume composed of plasma, the liquid component of blood.</obo:IAO_0000115>
     </rdf:Description>
 </rdf:RDF>
 
