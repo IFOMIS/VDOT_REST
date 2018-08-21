@@ -594,6 +594,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <obo:IAO_0000115 xml:lang="en">Th1 helper cells are the host immunity effectors against intracellular bacteria and protozoa. They are triggered by IL-12 and their effector cytokines are IFN-γ and IL-2. The main effector cells of Th1 immunity are macrophages as well as CD8 T cells, IgG B cells, and IFN-γ CD4 T cells. The key Th1 transcription factors are STAT4 and T-bet. IFN-γ secreted by CD4 T cells can activate macrophages to phagocytose and digest intracellular bacteria and protozoa. In addition, IFN-γ can activate iNOS to produce NOx free radicals to directly kill intracellular bacteria and protozoa. Th1 overactivation against autoantigens will cause Type 4 delayed-type hypersensitivity. Tuberculin reaction or Type 1 diabetes belong to this category of autoimmunity</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD4+ T Lymphocytes</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T4 Cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">CD4-positive T-lymphocyte</rdfs:label>
@@ -605,6 +607,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12542">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <obo:IAO_0000115 xml:lang="en">Th2 helper cells are the host immunity effectors against extracellular parasites including helminths. They are triggered by IL-4 and IL-2, and their effector cytokines are IL-4, IL-5, IL-9, IL-10, IL-13 and IL-25. The main effector cells are eosinophils, basophils, and mast cells as well as B cells, and IL-4/IL-5 CD4 T cells. The key Th2 transcription factors are STAT6 and GATA3.[10] IL-4 is the positive feedback cytokine for Th2 cells differentiation. Besides, IL-4 stimulates B-cells to produce IgE antibodies, which in turn stimulate mast cells to release histamine, serotonin, and leukotriene to cause broncho-constriction, intestinal peristalsis, gastric fluid acidification to expel helminths. IL-5 from CD4 T cells will activate eosinophils to attack helminths. IL-10 suppresses Th1 cells differentiation and function of dendritic cells. Th2 overactivation against autoantigen will cause Type1 IgE-mediated allergy and hypersensitivity. Allergic rhinitis, atopic dermatitis, and asthma belong to this category of autoimmunity. In addition to expressing different cytokines, Th2 cells also differ from Th1 cells in their cell surface glycans (oligosaccharides), which makes them less susceptible to some inducers of cell death</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
@@ -997,7 +1001,12 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62869">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <obo:IAO_0000115 xml:lang="en">B cells, also known as B lymphocytes, are a type of white blood cell of the lymphocyte subtype. They function in the humoral immunity component of the adaptive immune system by secreting antibodies.[1] Additionally, B cells present antigen (they are also classified as professional antigen-presenting cells (APCs)) and secrete cytokines. In mammals, B cells mature in the bone marrow, which is at the core of most bones. In birds, B cells mature in the bursa of Fabricius, a lymphoid organ. (The &quot;B&quot; from B cells comes from the name of this organ, where it was first discovered by Chang and Glick,[2] and not from bone marrow as commonly believed.)
+
+B cells, unlike the other two classes of lymphocytes, T cells and natural killer cells, express B cell receptors (BCRs) on their cell membrane.[1] BCRs allow the B cell to bind to a specific antigen, against which it will initiate an antibody response</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/B_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">B-cell</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
         <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
@@ -1009,8 +1018,11 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <obo:IAO_0000115 xml:lang="en">A T cell, or T lymphocyte, is a type of lymphocyte (a subtype of white blood cell) that plays a central role in cell-mediated immunity. T cells can be distinguished from other lymphocytes, such as B cells and natural killer cells, by the presence of a T-cell receptor on the cell surface. They are called T cells because they mature in the thymus from thymocytes (although some also mature in the tonsils). The several subsets of T cells each have a distinct function. The majority of human T cells rearrange their alpha and beta chains on the cell receptor and are termed alpha beta T cells (αβ T cells) and are part of the adaptive immune system. Specialized gamma delta T cells, (a small minority of T cells in the human body, more frequent in ruminants), have invariant T-cell receptors with limited diversity, that can effectively present antigens to other T cells and are considered to be part of the innate immune system.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="de">T-Lymphozyten oder kurz T-Zellen bilden eine Gruppe von weißen Blutzellen, die der Immunabwehr dient. T-Lymphozyten stellen gemeinsam mit den B-Lymphozyten die erworbene (adaptive) Immunantwort dar. Das T im Namen steht für den Thymus, in dem die Zellen ausreifen.</obo:IAO_0000115>
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/T-Lymphozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_cell</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">T-cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">T-Lymphozyt</rdfs:label>
         <rdfs:label>T-lymphocyte</rdfs:label>
     </owl:Class>
@@ -1021,6 +1033,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma63147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000115 xml:lang="en">Natural killer cells or NK cells are a type of cytotoxic lymphocyte critical to the innate immune system. The role NK cells play is analogous to that of cytotoxic T cells in the vertebrate adaptive immune response. NK cells provide rapid responses to viral-infected cells, acting at around 3 days after infection, and respond to tumor formation. Typically, immune cells detect major histocompatibility complex (MHC) presented on infected cell surfaces, triggering cytokine release, causing lysis or apoptosis. NK cells are unique, however, as they have the ability to recognize stressed cells in the absence of antibodies and MHC, allowing for a much faster immune reaction. They were named &quot;natural killers&quot; because of the initial notion that they do not require activation to kill cells that are missing &quot;self&quot; markers of MHC class 1. This role is especially important because harmful cells that are missing MHC I markers cannot be detected and destroyed by other immune cells, such as T lymphocyte cells.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Natural_killer_cell</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/FMA_63147</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="de">NK cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">natural killer cell</rdfs:label>
@@ -1032,6 +1046,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870"/>
+        <obo:IAO_0000115 xml:lang="en">The T helper cells (Th cells) are a type of T cell that play an important role in the immune system, particularly in the adaptive immune system. They help the activity of other immune cells by releasing T cell cytokines. These cells help suppress or regulate immune responses. They are essential in B cell antibody class switching, in the activation and growth of cytotoxic T cells, and in maximizing bactericidal activity of phagocytes such as macrophages.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>Helper T-lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>T-Helferzellen</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">T-Lymphozyten</oboInOwl:hasSynonym>
@@ -1044,6 +1060,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572"/>
+        <obo:IAO_0000115 xml:lang="en">Proliferating helper T cells that develop into effector T cells differentiate into two major subtypes of cells known as Th1 and Th2 cells (also known as Type 1 and Type 2 helper T cells, respectively).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <rdfs:label xml:lang="de">T-helper cell type 1</rdfs:label>
     </owl:Class>
     
