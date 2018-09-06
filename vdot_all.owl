@@ -22,7 +22,7 @@
         <dc:title>vdot_all</dc:title>
         <dc:license>CC-BY
 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;&lt;img alt=&quot;Creative Commons Lizenzvertrag&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by/2.0/de/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Dieses Werk ist lizenziert unter einer &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;Creative Commons Namensnennung 2.0 Deutschland Lizenz&lt;/a&gt;.</dc:license>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</oboInOwl:creation_date>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</oboInOwl:creation_date>
         <dc:creator>Ulf Schwarz</dc:creator>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
