@@ -35,6 +35,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33837</obo:IAO_0000412>
+        <rdfs:label>conjugated protein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FMA_62851 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62851">
@@ -84,7 +96,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33837"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35134</obo:IAO_0000412>
         <rdfs:label>metalloprotein</rdfs:label>
     </owl:Class>
@@ -242,18 +254,6 @@ The name comes from the fact that these leukocytes are basophilic, i.e., they ar
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma72160</obo:IAO_0000412>
         <oboInOwl:hasSynonym>haemoglobin A2</oboInOwl:hasSynonym>
         <rdfs:label>hemoglobin A2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-        <obo:IAO_0000115>Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.</obo:IAO_0000115>
-        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33837</obo:IAO_0000412>
-        <rdfs:label>conjugated protein</rdfs:label>
     </owl:Class>
     
 
