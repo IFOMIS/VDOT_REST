@@ -316,9 +316,9 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001 -->
+    <!-- http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -353,7 +353,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
         <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, A-1 alpha chain|MHC class I antigen HLA-A heavy chain|antigen presenting molecule|leukocyte antigen class I-A</obo:IAO_0000115>
         <rdfs:label>HLA-A</rdfs:label>
     </owl:Class>
@@ -381,7 +381,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
         <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, B alpha chain|MHC Class I HLA heavy chain|MHC HLA-B cell surface glycoprotein|MHC HLA-B transmembrane glycoprotein|MHC class I antigen GN00104|MHC class I antigen HLA-B heavy chain|MHC class I antigen SHCHA|leukocyte antigen class I-B|lymphocyte antigen</obo:IAO_0000115>
         <rdfs:label>HLA-B</rdfs:label>
     </owl:Class>
@@ -409,7 +409,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
         <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, C alpha chain|HLA class I histocompatibility antigen, Cw-1 alpha chain|MHC class I antigen heavy chain HLA-C|human leukocyte antigen-C alpha chain|major histocompatibility antigen HLA-C</obo:IAO_0000115>
         <rdfs:label>HLA-C</rdfs:label>
     </owl:Class>
@@ -437,7 +437,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
         <rdfs:label>HLA-DRB1</rdfs:label>
     </owl:Class>
     
@@ -464,7 +464,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
         <obo:IAO_0000115>Other designations: HLA class II histocompatibility antigen, DQ beta 1 chain|MHC DQ beta|MHC class II DQ beta chain|MHC class II HLA-DQ beta glycoprotein|MHC class II antigen DQB1|MHC class II antigen HLA-DQ-beta-1|MHC class2 antigen|lymphocyte antigen</obo:IAO_0000115>
         <rdfs:label>HLA-DQB1</rdfs:label>
     </owl:Class>
