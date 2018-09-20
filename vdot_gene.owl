@@ -308,21 +308,6 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>protein coding gene of homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_0000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_0000001">
