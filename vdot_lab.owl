@@ -273,7 +273,7 @@ There are many different types of triglyceride, with the main division between s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22985"/>
         <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Kalzium</rdfs:label>
-        <rdfs:label>elemental calcium</rdfs:label>
+        <rdfs:label xml:lang="en">elemental calcium</rdfs:label>
     </owl:Class>
     
 
