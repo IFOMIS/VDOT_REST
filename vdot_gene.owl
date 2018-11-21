@@ -467,19 +467,6 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C214 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C214">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0059"/>
-        <obo:IAO_0000115>A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands. Albumin is the main protein in blood plasma. Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C214</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>alb</oboInOwl:hasSynonym>
-        <rdfs:label>albumin</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
