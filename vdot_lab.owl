@@ -37,7 +37,7 @@
         <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
         <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
         <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
-        <rdfs:label>cholesterol</rdfs:label>
+        <rdfs:label xml:lang="en">cholesterol</rdfs:label>
     </owl:Class>
     
 
@@ -74,7 +74,7 @@
         <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
-        <rdfs:label>bilirubin</rdfs:label>
+        <rdfs:label xml:lang="en">bilirubin</rdfs:label>
     </owl:Class>
     
 
@@ -321,7 +321,7 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115 xml:lang="en">Ferritin is a universal intracellular protein that stores iron and releases it in a controlled fashion. The protein is produced by almost all living organisms, including algae, bacteria, higher plants, and animals. In humans, it acts as a buffer against iron deficiency and iron overload. Ferritin is found in most tissues as a cytosolic protein, but small amounts are secreted into the serum where it functions as an iron carrier. Plasma ferritin is also an indirect marker of the total amount of iron stored in the body, hence serum ferritin is used as a diagnostic test for iron-deficiency anemia.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Ferritin</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Ferritin</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ferritin</rdfs:label>
     </owl:Class>
     
