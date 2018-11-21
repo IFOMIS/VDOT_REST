@@ -86,7 +86,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_22985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22985">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label>calcium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -158,7 +158,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_25108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label>magnesium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -196,7 +196,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_26217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label xml:lang="de">potassium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -234,17 +234,6 @@ There are many different types of triglyceride, with the main division between s
         <obo:IAO_0000115 xml:lang="de">A p-block molecular entity containing any pnictogen.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
         <rdfs:label xml:lang="de">pnictogen molecular entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
-        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
-        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
-        <rdfs:label>s-block molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -749,7 +738,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C214 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C214">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
         <obo:IAO_0000115>A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands. Albumin is the main protein in blood plasma. Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C214</obo:IAO_0000412>
@@ -987,6 +976,17 @@ There are many different types of triglyceride, with the main division between s
         <oboInOwl:hasSynonym>GFR</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Glomerular Filtration Rate Test</rdfs:label>
         <rdfs:label>glomerular filtration rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <rdfs:label>s-block molecular entity</rdfs:label>
     </owl:Class>
     
 
