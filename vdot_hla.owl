@@ -119,24 +119,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
-        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
-        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
-        <rdfs:label>s-block molecular entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_35155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
-        <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
-        <rdfs:label>elemental calcium</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860"/>
     
 
 
