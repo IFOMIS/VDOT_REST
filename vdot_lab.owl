@@ -34,9 +34,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
-        <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
         <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
-        <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label xml:lang="en">cholesterol</rdfs:label>
     </owl:Class>
     
