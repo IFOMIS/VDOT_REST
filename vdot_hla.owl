@@ -34,7 +34,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label>cholesterol</rdfs:label>
     </owl:Class>
@@ -44,7 +43,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115 xml:lang="de">A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">S-Kreatinin</oboInOwl:hasSynonym>
@@ -55,7 +53,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
     </owl:Class>
@@ -64,9 +61,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114"/>
     
 
 
@@ -114,9 +109,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_82594 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594"/>
     
 
 
@@ -515,10 +508,8 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16554 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16554">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>Molecules that catalyze a chemical reaction. They are usually proteins, although catalytic RNA and DNA molecules have been identified.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16554</obo:IAO_0000412>
         <rdfs:label xml:lang="de">Enzym</rdfs:label>
         <rdfs:label xml:lang="en">enzyme</rdfs:label>
     </owl:Class>
@@ -556,10 +547,8 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C16725 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16725">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>A protein whose activities affect or play a role in immune system functions.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
         <rdfs:label>immunoprotein</rdfs:label>
     </owl:Class>
     
@@ -594,10 +583,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-        <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072</obo:IAO_0000412>
-        <rdfs:label>enzyme inhibitor protein</rdfs:label>
     </owl:Class>
     
 
@@ -699,12 +686,8 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C565 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C565">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000115>IgA is the immunoglobulin subclass that is associated with antibody-mediated mucosal immunity. It is secreted as dimers into the mucosa and is the most effective isotype at fixing complement by the alternative pathway, even though it lacks the ability to fix complement by the classical pathway. There are two subtypes in the human - IgA1 and IgA2.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C565</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>IgA</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>Immunoglobulin A</oboInOwl:hasSynonym>
         <rdfs:label>immunoglobulin A</rdfs:label>
     </owl:Class>
     
@@ -712,26 +695,14 @@
 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C567 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C567">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
-        <obo:IAO_0000115>An immunoglobulin isotype (subclass). This isotype has the unique ability to bind with high affinity to IgE receptors (FceRI) on mast cells and basophils and induce degranulation and cytokine production by these cells when they are crosslinked by antigen. In addition to a central role in atopy and allergic responses, it has been speculated that IgE-mediated mast cell degranulation, by its release of mediators that increase vascular permeability, has an important role in the initiation of immune response in general.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C567</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>IgE</oboInOwl:hasSynonym>
-        <rdfs:label>immunoglobulin E</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C567"/>
     
 
 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C568 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C568">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
-        <obo:IAO_0000115>An immunoglobulin isotype (subclass) that characterizes secondary immune responses. This isotype is further broken down into several smaller subclasses (IgG1, IgG2a, IgG2b, IgG3 in the mouse; IgG1-4 in the human), and each subclass is differentially synthesized and secreted into the serum upon differential immune stimuli.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568</obo:IAO_0000412>
         <oboInOwl:hasSynonym>IgG</oboInOwl:hasSynonym>
-        <rdfs:label>immunoglobulin G</rdfs:label>
     </owl:Class>
     
 
@@ -739,12 +710,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C569 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C569">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000115>The major immunoglobulin secreted during a primary immune response. IgM binds with low affinity but high avidity (multiple binding sites) because it not only occurs as monomers but also as pentamers and hexamers.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
-        <rdfs:label>immunoglobulin M</rdfs:label>
     </owl:Class>
     
 
@@ -752,11 +718,8 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C572 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C572">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <obo:IAO_0000115>Any of the structurally related glycoproteins that function as antibodies. They are divided into five classes (IGA, IGD, IGE, IGG, IGM) on the basis of structure and biological activity.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C572</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>Ig</oboInOwl:hasSynonym>
         <rdfs:label>immunoglobulin</rdfs:label>
     </owl:Class>
     
@@ -770,8 +733,6 @@
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C60651</obo:IAO_0000412>
         <oboInOwl:hasSynonym>CRP</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>Pentraxin 1</oboInOwl:hasSynonym>
-        <rdfs:label>C-reactive protein</rdfs:label>
     </owl:Class>
     
 
@@ -812,10 +773,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
-        <oboInOwl:hasSynonym>Cys C</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>CysC</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neuroendocrine Basic Polypeptide</oboInOwl:hasSynonym>
-        <rdfs:label>cystatin-C</rdfs:label>
     </owl:Class>
     
 
