@@ -368,9 +368,7 @@
 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C17210 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C17210">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
     
 
 
