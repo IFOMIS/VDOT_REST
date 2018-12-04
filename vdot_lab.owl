@@ -57,10 +57,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
-        <obo:IAO_0000115 xml:lang="de">A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="de">CHEBI</obo:IAO_0000119>
-        <oboInOwl:hasSynonym xml:lang="de">S-Kreatinin</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="de">S-Kreatinin refers here to serum-creatinine.</rdfs:comment>
         <rdfs:label xml:lang="de">Kreatinin</rdfs:label>
         <rdfs:label>creatinine</rdfs:label>
     </owl:Class>
@@ -72,8 +68,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
-        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
-        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
         <rdfs:label xml:lang="en">bilirubin</rdfs:label>
     </owl:Class>
     
@@ -109,7 +103,6 @@ There are many different types of triglyceride, with the main division between s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
         <obo:IAO_0000115 xml:lang="en">The chloride ion /ˈklɔːraɪd/ is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents. Chloride salts such as sodium chloride are often very soluble in water.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Chloride</obo:IAO_0000119>
-        <oboInOwl:hasSynonym>Chlorid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
         <rdfs:label>chloride salt</rdfs:label>
     </owl:Class>
