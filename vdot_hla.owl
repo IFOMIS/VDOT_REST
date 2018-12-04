@@ -568,7 +568,6 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C17210 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C17210">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
         <obo:IAO_0000115>Transferases are enzymes transferring a group, for example, the methyl group or a glycosyl group, from one compound (generally regarded as donor) to another compound (generally regarded as acceptor). The classification is based on the scheme &quot;donor: acceptor group transferase&quot;. (EC 2 class)</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <oboInOwl:hasSynonym>EC 2</oboInOwl:hasSynonym>
@@ -579,7 +578,6 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072</obo:IAO_0000412>
     </owl:Class>
@@ -737,7 +735,6 @@
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
         <oboInOwl:hasSynonym>CysC</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neuroendocrine Basic Polypeptide</oboInOwl:hasSynonym>
     </owl:Class>
