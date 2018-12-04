@@ -720,7 +720,6 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
         <rdfs:label>enzyme inhibitor protein</rdfs:label>
     </owl:Class>
@@ -730,7 +729,6 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
-        <obo:IAO_0000115>Transaminases are a sub-subclass of mostly pyridoxal phosphate-dependent transferase enzymes that catalyze the transfer of an amino group from a donor (generally an amino acid) to an acceptor (generally a 2-keto acid). Mediating conversion of major intermediate metabolites and reversible transamination, Transaminases are often involved in cellular nitrogen metabolism, amino acid metabolism, gluconeogenesis and in the urea and tricarboxylic acid cycles.</obo:IAO_0000115>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21489</obo:IAO_0000412>
         <rdfs:label>transaminase</rdfs:label>
     </owl:Class>
@@ -903,7 +901,6 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
         <rdfs:label>cystatin-C</rdfs:label>
     </owl:Class>
     
