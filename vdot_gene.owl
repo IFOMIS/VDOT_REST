@@ -262,15 +262,6 @@
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000017 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000017">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C68707"/>
-        <rdfs:label>PCR-SSP hla matching</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_0000002 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_0000002">
@@ -493,12 +484,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A process in which blood or tissue samples are analyzed to determine their human leukocyte antigen (HLA) profiles so that transplant materials can be transfered into a patient with the same or similar profile.</obo:IAO_0000115>
-        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
-        <oboInOwl:hasSynonym>HLA Compatibility Testing</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>Human Leukocyte Antigen Matching</oboInOwl:hasSynonym>
-        <rdfs:label>hla matching</rdfs:label>
     </owl:Class>
     
 
@@ -575,9 +560,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma63147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
-        <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/FMA_63147</obo:IAO_0000412>
-        <oboInOwl:hasSynonym xml:lang="de">NK cell</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="de">natural killer cell</rdfs:label>
     </owl:Class>
     
 
