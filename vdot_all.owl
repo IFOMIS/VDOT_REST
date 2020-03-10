@@ -14,10 +14,10 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_all.owl">
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_49.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_50.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>
