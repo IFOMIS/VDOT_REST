@@ -13,8 +13,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_all.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_53.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_52.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl"/>
