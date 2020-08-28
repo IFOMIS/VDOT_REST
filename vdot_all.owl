@@ -28,69 +28,6 @@
         <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0042492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000039"/>
-        <obo:IAO_0000115>The process in which a relatively unspecialized hemopoietic cell acquires specialized features of a gamma-delta T cell. A gamma-delta T cell is a T cell that expresses a gamma-delta T cell receptor complex.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>gamma-delta T lymphocyte differentiation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>gamma-delta T-cell differentiation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>gamma-delta T-lymphocyte differentiation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>gamma-delta T cell development</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GO:0042492</oboInOwl:id>
-        <rdfs:comment>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</rdfs:comment>
-        <rdfs:label>gamma-delta T cell differentiation</rdfs:label>
-    </owl:Class>
 </rdf:RDF>
 
 
