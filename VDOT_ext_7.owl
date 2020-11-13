@@ -12,9 +12,8 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ALL.owl">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
@@ -32,6 +31,56 @@
         <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50910">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16276"/>
+        <obo:IAO_0000115>A poison that interferes with the functions of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>CHEBI:50911</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Neurotoxin</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>agente neurotoxico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nerve poison</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nerve poisons</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurotoxic agent</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurotoxic agents</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurotoxicant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurotoxins</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:50910</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>neurotoxin</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
