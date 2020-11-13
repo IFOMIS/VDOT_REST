@@ -12,10 +12,9 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ALL.owl">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_9.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_9.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
@@ -34,6 +33,35 @@
         <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75885">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860"/>
+        <obo:IAO_0000115>A pyranone based on the structure of 2H-pyran-2-one and its substituted derivatives.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2-oxo-2H-pyrans</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-pyrones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2H-pyran-2-ones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alpha-pyrones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pyran-2-ones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:75885</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>2-pyranones</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
