@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_all#"
+     xml:base="http://www.ifomis.org/vdot/vdot_all"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_10.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_6.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_4.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_8.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>
+        <dc:title>vdot_all</dc:title>
+        <dc:license>CC-BY
+&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;&lt;img alt=&quot;Creative Commons Lizenzvertrag&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by/2.0/de/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Dieses Werk ist lizenziert unter einer &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;Creative Commons Namensnennung 2.0 Deutschland Lizenz&lt;/a&gt;.</dc:license>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</oboInOwl:creation_date>
+        <dc:creator>Ulf Schwarz</dc:creator>
+        <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
+        <dc:publisher>IFOMIS</dc:publisher>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_90211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_90211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_77941"/>
+        <obo:IAO_0000115>A guanidinium salt that is the bis[1,3-di(2-tolyl)guanidinium] salt of a copper phthalocyanine-disulfonic acid. A dye that is soluble in alcohols and phospholipids and is used to demonstrate myelin.</obo:IAO_0000115>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C62H50CuN14O6S2</chebi:formula>
+        <chebi:inchi>InChI=1S/C32H16N8O6S2.2C15H17N3.Cu/c41-47(42,43)21-13-5-11-19-23(21)32-38-28-18-10-4-2-8-16(18)26(34-28)36-30-20-12-6-14-22(48(44,45)46)24(20)31(40-30)37-27-17-9-3-1-7-15(17)25(33-27)35-29(19)39-32;2*1-11-7-3-5-9-13(11)17-15(16)18-14-10-6-4-8-12(14)2;/h1-14H,(H2-2,33,34,35,36,37,38,39,40,41,42,43,44,45,46);2*3-10H,1-2H3,(H3,16,17,18);/q-2;;;+2</chebi:inchi>
+        <chebi:inchikey>LUWJPTVQOMUZLW-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>1214.831</chebi:mass>
+        <chebi:monoisotopicmass>1213.27752</chebi:monoisotopicmass>
+        <chebi:smiles>C12=[N+]3C(=NC=4N5C(N=C6[N+]7=C(N=C8N(C(=N1)C9=CC=CC=C89)[Cu-2]357)C%10=C(C=CC=C6%10)S([O-])(=O)=O)=C%11C=CC=CC4%11)C%12=C(C=CC=C2%12)S([O-])(=O)=O.N(C(NC=1C=CC=CC1C)=[NH2+])C=2C(=CC=CC2)C.N(C(NC=1C=CC=CC1C)=[NH2+])C=2C(=CC=CC2)C</chebi:smiles>
+        <oboInOwl:hasDbXref>Wikipedia:Luxol_fast_blue_stain</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bis[bis(2-methylanilino)methaniminium] [29H,31H-phthalocyanine-8,22-disulfonato(4-)-kappa(4)N(29),N(30),N(31),N(32)]cuprate(2-)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>C.I. 74180</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Luxol fast blue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>solvent blue 38</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:90211</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>Luxol fast blue MBS</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

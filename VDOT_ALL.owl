@@ -15,7 +15,6 @@
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ALL.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_9.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
@@ -26,6 +25,7 @@
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_10.owl"/>
         <dc:title>vdot_all</dc:title>
         <dc:license>CC-BY
 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;&lt;img alt=&quot;Creative Commons Lizenzvertrag&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by/2.0/de/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Dieses Werk ist lizenziert unter einer &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;Creative Commons Namensnennung 2.0 Deutschland Lizenz&lt;/a&gt;.</dc:license>
