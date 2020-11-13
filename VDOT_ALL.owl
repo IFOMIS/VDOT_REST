@@ -21,6 +21,7 @@
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_6.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_4.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_8.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>

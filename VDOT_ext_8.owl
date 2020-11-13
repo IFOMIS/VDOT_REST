@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_all#"
+     xml:base="http://www.ifomis.org/vdot/vdot_all"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_8.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_6.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_4.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl"/>
+        <dc:title>vdot_all</dc:title>
+        <dc:license>CC-BY
+&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;&lt;img alt=&quot;Creative Commons Lizenzvertrag&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by/2.0/de/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Dieses Werk ist lizenziert unter einer &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by/2.0/de/&quot;&gt;Creative Commons Namensnennung 2.0 Deutschland Lizenz&lt;/a&gt;.</dc:license>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</oboInOwl:creation_date>
+        <dc:creator>Ulf Schwarz</dc:creator>
+        <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
+        <dc:publisher>IFOMIS</dc:publisher>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_77941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_77941">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16276"/>
+        <obo:IAO_0000115>An EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor that interferes with the action of amidase (EC 3.5.1.4).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Wikipedia:Amidase</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>EC 3.5.1.4 (amidase) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 3.5.1.4 inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 3.5.1.4 inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N-acetylaminohydrolase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N-acetylaminohydrolase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acylamidase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acylamidase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acylamide amidohydrolase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acylamide amidohydrolase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidase (EC 3.5.1.4) inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidase (EC 3.5.1.4) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidohydrolase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amidohydrolase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>deaminase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>deaminase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fatty acylamidase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fatty acylamidase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:77941</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>EC 3.5.1.4 (amidase) inhibitor</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
