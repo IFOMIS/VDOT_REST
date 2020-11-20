@@ -13,11 +13,10 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ALL.owl">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_21.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_21.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_6.owl"/>
@@ -36,6 +35,63 @@
         <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004771">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_77941"/>
+        <obo:IAO_0000115>Catalysis of the reaction: a steryl ester + H2O = a sterol + a fatty acid.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EC:3.1.1.13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:STEROL-ESTERASE-RXN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-192417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6813720</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8865667</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>acylcholesterol lipase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesterase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesterol ester hydrolase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesteryl ester hydrolase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesteryl ester synthase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesteryl esterase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sterol ester hydrolase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>steryl-ester acylhydrolase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>triterpenol esterase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>cholesterol ester synthase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cholesterol esterase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0004771</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
+        <rdfs:label>sterol esterase activity</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
