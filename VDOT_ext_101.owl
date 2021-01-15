@@ -14,10 +14,9 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ALL.owl">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_101.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_2.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_7.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_101.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/IFOMIS/VDOT_REST/master/VDOT_ext_21.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl"/>
@@ -38,6 +37,35 @@
         <rdfs:comment xml:lang="en">This vdot module imports all other vdot modules.</rdfs:comment>
         <dc:publisher>IFOMIS</dc:publisher>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76773 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_76773">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860"/>
+        <obo:IAO_0000115>An EC 3.1.* (ester hydrolase) inhibitor that interferes with the action of a carboxylic ester hydrolase (EC 3.1.1.*).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>EC 3.1.1.* (carboxylic ester hydrolase) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 3.1.1.* inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 3.1.1.* inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carboxylic ester hydrolase (EC 3.1.1.*) inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carboxylic ester hydrolase (EC 3.1.1.*) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:76773</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>EC 3.1.1.* (carboxylic ester hydrolase) inhibitor</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
