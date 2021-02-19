@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_lab.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -34,7 +35,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
-        <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
+        <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label xml:lang="en">cholesterol</rdfs:label>
     </owl:Class>
     
@@ -64,6 +65,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bilirubin</rdfs:label>
     </owl:Class>
@@ -97,6 +99,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
         <obo:IAO_0000115 xml:lang="en">The chloride ion /ˈklɔːraɪd/ is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents. Chloride salts such as sodium chloride are often very soluble in water.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Chloride</obo:IAO_0000119>
         <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
@@ -314,6 +317,18 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63599">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_63599</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="en">Fludara</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Fludarabin</rdfs:label>
+        <rdfs:label xml:lang="en">fludarabine phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_82594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
@@ -329,6 +344,12 @@ There are many different types of triglyceride, with the main division between s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A measure of the average volume or size of a single red blood cell. It is derived by dividing the total volume of packed red blood cells by the total red blood cell count.</obo:IAO_0000115>
         <obo:IAO_0000119>CMO</obo:IAO_0000119>
         <oboInOwl:hasSynonym>MCV</oboInOwl:hasSynonym>
@@ -341,6 +362,12 @@ There are many different types of triglyceride, with the main division between s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The amount of hemoglobin in a given volume of packed red blood cells and is often calculated by dividing the hemoglobin concentration by the hematocrit.</obo:IAO_0000115>
         <obo:IAO_0000119>CMO</obo:IAO_0000119>
         <oboInOwl:hasSynonym>MCHC</oboInOwl:hasSynonym>
@@ -352,7 +379,13 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CMO_0001348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Measurement of the average size of the three dimensional space occupied by a blood platelet, a minute, irregularly shaped, disklike, non-nucleated cytoplasmic body found in blood that functions to promote blood clotting.</obo:IAO_0000115>
         <obo:IAO_0000119>CMO</obo:IAO_0000119>
         <oboInOwl:hasSynonym>MPV</oboInOwl:hasSynonym>
@@ -402,6 +435,19 @@ There are many different types of triglyceride, with the main division between s
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000104 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -529,16 +575,61 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0053 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0053">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0058 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/C127617 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/C127617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A measurement of the hemoglobin external to erythrocytes in a biological specimen.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C127617</obo:IAO_0000412>
         <rdfs:label>Anteil freies Hämoglobin</rdfs:label>
         <rdfs:label>free hemoglobin measurement</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#C25662 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C25662">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -582,6 +673,19 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016">
@@ -589,6 +693,19 @@ There are many different types of triglyceride, with the main division between s
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -615,10 +732,29 @@ There are many different types of triglyceride, with the main division between s
         <obo:IAO_0000115 xml:lang="en">Th2 helper cells are the host immunity effectors against extracellular parasites including helminths. They are triggered by IL-4 and IL-2, and their effector cytokines are IL-4, IL-5, IL-9, IL-10, IL-13 and IL-25. The main effector cells are eosinophils, basophils, and mast cells as well as B cells, and IL-4/IL-5 CD4 T cells. The key Th2 transcription factors are STAT6 and GATA3.[10] IL-4 is the positive feedback cytokine for Th2 cells differentiation. Besides, IL-4 stimulates B-cells to produce IgE antibodies, which in turn stimulate mast cells to release histamine, serotonin, and leukotriene to cause broncho-constriction, intestinal peristalsis, gastric fluid acidification to expel helminths. IL-5 from CD4 T cells will activate eosinophils to attack helminths. IL-10 suppresses Th1 cells differentiation and function of dendritic cells. Th2 overactivation against autoantigen will cause Type1 IgE-mediated allergy and hypersensitivity. Allergic rhinitis, atopic dermatitis, and asthma belong to this category of autoimmunity. In addition to expressing different cytokines, Th2 cells also differ from Th1 cells in their cell surface glycans (oligosaccharides), which makes them less susceptible to some inducers of cell death</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C129972 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C129972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The state when a recipient and their donor have the same alleles for tissue markers. A full match includes HLA-A, HLA-B, HLA-C, and HLA-DRB1. HLA match typing may also include alleles in the HLA-DQ serogroup.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C129972</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="en">HLA Match</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">HLA match</rdfs:label>
+        <rdfs:label xml:lang="en">HLA-match</rdfs:label>
     </owl:Class>
     
 
@@ -659,6 +795,8 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16554</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Enzym</rdfs:label>
+        <rdfs:label xml:lang="en">enzyme</rdfs:label>
     </owl:Class>
     
 
@@ -691,6 +829,7 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">immonuprotein</rdfs:label>
     </owl:Class>
     
 
@@ -720,6 +859,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
         <rdfs:label>enzyme inhibitor protein</rdfs:label>
     </owl:Class>
@@ -729,6 +869,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21489</obo:IAO_0000412>
         <rdfs:label>transaminase</rdfs:label>
     </owl:Class>
@@ -738,6 +879,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25184 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25184">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
         <obo:IAO_0000115 xml:lang="de">A family of homotetrameric cytoplasmic enzymes involved in the conversion of L-lactate and NAD to pyruvate and NADH in the final step of anaerobic glycolysis. In vertebrates, genes for three different subunits (LDH-A, LDH-B and LDH-C) exist.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="de">L-Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">LDH</oboInOwl:hasSynonym>
@@ -765,10 +907,12 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25293 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25293">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
         <oboInOwl:hasSynonym>ALT</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>SGPT</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>SGPT (ALT)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GPT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GPT (ALT)</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>serum glutamate pyruvate transaminase</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">wenn in Serum gemessen, dann oft als SGPT bezeichnet</rdfs:comment>
         <rdfs:label>alanine transferase</rdfs:label>
     </owl:Class>
     
@@ -828,6 +972,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C568 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C568">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000115>An immunoglobulin isotype (subclass) that characterizes secondary immune responses. This isotype is further broken down into several smaller subclasses (IgG1, IgG2a, IgG2b, IgG3 in the mouse; IgG1-4 in the human), and each subclass is differentially synthesized and secreted into the serum upon differential immune stimuli.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568</obo:IAO_0000412>
@@ -839,9 +984,11 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C569 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C569">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
         <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">immunoglobulin M</rdfs:label>
     </owl:Class>
     
 
@@ -849,6 +996,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C572 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C572</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Ig</oboInOwl:hasSynonym>
         <rdfs:label>immunoglobulin</rdfs:label>
@@ -859,6 +1007,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C60651 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C60651">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <oboInOwl:hasSynonym>Pentraxin 1</oboInOwl:hasSynonym>
         <rdfs:label>C-reactive protein</rdfs:label>
     </owl:Class>
@@ -868,10 +1017,11 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C68707 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C68707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
@@ -895,6 +1045,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
         <rdfs:label>cystatin-C</rdfs:label>
     </owl:Class>
     
@@ -904,6 +1055,12 @@ There are many different types of triglyceride, with the main division between s
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C90505">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A kidney function test that measures the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C90505</obo:IAO_0000412>
@@ -948,7 +1105,6 @@ B cells, unlike the other two classes of lymphocytes, T cells and natural killer
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/B_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">B-cell</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
         <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
     </owl:Class>
@@ -1077,6 +1233,12 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="de">Der Parameter RET-He oder Retikulozyten-Hämoglobin-Äquivalent gibt den Hämoglobingehalt der Retikulozyten an.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">IFOMIS</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">RET-He</oboInOwl:hasSynonym>
@@ -1089,6 +1251,12 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="de">RET-He liefert Informationen zu hypo- und hyperchromen Erythrozytenpopulationen und Fragmentozyten und errechnet automatisch den Retikulozytenproduktionsindex (RPI).</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">https://www.sysmex.ch/produkte/diagnostik/haematologie/analysensysteme/xn-l-serie/xn-l-klinischer-nutzen.html</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">RPI</oboInOwl:hasSynonym>
@@ -1106,6 +1274,660 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C214</obo:IAO_0000412>
         <rdfs:label xml:lang="de">Albumin</rdfs:label>
         <rdfs:label xml:lang="en">albumin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
+        <obo:IAO_0000115 xml:lang="en">Serostatus refers to the presence or absence of a serological marker in the blood. The presence of detectable levels of a specific marker within the serum is considered seropositivity, while the absence of such levels is considered seronegativity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Serostatus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">unspecified serostatus</rdfs:label>
+        <rdfs:label xml:lang="de">unspezifizierter Serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010"/>
+        <rdfs:label xml:lang="de">seropositiv</rdfs:label>
+        <rdfs:label xml:lang="en">seropositive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010"/>
+        <rdfs:label xml:lang="de">seronegativ</rdfs:label>
+        <rdfs:label xml:lang="en">seronegative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">CMV-Reaktivierung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000014">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">M0</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie mit minimaler Differenzierung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M1</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie ohne Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M2</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie mit Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M3</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Promyelozyten-Leukämie (APL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M4</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myelomonozytäre Leukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000019 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Monozyten-Leukämie ohne Ausreifung</rdfs:label>
+        <rdfs:label>M5a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000020 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M5b</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Monozyten-Leukämie mit Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000021 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M6</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Erythroleukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000022 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M7</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Megakaryoblasten-Leukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>DISTAT1</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000024 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Early stages: De-novo AML in 1st remission, ALL in 1st remission, MDS with single lineage dysplasia, and MDS with single lineage dysplasia and ring sideroblasts, CML in 1st chronic phase.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Amin Turki (UK Essen)</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">frühes Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000025 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Advanced disease stages were all other stages that did not correspond to early stages, such as AML in 2nd remission</obo:IAO_0000115>
+        <obo:IAO_0000119>Amin Turki (UK Essen)</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">fortgeschrittenes Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000026 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C568"/>
+        <rdfs:label>Anti-CMV IgG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000027 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Titer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0061"/>
+        <rdfs:label xml:lang="de">virus DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000029 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CMV-DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000030 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+        <rdfs:label xml:lang="de">Vollblut-Probe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115>Any substance that stimulates an immune response in the body, such as through antibody production or by presentation to a T-cell receptor after binding to a major histocompability complex (MHC).</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>CHEBI:59132</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000032 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <rdfs:label xml:lang="de">Granulozyt mit CMV-pp65-Antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000033 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">CMV pp65 Ag Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>QuantiFERON-CMV is a whole blood interferon-gamma release assay to monitor changes in cell-mediated immunity to cytomegalovirus (CMV). CMV is the most common and problematic viral infection in solid organ transplant recipients.
+
+QF-CMV is not a direct test determining CMV infection and should not solely be used to exclude CMV infection.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.quantiferon.com/products/quantiferon-cmv/</obo:IAO_0000119>
+        <rdfs:label>QuantiFERON-CMV Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000035 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <oboInOwl:hasSynonym xml:lang="de">GOT/ASAT</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Glutamat-Oxalacetat-Transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000036 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="de">Die Erythrozytenverteilungsbreite (EVB), die auch im deutschsprachigen Raum oft mit der englischsprachigen Abkürzung RDW (Red Blood Cell Distribution Width) bezeichnet wird, ist ein Parameter, der in der Laboratoriumsmedizin im Rahmen eines Blutbildes bestimmt wird. Die Messung der EVB, die in Prozent angegeben wird und ein Maß für die Größenverteilung der roten Blutkörperchen (Erythrozyten) im Blut ist, erfolgt mittels Durchflusszytometrie.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Erythrozytenverteilungsbreite</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">EVB</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">RWD</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Erythrozytenverteilungsbreite</rdfs:label>
+        <rdfs:label xml:lang="en">red blood cell distribution width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>definition and clarification needed</rdfs:comment>
+        <rdfs:label xml:lang="de">CMV Early Ag Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000038 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="de">Das MCH (mean corpuscular haemoglobin) gibt den durchschnittlichen Hämoglobin-Gehalt eines einzelnen Erythrozyten an. Statt MCH-Wert findet sich manchmal auch der Begriff HbE-Wert.
+
+MCHC-Wert
+Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentration) die mittlere Konzentration des Hämoglobins in den Erythrozyten – also den Anteil des Hämoglobins an der Gesamtmasse der Erythrozyten. Der MCHC-Blutwert lässt sich berechnen, indem man das MCH durch das MCV dividiert.
+
+(vorläufige Definition)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://www.netdoktor.de/laborwerte/mch-mchc-mcv-und-rdw/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">mch</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">mean corpuscular haemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <rdfs:label xml:lang="en">blood group match</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>CMV-Nachweis mittels Real-Time PCR</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">CMV-DNA-PCR Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000041 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040"/>
+        <rdfs:label>CMV-DNA-PCR nicht quantitativ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000042 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040"/>
+        <rdfs:label>CMV-DNA-PCR quantitativ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C25662"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>virus test</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">virological test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000044 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Anti-CMV-IgG Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000045 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Enzyme-linked Immunosorbent Assay (ELISA) bezeichnet ein antikörperbasiertes Nachweisverfahren (Assay). Wie der Radioimmunassay (RIA) gehört auch der ELISA zur Gruppe der Immunassay-Verfahren, basiert aber nicht auf einer Radioaktivitätsmessung, sondern auf einer enzymatischen Farbreaktion und gehört somit zu den enzymatischen Immunadsorptionsverfahren (EIA). Das nachzuweisende Antigen wurde ursprünglich über einen Erstantikörper an eine Mikrotiterplatte adsorptiv gebunden und angereichert, ein Enzym-gekoppelter Zweitantikörper (synonym: Detektionsantikörper) führte zur Reaktion eines Farbstoffsubstrates.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Enzyme-linked_Immunosorbent_Assay</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ELISA-test</rdfs:label>
+        <rdfs:label>Enzyme-linked Immunosorbent Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match identical</rdfs:label>
+        <rdfs:label xml:lang="de">blood group match identisch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match major</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match minor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <obo:IAO_0000115>Serostatus refers to the presence or absence of a serological marker in the blood. The presence of detectable levels of a specific marker within the serum is considered seropositivity, while the absence of such levels is considered seronegativity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Serostatus</obo:IAO_0000119>
+        <rdfs:label>serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
+        <rdfs:label>CMV-serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000051 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus grenzwertig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000052 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000053 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000054 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>CMV-serostatus measurement</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>measurement of CMV-serostatus</oboInOwl:hasSynonym>
+        <rdfs:label>CMV-serostatus test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000040"/>
+        <obo:IAO_0000115 xml:lang="de">Der relative Tag der Bestimmung von “CMV serostatus patient”</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">XplOit</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Tag der Messung des CMV-Serostatus</rdfs:label>
+        <rdfs:label xml:lang="en">day of measurement of CMV-serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <obo:IAO_0000115 xml:lang="en">Any heteroorganic entity containing at least one carbon-nitrogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35352</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">organonitrogen compound</rdfs:label>
     </owl:Class>
     
 
@@ -1129,6 +1951,9 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
         <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000008">
+        <rdfs:comment>Verwandtschaftsstatus wird oft eher damit gemeint.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
         <obo:IAO_0000115 xml:lang="de">Alter eines Patienten am Tag der Stammzellentransplantation.</obo:IAO_0000115>
