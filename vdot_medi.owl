@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_medi.owl#"
      xml:base="http://www.ifomis.org/vdot/vdot_medi.owl"
-     xmlns:hdot="http://www.ifomis.org/hdot/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl1="oboInOwl:"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -51,6 +53,76 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/UATC/G03CA01 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/G03CA01">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/G03CA01</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Chlormadinon-Ethinylestradiol</oboInOwl:hasSynonym>
+        <rdfs:comment>see ATC</rdfs:comment>
+        <rdfs:label>ethinylestradiol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/L01AD01 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L01AD01">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L01AD01</obo:IAO_0000412>
+        <rdfs:comment>see ATC</rdfs:comment>
+        <rdfs:label xml:lang="de">Carmustin</rdfs:label>
+        <rdfs:label xml:lang="en">carmustine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/L01XC02 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L01XC02">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L01XC02</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;MabThera&apos;, &apos;Rixathon&apos;, &apos;Truxima&apos;</rdfs:comment>
+        <rdfs:label>rituximab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/L04AA34 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L04AA34">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L04AA34</obo:IAO_0000412>
+        <rdfs:comment>commercial product: Lemtrada</rdfs:comment>
+        <rdfs:comment>see ATC</rdfs:comment>
+        <rdfs:label>alemtuzumab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/V03AF08 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/V03AF08">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/V03AF08</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Palifermin</rdfs:label>
+        <rdfs:label>palifermin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/V10XX02 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/V10XX02">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/V10XX02</obo:IAO_0000412>
+        <rdfs:comment>commercial product: Zevalin</rdfs:comment>
+        <rdfs:comment>see Anatomical Therapeutic Chemical Classification</rdfs:comment>
+        <rdfs:label>ibritumomab tiuxetan (90Y)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000008">
@@ -68,6 +140,54 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_135930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_135930">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_135930</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>zanidip</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Lercanidipin</rdfs:label>
+        <rdfs:label>lercanidipine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>peptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_168396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_168396">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A member of the class of 2-benzofurans that is 2-benzofuran-1(3H)-one which is substituted at positions 4, 5, 6, and 7 by methyl, methoxy, (2E)-5-carboxy-3-methylpent-2-en-1-yl, and hydroxy groups, respectively. It is an antibiotic produced by Penicillium brevi-compactum, P. stoloniferum, P. echinulatum and related species. An immunosuppressant, it is widely used (partiularly as its sodium salt and as the 2-(morpholin-4-yl)ethyl ester prodrug, mycophenolate mofetil) to prevent tissue rejection following organ transplants and for the treatment of certain autoimmune diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_168396</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Mycophenolsaeure</rdfs:label>
+        <rdfs:label>mycophenolic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17303">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy).</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_17303</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>morphinum</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Morphin</rdfs:label>
+        <rdfs:label>morphine</rdfs:label>
+    </owl:Class>
     
 
 
@@ -108,10 +228,86 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2687">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A sulfonamide that is N-phenylmethanesulfonamide substituted by a methoxy group at position 3 and an acridin-9-ylamino group at position 4. It exhibits antineoplastic activity.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_2687</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Amsacrin</rdfs:label>
+        <rdfs:label xml:lang="en">amsacrine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28680">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A pyrimidine nucleoside in which cytosine is attached to D-arabinofuranose via a beta-N(1)-glycosidic bond. Used mainly in the treatment of leukaemia, especially acute non-lymphoblastic leukaemia, cytarabine is an antimetabolite antineoplastic agent that inhibits the synthesis of DNA. It also has antiviral and immunosuppressant properties.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_28680</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Cytarabin</rdfs:label>
+        <rdfs:label>cytarabine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28876">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A phenylalanine derivative comprising L-phenylalanine having [bis(2-chloroethyl)amino group at the 4-position on the phenyl ring.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_28876</obo:IAO_0000412>
+        <rdfs:comment>commmercial product &apos;Alkeran&apos;</rdfs:comment>
+        <rdfs:label>melphalan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31824">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_31824</obo:IAO_0000412>
+        <rdfs:label>Mesna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3756">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>1,3-Dihydro-2H-1,4-benzodiazepin-2-one in which the hydrogens at positions 5 and 7 are substituted by 2-chlorophenyl and nitro groups, respectively. It is used in the treatment of all types of epilepsy and seizures, as well as myoclonus and associated abnormal movements, and panic disorders. However, its use can be limited by the development of tolerance and by sedation.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_3756</obo:IAO_0000412>
+        <rdfs:label>clonazepam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4027">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A phosphorodiamide that is 1,3,2-oxazaphosphinan-2-amine 2-oxide substituted by two 2-chloroethyl groups at the amino nitrogen atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>CHEBI</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4027</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;Endoxan&apos;</rdfs:comment>
+        <rdfs:label xml:lang="de">Cyclophosphamid</rdfs:label>
+        <rdfs:label>cyclophosphamide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_4031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000115 xml:lang="en">A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient&apos;s immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">KEGG:D00184</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
@@ -119,6 +315,29 @@
         <rdfs:comment>e.g. in Sandimmun optoral®</rdfs:comment>
         <rdfs:label xml:lang="de">Cyclosporin A</rdfs:label>
         <rdfs:label>cyclosporin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44185">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_44185</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>MTX</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Methotrexat</rdfs:label>
+        <rdfs:label>methotrexate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4911">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4911</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Etoposid</rdfs:label>
+        <rdfs:label>etoposide</rdfs:label>
     </owl:Class>
     
 
@@ -132,6 +351,28 @@
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4974</obo:IAO_0000412>
         <rdfs:label>famciclovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50729">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A dihydroxyanthraquinone that is 1,4-dihydroxy-9,10-anthraquinone which is substituted by 6-hydroxy-1,4-diazahexyl groups at positions 5 and 8.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_50729</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;Onkotrone&apos;, &apos;Novantron&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">mitoxantrone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582"/>
+        <rdfs:label>organic molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -165,6 +406,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8107">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A imidazolidine-2,4-dione that consists of hydantoin bearing two phenyl substituents at position 5.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_8107</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>DILANTIN</oboInOwl:hasSynonym>
+        <rdfs:label>phenytoin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82557">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_82557</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;Trecondi&apos;, &apos;Ovastat&apos;</rdfs:comment>
+        <rdfs:label>Treosulfan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_8774 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8774">
@@ -174,6 +439,30 @@
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_8774</obo:IAO_0000412>
         <rdfs:label>ramipril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9513">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A racemate comprising equimolar amounts of R- and S-thalidomide.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_9513</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Thalidomid</rdfs:label>
+        <rdfs:label>thalidomide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9570">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_9570</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>tepadina</oboInOwl:hasSynonym>
+        <rdfs:label>Thiotepa</rdfs:label>
     </owl:Class>
     
 
@@ -204,6 +493,19 @@
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0041 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0041">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001">
@@ -221,6 +523,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a treatment that has as participants an extended organism and a drug product and that results in part of the drug product being located in the extended organism</obo:IAO_0000115>
@@ -305,19 +613,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000010">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
+        <rdfs:label xml:lang="de">Antiinfektiöse Therapie</rdfs:label>
         <rdfs:label xml:lang="en">antiinfective therapy</rdfs:label>
-        <rdfs:label xml:lang="de">antiinfektiöse therapie</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
-        <obo:IAO_0000118 xml:lang="de">immunsuppressiva verabreichung</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">immunosuppressive therapy</rdfs:label>
-        <rdfs:label xml:lang="de">immunsuppressive therapie</rdfs:label>
     </owl:Class>
     
 
@@ -387,8 +684,27 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>medication</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">medication plan</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Medikamentenverordnung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="de">Antithymozytenglobulin (ATG) ist ein immunsuppressiv wirkendes Gemisch polyklonaler Antikörper, welches meist zur Therapie von Abstoßungsreaktionen nach Organtransplantation eingesetzt wird.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Antithymozytenglobulin</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">ATG</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Antithymozytenglobulin</rdfs:label>
     </owl:Class>
     
 
@@ -445,8 +761,9 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
-        <rdfs:label>HLA-match</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+        <rdfs:comment xml:lang="de">ATG wird aus dem Blut von Pferden (h-ATG) oder Kaninchen (r-ATG) gewonnen, nachdem diese gegen humane Thymozyten oder T-Lymphozyten immunisiert wurden. Da sich die Oberflächenantigene der T-Lymphozyten auch auf anderen Immunzellen befinden, wirkt ATG ebenso gegen B-Lymphozyten, dendritische Zellen, NK-Zellen und Makrophagen.</rdfs:comment>
+        <rdfs:label xml:lang="de">r-ATG</rdfs:label>
     </owl:Class>
     
 
@@ -454,9 +771,9 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000025 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000025">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024"/>
-        <rdfs:label>HLA-match identical</rdfs:label>
-        <rdfs:label xml:lang="de">HLA-match identisch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+        <rdfs:comment xml:lang="de">ATG wird aus dem Blut von Pferden (h-ATG) oder Kaninchen (r-ATG) gewonnen, nachdem diese gegen humane Thymozyten oder T-Lymphozyten immunisiert wurden. Da sich die Oberflächenantigene der T-Lymphozyten auch auf anderen Immunzellen befinden, wirkt ATG ebenso gegen B-Lymphozyten, dendritische Zellen, NK-Zellen und Makrophagen.</rdfs:comment>
+        <rdfs:label xml:lang="de">h-ATG</rdfs:label>
     </owl:Class>
     
 
@@ -464,8 +781,14 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000026 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000026">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024"/>
-        <rdfs:label>HLA-match minor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">ATG-Verabreichung</rdfs:label>
     </owl:Class>
     
 
@@ -473,8 +796,55 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000027 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000027">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024"/>
-        <rdfs:label>HLA-match major</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000036"/>
+        <rdfs:label xml:lang="de">Anfangstag der Verabreichung von Konditionierungsmedikamenten</rdfs:label>
+        <rdfs:label xml:lang="en">start day conditioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000028 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000028">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000037"/>
+        <rdfs:label xml:lang="de">Endtag der Verabreichung von Konditionierungsmedikamenten</rdfs:label>
+        <rdfs:label xml:lang="en">stop day conditioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000029 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000029">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000036"/>
+        <rdfs:label xml:lang="de">Anfangstag der Verabreichung von ATG</rdfs:label>
+        <rdfs:label xml:lang="en">start day ATG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000030 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000037"/>
+        <rdfs:label xml:lang="de">Endtag der Verabreichung von ATG</rdfs:label>
+        <rdfs:label xml:lang="en">stop day ATG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">CMV-Infektion Erkennung</rdfs:label>
+        <rdfs:label xml:lang="en">CMV-infection detection</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
