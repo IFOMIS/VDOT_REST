@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_data.owl#"
      xml:base="http://www.ifomis.org/vdot/vdot_data.owl"
-     xmlns:hdot="http://www.ifomis.org/hdot/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:uo="http://purl.obolibrary.org/obo/uo#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:hdot="http://www.ifomis.org/hdot/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:uo="http://purl.obolibrary.org/obo/uo#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -81,6 +82,45 @@
         <rdfs:label xml:lang="de">Authorenrolle</rdfs:label>
         <rdfs:label>author role</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0058 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000034 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000034">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -505,6 +545,163 @@
         <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
         <rdfs:comment>definition is under review</rdfs:comment>
         <rdfs:label xml:lang="de">Spender-Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00029 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Virologie-Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00030 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Arztbrief-Datensatz is a collection of information extracted from medical reports on patients and letters of dismissal.</obo:IAO_0000115>
+        <rdfs:label xml:lang="de">Arztbrief-Datensatz</rdfs:label>
+        <rdfs:label xml:lang="en">letter of dismissal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to have CMV infection / reactivation within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of CMV infection / reactivation within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00034 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00034">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to have CMV infection / reactivation within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00035 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00035">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of CMV infection / reactivation within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00036 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00036">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to die within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00037 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00037">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to die within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00038 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00038">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of death within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00039">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of death within 21days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="en">model prognosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00041 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00041">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This concept allows the combination of several conditioning parameters which need to be specified seperatatly.</rdfs:comment>
+        <rdfs:label xml:lang="en">transplantation conditioning combined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00042 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00042">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym xml:lang="en">TBI</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">full body radiation treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00043 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00043">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0014"/>
+        <obo:IAO_0000115 xml:lang="en">A malignant (clonal) proliferation of B- lymphocytes or T- lymphocytes which involves the lymph nodes, bone marrow and/or extranodal sites. This category includes Non-Hodgkin lymphomas and Hodgkin lymphomas.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3208</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">lymphoma</rdfs:label>
     </owl:Class>
     
 
